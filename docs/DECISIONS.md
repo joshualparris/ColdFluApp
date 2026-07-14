@@ -43,3 +43,15 @@ This lightweight log records decisions that constrain future work. Add dated ent
 **Status:** accepted  
 **Decision:** Store initial module and source records as JSON validated with JSON Schema Draft 2020-12. Longer research notes remain Markdown and structured extraction may use JSON.  
 **Reason:** JSON provides deterministic parsing and validation for the first vertical slice without prematurely introducing an MDX content framework. The decision can be revisited after editor workflow testing.
+
+## D-008 — One intake path for imported and external research
+
+**Status:** accepted  
+**Decision:** Retain the ChatGPT package as unverified discovery, provenance and design-reference material. It will not become a parallel production model. Useful claims must pass the canonical claim-level workflow. Multi-agent assignments are coordinated in `docs/ASSIGNMENTS.md`, and unchanged returns enter through `inputs/agent-returns/` before audit.  
+**Reason:** Parallel schemas and direct promotion would obscure provenance and bypass evidence and review gates.
+
+## D-009 — Application expansion remains deferred
+
+**Status:** accepted  
+**Decision:** Do not expand or integrate the imported application until the sore-throat vertical slice, terminology and workflow receive accountable approval.  
+**Reason:** Phase 0 must prove evidence governance and publication controls before interface scale.

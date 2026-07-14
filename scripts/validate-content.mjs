@@ -50,7 +50,14 @@ export async function validateRepository(root = process.cwd(), today = new Date(
       }
     }
     const researchDir = path.join(root, "content", "research", data.slug);
-    try { await access(researchDir); for (const name of requiredResearch) { try { await access(path.join(researchDir, name)); } catch { fail(file, `research package missing ${name}`); } } } catch { if (data.status !== "proposed" && data.status !== "researching") fail(file, "missing research package"); }
+    try {
+      await access(researchDir);
+      for (const name of requiredResearch) {
+        const artefact = path.join(researchDir, name);
+        try { await access(artefact); if (name.endsWith(".json")) await readJson(artefact); }
+        catch (error) { fail(file, error?.name === "SyntaxError" ? `research package has malformed ${name}` : `research package missing ${name}`); }
+      }
+    } catch { if (data.status !== "proposed" && data.status !== "researching") fail(file, "missing research package"); }
   }
   return { errors, moduleCount: moduleFiles.length, sourceCount: sourceFiles.length };
 }

@@ -10,3 +10,5 @@
 - Complete database screening, underlying-trial extraction, funding/conflict and correction/retraction checks.
 
 These gaps are intentionally not filled with plausible prose.
+
+PubMed discovery identified PMID 32356360, 39318911 and 24621446. Exact-record verification and applicability appraisal remain outstanding because full record retrieval was blocked during this pass.

@@ -47,7 +47,8 @@ The reader-facing module remains in `content/modules/sore-throat.*`; research ar
 6. Publish only after automated and human gates pass.
 7. Move superseded canonical versions to `archive/` only when version control alone is insufficient for the audit need.
 
+External agent submissions use `inputs/agent-returns/<agent>/<module-slug>/<return-date>/` and remain unchanged raw provenance. Canonical integration copies only verified material and leaves the return in place.
+
 ## Empty directories
 
 `.gitkeep` files retain intentional empty directories until real content exists. Remove the marker once the directory contains tracked files.
-

@@ -15,11 +15,11 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 ## Content foundation
 
 - [x] Choose JSON as the initial canonical authoring format and implement schema version 1.
-- [ ] Agree on evidence certainty and direction vocabulary.
-- [ ] Create controlled vocabularies for outcomes, populations, interventions, and jurisdictions.
+- [!] Obtain accountable approval for the drafted evidence certainty and direction vocabulary.
+- [x] Draft controlled vocabularies for outcomes, populations, interventions, jurisdictions, and workflow states.
 - [x] Create initial source, search-log, research-protocol, and review templates.
-- [ ] Decide review intervals and event-driven update triggers by content risk.
-- [ ] Add a content style guide and glossary.
+- [!] Approve the drafted risk-based review intervals and update triggers.
+- [x] Draft a content style guide and medical glossary; clinical/editorial approval is pending.
 - [x] Select sore throat supportive care as the first vertical-slice module.
 
 ## Existing research cleanup
@@ -37,8 +37,8 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 
 - [-] Create a reproducible protocol and query set for each of the 28 modules; sore throat has an initial rapid protocol and log.
 - [ ] Create a master evidence-gap register and prioritise safety-critical gaps.
-- [ ] Track excluded studies and reasons.
-- [ ] Add funding, conflict, correction, and retraction checks to extraction.
+- [x] Add sore-throat screening, exclusions, bias, funding/conflict, correction/retraction, and gap artefacts.
+- [!] Complete outstanding sore-throat database searches and independent verification.
 - [ ] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes.
 - [ ] Plan additional overlays listed in `docs/SCOPE.md`.
 
@@ -54,8 +54,9 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 
 ## Quality engineering
 
-- [ ] Unit-test schema boundaries, content transforms, and review-expiry logic.
-- [ ] Test broken/missing references, invalid overlays, and blocked publication states.
+- [x] Unit-test schema boundaries, identifiers, references, and review-expiry logic with fixtures.
+- [x] Test missing references, unsupported jurisdictions, and blocked publication states.
+- [!] Complete evidence, clinical, and editorial review; all remain outstanding for sore throat.
 - [ ] Add automated accessibility, link, spelling, type, lint, and production-build checks.
 - [ ] Add end-to-end tests for emergency guidance, jurisdiction changes, search, sources, and correction reporting.
 - [ ] Manually test keyboard, screen reader, zoom, reduced motion, mobile, low bandwidth, and print.

@@ -9,6 +9,8 @@ Goal: establish the rules that prevent unsafe content from reaching readers.
 - Agree on conflicts, corrections, attribution, and funding policies.
 - Implement and test the versioned content schema.
 - Convert one candidate module into a structured research package.
+- Coordinate the module research queue and unverified external intake.
+- Audit imported prototypes and test publication gates with fixtures.
 
 Exit: reviewers approve the workflow and schema using real content.
 
@@ -67,4 +69,3 @@ Goal: add countries without weakening local accuracy.
 - Test translated content with native speakers and target users.
 
 Exit per country: the local pack has ownership, complete safety paths, and a funded maintenance plan.
-

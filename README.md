@@ -15,6 +15,8 @@ An evidence-led, modular public knowledge base for cold, influenza, and related 
 - [Technical architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Working backlog](TODO.md)
+- [Research assignments](docs/ASSIGNMENTS.md)
+- [External researcher hand-off](docs/AGENT_RESEARCH_HANDOFF.md)
 - [Project decisions](docs/DECISIONS.md)
 
 ## Current status
