@@ -1,0 +1,87 @@
+{
+  "id": 2,
+  "slug": "sore-throat",
+  "section": "A. Symptoms",
+  "title": "Sore throat",
+  "summary": "Most sore throats accompanying a cold are viral and settle within several days. Pain control, fluids and local soothing are more useful than antibiotics unless testing or examination identifies a bacterial cause.",
+  "evidenceSnapshot": "Paracetamol or ibuprofen can reduce pain. Gargles, lozenges and warm drinks are mainly comfort measures with modest or uncertain trial evidence.",
+  "interventions": [
+    {
+      "name": "Paracetamol",
+      "evidence": "Strong",
+      "finding": "Reliably relieves sore-throat pain and fever when used correctly.",
+      "practical": "Adults and people aged 12+ should not exceed 1 g every 4–6 hours or 4 g total in 24 hours; lower limits may apply with liver disease, low body weight, heavy alcohol use or frailty.",
+      "mechanism": "Reduces central pain and fever signalling.",
+      "cautions": "Check every cold-and-flu product for hidden paracetamol."
+    },
+    {
+      "name": "Ibuprofen",
+      "evidence": "Strong",
+      "finding": "Can reduce throat pain, fever and inflammation.",
+      "practical": "Follow the pack; take with food if it upsets the stomach.",
+      "mechanism": "Reduces prostaglandin-mediated pain and inflammation.",
+      "cautions": "Avoid or seek advice with kidney disease, ulcers, anticoagulants, some asthma, dehydration, pregnancy or cardiovascular disease."
+    },
+    {
+      "name": "Saltwater gargle",
+      "evidence": "Weak-or-mixed",
+      "finding": "Often feels soothing, but high-quality evidence for changing illness duration is limited.",
+      "practical": "Dissolve about 1/2 teaspoon of salt in a glass of warm water, gargle and spit out. Do not swallow.",
+      "mechanism": "May temporarily reduce mucosal swelling and loosen secretions.",
+      "cautions": "Not suitable for young children who cannot gargle safely."
+    },
+    {
+      "name": "Medicated lozenges or sprays",
+      "evidence": "Moderate",
+      "finding": "Local anaesthetic, anti-inflammatory or antiseptic products may provide short-term pain relief.",
+      "practical": "Use exactly as labelled and choose age-appropriate products.",
+      "mechanism": "Temporarily numbs or reduces local irritation.",
+      "cautions": "Can mask worsening symptoms; some ingredients cause allergy or numbness that affects swallowing."
+    },
+    {
+      "name": "Warm or cool fluids",
+      "evidence": "Moderate",
+      "finding": "Temperature preference varies; both can reduce discomfort and support hydration.",
+      "practical": "Choose what feels best rather than forcing hot drinks.",
+      "mechanism": "Moistens the throat and reduces irritation.",
+      "cautions": "Avoid scalding drinks."
+    }
+  ],
+  "practicalSteps": [
+    "Drink regularly even if appetite is low.",
+    "Use simple pain relief before meals or sleep if needed.",
+    "Avoid smoke, alcohol and foods that sharply irritate the throat.",
+    "Consider testing/medical review when strep, glandular fever, COVID-19 or another cause is plausible."
+  ],
+  "avoidOrCare": [
+    "Do not start leftover antibiotics.",
+    "Difficulty swallowing saliva, drooling, a muffled voice or one-sided swelling needs urgent assessment.",
+    "Persistent white patches may have causes other than strep, including thrush."
+  ],
+  "myths": [
+    {
+      "claim": "Any white spots mean antibiotics are needed.",
+      "reality": "Viral tonsillitis, glandular fever and thrush can also cause white patches. Diagnosis requires the whole clinical picture and sometimes testing."
+    },
+    {
+      "claim": "Hotter drinks kill the virus.",
+      "reality": "Safe warm drinks may soothe; temperatures capable of killing a virus would burn tissue."
+    }
+  ],
+  "redFlags": [
+    "Breathing difficulty, drooling or inability to swallow fluids",
+    "Severe one-sided throat pain, neck swelling or muffled 'hot potato' voice",
+    "Stiff neck, non-blanching rash, confusion or severe dehydration",
+    "Symptoms that persist, rapidly worsen or recur"
+  ],
+  "unsettled": [
+    "The clinical importance of antiseptic throat sprays is uncertain; symptom relief does not establish faster recovery."
+  ],
+  "sourceIds": [
+    "HD_SORE",
+    "HD_PARACETAMOL",
+    "HD_IBUPROFEN",
+    "HD_ANTIBIOTICS"
+  ],
+  "reviewDate": "2026-07-15"
+}

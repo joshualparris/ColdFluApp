@@ -1,0 +1,66 @@
+{
+  "id": 17,
+  "slug": "warm-compresses",
+  "section": "B. Interventions",
+  "title": "Warm compresses",
+  "summary": "Warm compresses are a comfort measure for facial pressure, ear discomfort or muscle aches. They have little direct evidence for altering cold or flu biology.",
+  "evidenceSnapshot": "Traditional use and plausible sensory relief; no strong evidence for faster recovery.",
+  "interventions": [
+    {
+      "name": "Warm face compress",
+      "evidence": "Traditional-but-untested",
+      "finding": "May reduce the perception of sinus pressure and relax facial muscles.",
+      "practical": "Apply comfortably warm cloth for 10–15 minutes.",
+      "mechanism": "Heat and touch modulate pain sensation.",
+      "cautions": "Avoid very hot packs and prolonged pressure."
+    },
+    {
+      "name": "Warm neck or chest compress",
+      "evidence": "Traditional-but-untested",
+      "finding": "May ease muscle soreness from coughing.",
+      "practical": "Use a wrapped heat pack on intact skin.",
+      "mechanism": "Muscle relaxation and counter-irritation.",
+      "cautions": "Avoid sleeping on electric heat packs."
+    },
+    {
+      "name": "Warm ear compress",
+      "evidence": "Traditional-but-untested",
+      "finding": "May soothe earache temporarily.",
+      "practical": "Hold warm cloth against the outer ear.",
+      "mechanism": "Sensory comfort.",
+      "cautions": "Does not treat middle-ear infection; no drops or substances into the ear without advice."
+    }
+  ],
+  "practicalSteps": [
+    "Test temperature on your inner wrist first.",
+    "Use brief sessions and check skin afterward.",
+    "Combine with evidence-based pain relief if appropriate."
+  ],
+  "avoidOrCare": [
+    "Reduced sensation, diabetes, poor circulation and very young children increase burn risk.",
+    "Do not delay assessment for severe ear or eye symptoms."
+  ],
+  "myths": [
+    {
+      "claim": "Heat draws infection out.",
+      "reality": "External heat may soothe pain but does not extract viruses or bacteria."
+    },
+    {
+      "claim": "A hot compress opens the sinuses permanently.",
+      "reality": "Any improvement is temporary comfort, not a structural or antimicrobial effect."
+    }
+  ],
+  "redFlags": [
+    "Burn or blistering",
+    "Eye swelling or vision change",
+    "Swelling behind the ear, ear discharge or severe worsening pain"
+  ],
+  "unsettled": [
+    "There are few high-quality trials specifically testing warm compresses for acute respiratory infections."
+  ],
+  "sourceIds": [
+    "HD_SINUS",
+    "HD_BLOCKED"
+  ],
+  "reviewDate": "2026-07-15"
+}

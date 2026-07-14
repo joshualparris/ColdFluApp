@@ -1,0 +1,76 @@
+{
+  "id": 10,
+  "slug": "humidity-steam",
+  "section": "B. Interventions",
+  "title": "Humidity, steam and showers",
+  "summary": "Moist air can reduce dryness and feel soothing, but steam has not been shown to cure a cold or reliably shorten symptoms. Cool-mist humidifiers may help comfort when air is dry, provided they are kept clean and indoor humidity stays controlled.",
+  "evidenceSnapshot": "Cochrane evidence does not establish meaningful benefit from heated humidified air. Humidifier guidance focuses more on comfort and safe maintenance than antiviral effect.",
+  "interventions": [
+    {
+      "name": "Cool-mist humidifier in dry air",
+      "evidence": "Weak-or-mixed",
+      "finding": "May ease dry nose or throat and make congestion feel less irritating.",
+      "practical": "Keep indoor relative humidity about 30–50%; empty, dry and clean the unit as directed.",
+      "mechanism": "Adds moisture to dry air.",
+      "cautions": "Dirty units can aerosolise mould or bacteria; excess humidity promotes mould and dust mites."
+    },
+    {
+      "name": "Warm shower",
+      "evidence": "Traditional-but-untested",
+      "finding": "May temporarily loosen secretions and feel relaxing.",
+      "practical": "Use normal shower temperatures and a non-slip bathroom.",
+      "mechanism": "Warm humid air and muscle relaxation.",
+      "cautions": "Does not need to be extremely hot."
+    },
+    {
+      "name": "Bowl-of-boiling-water steam inhalation",
+      "evidence": "Strong",
+      "finding": "No reliable added benefit and a real scald risk, especially for children.",
+      "practical": "Choose a warm shower or controlled humidifier instead.",
+      "mechanism": "—",
+      "cautions": "Burns can be severe."
+    },
+    {
+      "name": "Essential oils in humidifiers",
+      "evidence": "Strong",
+      "finding": "No good evidence that they treat viral infection, and many devices are not designed for oils.",
+      "practical": "Do not add unless the manufacturer explicitly permits it.",
+      "mechanism": "Odour may alter perceived airflow without opening the airway.",
+      "cautions": "Can irritate asthma, poison children/pets or damage the device."
+    }
+  ],
+  "practicalSteps": [
+    "Measure humidity rather than guessing if using a humidifier.",
+    "Use distilled or demineralised water when the manufacturer recommends it.",
+    "Clean on schedule and never let stagnant water sit for days.",
+    "If the home already has dampness or mould, do not add humidity."
+  ],
+  "avoidOrCare": [
+    "People with asthma or allergies should stop if symptoms worsen.",
+    "Steam comfort should never replace asthma treatment or assessment for breathing difficulty."
+  ],
+  "myths": [
+    {
+      "claim": "Steam kills the virus in your airway.",
+      "reality": "Temperatures that would reliably inactivate viruses would injure the airway; clinical trials have not shown a cure."
+    },
+    {
+      "claim": "More humidity is always better.",
+      "reality": "High humidity encourages mould, bacteria and dust mites and can worsen respiratory symptoms."
+    }
+  ],
+  "redFlags": [
+    "Worsening wheeze or breathlessness around a humidifier",
+    "Any steam burn, especially in a child",
+    "Mould growth or persistent condensation in the room"
+  ],
+  "unsettled": [
+    "Whether specific subgroups with very dry indoor air gain meaningful symptom relief remains uncertain."
+  ],
+  "sourceIds": [
+    "COCHRANE_STEAM",
+    "MAYO_HUMIDIFIER",
+    "HD_BLOCKED"
+  ],
+  "reviewDate": "2026-07-15"
+}

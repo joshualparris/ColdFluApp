@@ -1,0 +1,88 @@
+{
+  "id": 1,
+  "slug": "cough",
+  "section": "A. Symptoms",
+  "title": "Cough: dry versus productive",
+  "summary": "A cough is a protective reflex, not a diagnosis. A dry, irritating cough may respond to soothing or short-term suppression, while a productive cough is usually better managed by hydration, movement and treating the cause rather than trying to stop all coughing.",
+  "evidenceSnapshot": "Most acute viral coughs improve without specific treatment, although a post-viral cough can last 2–3 weeks. Evidence for OTC cough medicines is inconsistent.",
+  "interventions": [
+    {
+      "name": "Honey for people older than 12 months",
+      "evidence": "Moderate",
+      "finding": "May modestly reduce night-time cough and improve sleep, especially in children, but it does not cure the infection.",
+      "practical": "Use a small spoonful directly or in a warm drink before bed. Exact amounts have varied across trials.",
+      "mechanism": "Coats and soothes irritated throat tissue; may have mild antimicrobial activity.",
+      "cautions": "Never give honey to a child under 12 months. Consider sugar exposure and diabetes."
+    },
+    {
+      "name": "Warm fluids and throat soothing",
+      "evidence": "Moderate",
+      "finding": "Warm drinks, lozenges and frequent sips can reduce throat-triggered coughing and improve comfort.",
+      "practical": "Sip regularly; avoid drinks hot enough to burn.",
+      "mechanism": "Moistens irritated mucosa and may reduce cough-receptor stimulation.",
+      "cautions": "Use age-appropriate lozenges; choking risk in young children."
+    },
+    {
+      "name": "Dextromethorphan",
+      "evidence": "Weak-or-mixed",
+      "finding": "Some adults report short-term reduction in dry cough, but systematic-review evidence is inconsistent and benefit is often small.",
+      "practical": "Use only for a troublesome dry cough and follow the product label; check all combination ingredients.",
+      "mechanism": "Acts centrally to reduce the cough reflex.",
+      "cautions": "Avoid combining with interacting serotonergic medicines without pharmacist advice; may cause drowsiness, dizziness or misuse."
+    },
+    {
+      "name": "Guaifenesin",
+      "evidence": "Weak-or-mixed",
+      "finding": "May make mucus easier to cough up for some adults, but evidence for acute viral cough is limited.",
+      "practical": "Take with adequate fluid and follow the label.",
+      "mechanism": "Intended to increase hydration of airway secretions.",
+      "cautions": "Not a substitute for assessment when breathless, wheezing or coughing blood."
+    },
+    {
+      "name": "Routine cough mixtures in children",
+      "evidence": "Weak-or-mixed",
+      "finding": "They do not reliably shorten illness and can cause harm; Australian guidance advises against decongestants, antihistamines and cough syrups for children with ordinary colds.",
+      "practical": "Use saline, fluids, comfort and age/weight-appropriate pain relief instead.",
+      "mechanism": "—",
+      "cautions": "Do not improvise adult products or doses for children."
+    }
+  ],
+  "practicalSteps": [
+    "Decide whether the cough is mainly dry/tickly or wet/productive.",
+    "For a wet cough, encourage fluids and gentle upright activity; do not aim to suppress every cough.",
+    "For a dry night cough, use warm fluid, honey if over 12 months, and elevate the upper body slightly.",
+    "Keep smoke, vaping, fragrances and cold dry air away from irritated airways."
+  ],
+  "avoidOrCare": [
+    "Seek pharmacist or doctor advice before cough suppressants if pregnant, breastfeeding, taking antidepressants, or living with asthma/COPD.",
+    "Green or yellow phlegm alone does not prove a bacterial infection.",
+    "A cough after a cold can linger, but worsening breathlessness or new fever needs reassessment."
+  ],
+  "myths": [
+    {
+      "claim": "A productive cough should always be suppressed.",
+      "reality": "Coughing helps clear secretions. Suppression may be useful only when the cough is exhausting, painful or preventing sleep, and the person has no concerning symptoms."
+    },
+    {
+      "claim": "Cough syrup makes a cold end faster.",
+      "reality": "Most products only target symptoms, and the overall evidence for acute cough mixtures is weak or inconsistent."
+    }
+  ],
+  "redFlags": [
+    "Trouble breathing, blue lips, stridor, severe wheeze or chest pain",
+    "Coughing blood",
+    "Confusion, collapse or marked drowsiness",
+    "A child with chest recession, very fast breathing, poor feeding or fewer wet nappies",
+    "Cough lasting more than a few weeks, or improving then clearly worsening"
+  ],
+  "unsettled": [
+    "Which specific formulations and doses of dextromethorphan or guaifenesin provide a clinically meaningful benefit remains uncertain."
+  ],
+  "sourceIds": [
+    "HD_COUGH",
+    "HD_CHILD_COLDS",
+    "COCHRANE_OTC_COUGH",
+    "COCHRANE_HONEY"
+  ],
+  "reviewDate": "2026-07-15"
+}

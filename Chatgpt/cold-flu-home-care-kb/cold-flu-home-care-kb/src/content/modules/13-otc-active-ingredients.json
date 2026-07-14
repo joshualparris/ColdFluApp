@@ -1,0 +1,130 @@
+{
+  "id": 13,
+  "slug": "otc-active-ingredients",
+  "section": "B. Interventions",
+  "title": "OTC medicines by active ingredient",
+  "summary": "Choose one active ingredient for one target symptom whenever possible. Multi-symptom products often add ingredients you do not need and make accidental double-dosing more likely.",
+  "evidenceSnapshot": "Analgesics have the clearest benefit. Pseudoephedrine and topical decongestants can help short-term congestion; oral phenylephrine efficacy is poor. Evidence for cough suppressants/expectorants is inconsistent.",
+  "interventions": [
+    {
+      "name": "Paracetamol",
+      "evidence": "Strong",
+      "finding": "Effective for pain and fever.",
+      "practical": "Adults/12+: no more than 1 g every 4–6 hours and 4 g in 24 hours unless a lower limit is advised.",
+      "mechanism": "Analgesic and antipyretic.",
+      "cautions": "Liver toxicity with overdose; check combinations."
+    },
+    {
+      "name": "Ibuprofen",
+      "evidence": "Strong",
+      "finding": "Effective for pain, fever and inflammatory discomfort.",
+      "practical": "Follow the pack; use the lowest effective dose for the shortest time.",
+      "mechanism": "NSAID reduces prostaglandins.",
+      "cautions": "Caution with ulcers, kidney disease, dehydration, anticoagulants, cardiovascular disease, pregnancy and some asthma."
+    },
+    {
+      "name": "Pseudoephedrine",
+      "evidence": "Moderate",
+      "finding": "Provides short-term relief of nasal congestion for many adults.",
+      "practical": "Australian Schedule 3/4 medicine; discuss with a pharmacist.",
+      "mechanism": "Systemic alpha-adrenergic vasoconstriction.",
+      "cautions": "May increase heart rate/BP, anxiety, tremor, insomnia or urinary retention."
+    },
+    {
+      "name": "Oral phenylephrine",
+      "evidence": "Weak-or-mixed",
+      "finding": "FDA evidence review found marketed oral doses ineffective for congestion.",
+      "practical": "Check labels; 'PE' often indicates phenylephrine.",
+      "mechanism": "Low systemic exposure after oral use.",
+      "cautions": "May still cause sympathomimetic side effects despite little benefit."
+    },
+    {
+      "name": "Oxymetazoline/xylometazoline nasal spray",
+      "evidence": "Moderate",
+      "finding": "Rapid local congestion relief.",
+      "practical": "Use for only a few days according to the label.",
+      "mechanism": "Local vasoconstriction.",
+      "cautions": "Rebound congestion with prolonged use."
+    },
+    {
+      "name": "Sedating first-generation antihistamines",
+      "evidence": "Weak-or-mixed",
+      "finding": "May slightly reduce sneezing/runny nose in adults but do not treat the virus and cause sedation/anticholinergic effects.",
+      "practical": "Reserve for a clear reason and ask a pharmacist if older, taking other sedatives or driving.",
+      "mechanism": "Blocks histamine and dries secretions.",
+      "cautions": "Do not use for cough/cold/flu under 6; never under 2 for any indication."
+    },
+    {
+      "name": "Non-sedating antihistamines",
+      "evidence": "Weak-or-mixed",
+      "finding": "Useful for allergy, not generally for an uncomplicated viral cold.",
+      "practical": "Use when symptoms fit allergy: itch, repeated sneezing, watery eyes, exposure pattern.",
+      "mechanism": "Peripheral H1 blockade.",
+      "cautions": "Can still cause side effects and does not shorten a cold."
+    },
+    {
+      "name": "Dextromethorphan",
+      "evidence": "Weak-or-mixed",
+      "finding": "May suppress a troublesome dry cough in some adults; results are inconsistent.",
+      "practical": "Follow label; avoid duplicate cough products.",
+      "mechanism": "Central cough suppression.",
+      "cautions": "Interactions, sedation and misuse risk."
+    },
+    {
+      "name": "Guaifenesin",
+      "evidence": "Weak-or-mixed",
+      "finding": "May help expectoration in some people but evidence is limited.",
+      "practical": "Use with fluids and follow label.",
+      "mechanism": "Intended to hydrate bronchial secretions.",
+      "cautions": "Do not delay review for breathlessness or blood."
+    },
+    {
+      "name": "Combination cold-and-flu products",
+      "evidence": "Weak-or-mixed",
+      "finding": "May offer small multi-symptom relief in adults/older children but increase side effects and dosing complexity.",
+      "practical": "Write down every active ingredient and time taken.",
+      "mechanism": "Multiple mechanisms.",
+      "cautions": "High risk of duplicate paracetamol, sedatives or decongestants."
+    }
+  ],
+  "practicalSteps": [
+    "List the symptoms that genuinely need treatment.",
+    "Read the active ingredients, not only the brand name.",
+    "Avoid taking two products containing paracetamol, antihistamine or decongestant.",
+    "Use a pharmacist for pregnancy, children, chronic illness or multiple regular medicines."
+  ],
+  "avoidOrCare": [
+    "Do not use adult combination products in children.",
+    "Avoid sedating products before driving or caring for children overnight if you cannot wake reliably.",
+    "Do not exceed label duration for nasal decongestants."
+  ],
+  "myths": [
+    {
+      "claim": "A stronger multi-symptom product treats the infection better.",
+      "reality": "It only combines symptom medicines and may expose you to unnecessary ingredients."
+    },
+    {
+      "claim": "All pharmacy decongestants work equally.",
+      "reality": "Pseudoephedrine has better evidence than oral phenylephrine; nasal sprays work locally but require strict duration limits."
+    }
+  ],
+  "redFlags": [
+    "Suspected overdose or duplicate paracetamol — call the Poisons Information Centre in Australia on 13 11 26",
+    "Palpitations, severe headache, chest pain or marked agitation after a decongestant",
+    "Allergic reaction, confusion or breathing difficulty"
+  ],
+  "unsettled": [
+    "Evidence for many older OTC cough products is dated, heterogeneous and formulation-specific."
+  ],
+  "sourceIds": [
+    "HD_MEDICINES",
+    "HD_PARACETAMOL",
+    "HD_IBUPROFEN",
+    "COCHRANE_COMBO",
+    "COCHRANE_OTC_COUGH",
+    "FDA_PHENYLEPHRINE",
+    "TGA_PSEUDO_2026",
+    "TGA_CHILD_ANTIHIST"
+  ],
+  "reviewDate": "2026-07-15"
+}

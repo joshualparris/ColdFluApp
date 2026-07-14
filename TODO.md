@@ -1,0 +1,77 @@
+# Working backlog
+
+Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked or requires an accountable decision.
+
+## Project ownership and governance
+
+- [ ] Name the product and identify its legal/project owner.
+- [!] Appoint a qualified Australian clinical reviewer and define the scope of their sign-off.
+- [ ] Appoint an evidence-methods reviewer and plain-language/accessibility editor.
+- [ ] Define reviewer conflict-of-interest and attribution policies.
+- [ ] Define funding, advertising, affiliate, and sponsorship policy.
+- [ ] Define correction severity levels, response targets, and emergency unpublishing authority.
+- [ ] Obtain legal advice before public launch about applicable health-content, consumer, privacy, and accessibility obligations.
+
+## Content foundation
+
+- [x] Choose JSON as the initial canonical authoring format and implement schema version 1.
+- [ ] Agree on evidence certainty and direction vocabulary.
+- [ ] Create controlled vocabularies for outcomes, populations, interventions, and jurisdictions.
+- [x] Create initial source, search-log, research-protocol, and review templates.
+- [ ] Decide review intervals and event-driven update triggers by content risk.
+- [ ] Add a content style guide and glossary.
+- [x] Select sore throat supportive care as the first vertical-slice module.
+
+## Existing research cleanup
+
+- [x] Preserve raw files under a clearly labelled `inputs/` location.
+- [ ] Repair mojibake/encoding in imported files without treating the result as verified content.
+- [ ] Deduplicate the two Batch 1 variants and record provenance.
+- [ ] Verify every Batch 1 URL, title, date, author, jurisdiction, and applicability.
+- [ ] Replace organisation-only citations with exact source records.
+- [ ] Reassess every evidence rating at the claim level.
+- [ ] Recheck all doses, ages, duration limits, interactions, and triage thresholds against current Australian guidance.
+- [ ] Mark all seven modules as unpublished discovery drafts.
+
+## Research programme
+
+- [-] Create a reproducible protocol and query set for each of the 28 modules; sore throat has an initial rapid protocol and log.
+- [ ] Create a master evidence-gap register and prioritise safety-critical gaps.
+- [ ] Track excluded studies and reasons.
+- [ ] Add funding, conflict, correction, and retraction checks to extraction.
+- [ ] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes.
+- [ ] Plan additional overlays listed in `docs/SCOPE.md`.
+
+## Vertical-slice application
+
+- [ ] Initialise Next.js and TypeScript only after schema review.
+- [ ] Add content validation and build-failing publication gates.
+- [ ] Build module, evidence, safety, source, review-date, and jurisdiction components.
+- [ ] Add static indexes and simple search.
+- [ ] Add methodology, editorial policy, evidence labels, privacy, accessibility, and corrections pages.
+- [ ] Add protected, watermarked previews for non-published content.
+- [ ] Add print styling and no-JavaScript safety behaviour.
+
+## Quality engineering
+
+- [ ] Unit-test schema boundaries, content transforms, and review-expiry logic.
+- [ ] Test broken/missing references, invalid overlays, and blocked publication states.
+- [ ] Add automated accessibility, link, spelling, type, lint, and production-build checks.
+- [ ] Add end-to-end tests for emergency guidance, jurisdiction changes, search, sources, and correction reporting.
+- [ ] Manually test keyboard, screen reader, zoom, reduced motion, mobile, low bandwidth, and print.
+- [ ] Threat-model the site and dependency/deployment pipeline before public beta.
+
+## Launch readiness
+
+- [ ] Conduct reader comprehension testing, especially evidence labels and triage.
+- [ ] Complete independent clinical and evidence audits.
+- [ ] Complete accessibility, privacy, security, and legal reviews.
+- [ ] Establish source monitoring, uptime monitoring, backups, incident response, and correction intake.
+- [ ] Publish supported jurisdictions, known limitations, methodology, reviewers, funding, and change history.
+- [ ] Define success metrics that do not require collecting sensitive health data.
+
+## Deliberately deferred
+
+- [ ] Reassess the need for a CMS or database after editor workflow testing.
+- [ ] Reassess user accounts only with a documented user need and privacy impact assessment.
+- [ ] Reassess personalisation, diagnostic tools, and dose calculators as separate high-risk products.

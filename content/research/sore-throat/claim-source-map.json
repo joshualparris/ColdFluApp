@@ -1,0 +1,26 @@
+{
+  "moduleId": "sore-throat",
+  "mappedAt": "2026-07-15",
+  "claims": [
+    {
+      "claimId": "sore-throat-usual-course",
+      "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
+      "verification": "Both sources support a self-limiting course; wording preserves the 7-to-10-day range."
+    },
+    {
+      "claimId": "sore-throat-oral-analgesia",
+      "sourceIds": ["nice-acute-sore-throat-ng84", "healthdirect-sore-throat-2025"],
+      "verification": "NICE provides evidence assessment; Healthdirect supports Australian consumer use without supplying a dose."
+    },
+    {
+      "claimId": "sore-throat-medicated-lozenges",
+      "sourceIds": ["nice-acute-sore-throat-ng84"],
+      "verification": "Limited to adults and small pain benefit to avoid overgeneralisation."
+    },
+    {
+      "claimId": "sore-throat-salt-water-gargle",
+      "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
+      "verification": "Separates Australian guidance endorsement from lack of qualifying trial evidence in NICE's mouthwash review."
+    }
+  ]
+}

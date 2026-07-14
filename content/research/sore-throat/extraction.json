@@ -1,0 +1,52 @@
+{
+  "moduleId": "sore-throat",
+  "extractedAt": "2026-07-15",
+  "status": "rapid-initial-extraction",
+  "records": [
+    {
+      "sourceId": "healthdirect-sore-throat-2025",
+      "design": "Australian consumer health guidance with documented quality process",
+      "population": "Adults and children",
+      "keyFindings": [
+        "Symptoms usually peak in 3 to 5 days and improve by day 10.",
+        "Suggested home measures include rest, fluids, warm salt-water gargling, avoiding irritants and voice strain.",
+        "Pain relief and some OTC throat products may provide symptom relief.",
+        "Lists medical and urgent-assessment triggers and Australian support contacts."
+      ],
+      "limitations": [
+        "Consumer guidance is not a systematic review and does not provide effect estimates for most supportive measures.",
+        "Medicine suitability requires product- and person-specific checking."
+      ]
+    },
+    {
+      "sourceId": "nice-acute-sore-throat-ng84",
+      "design": "Evidence-based antimicrobial prescribing guideline and evidence summary",
+      "population": "Adults and children with acute sore throat; some self-care evidence adult-only",
+      "keyFindings": [
+        "Most people improve in about one week without antibiotics.",
+        "Paracetamol or suitable ibuprofen is recommended for pain or fever.",
+        "Medicated lozenges may reduce adult pain by a small amount.",
+        "No qualifying evidence was identified for non-medicated lozenges, mouthwashes or local-anaesthetic spray alone.",
+        "The committee did not recommend corticosteroids for routine management."
+      ],
+      "limitations": [
+        "Guideline is UK-specific and was first published in 2018.",
+        "Adult oral-analgesia evidence was low to moderate quality; direct child sore-throat studies were not identified.",
+        "Lozenge products and active ingredients vary."
+      ]
+    },
+    {
+      "sourceId": "australian-health-antibiotics-viral-2025",
+      "design": "Australian Government public-health communication",
+      "population": "General public with viral respiratory infection",
+      "keyFindings": [
+        "Antibiotics do not work against viral respiratory infections.",
+        "Unnecessary use can cause avoidable adverse effects and antimicrobial resistance.",
+        "Antibiotics may be appropriate following clinical assessment when indicated."
+      ],
+      "limitations": [
+        "Not specific to all causes of sore throat and not an effectiveness review."
+      ]
+    }
+  ]
+}

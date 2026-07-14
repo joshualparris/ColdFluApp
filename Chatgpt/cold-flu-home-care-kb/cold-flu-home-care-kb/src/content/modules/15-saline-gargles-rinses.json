@@ -1,0 +1,79 @@
+{
+  "id": 15,
+  "slug": "saline-gargles-rinses",
+  "section": "B. Interventions",
+  "title": "Saltwater gargles and saline nasal care",
+  "summary": "Saline is inexpensive and low-risk when prepared and used correctly. It can soothe a throat, moisturise the nose and mechanically clear mucus, but it is not a guaranteed antiviral treatment.",
+  "evidenceSnapshot": "Nasal saline has possible symptom benefit with low-certainty evidence. Gargling is widely recommended for comfort but lacks strong evidence for shortening illness.",
+  "interventions": [
+    {
+      "name": "Saltwater gargle",
+      "evidence": "Weak-or-mixed",
+      "finding": "May temporarily soothe sore throat and loosen mucus.",
+      "practical": "Mix about 1/2 teaspoon salt in a glass of warm water, gargle and spit.",
+      "mechanism": "Osmotic and mechanical soothing effects.",
+      "cautions": "Not for children unable to gargle safely."
+    },
+    {
+      "name": "Saline nasal spray",
+      "evidence": "Moderate",
+      "finding": "Low-risk option for dryness, runny nose and congestion.",
+      "practical": "Use according to the bottle; clean the nozzle.",
+      "mechanism": "Moistens mucosa and loosens secretions.",
+      "cautions": "Do not share."
+    },
+    {
+      "name": "Saline irrigation",
+      "evidence": "Weak-or-mixed",
+      "finding": "May improve acute nasal symptoms in some adults and children.",
+      "practical": "Use a manufactured sachet/device where possible; only distilled, sterile, or previously boiled and cooled water.",
+      "mechanism": "Flushes mucus and irritants.",
+      "cautions": "Tap water can contain organisms safe to swallow but dangerous in the nose."
+    },
+    {
+      "name": "Hypertonic saline",
+      "evidence": "Weak-or-mixed",
+      "finding": "May reduce swelling slightly more than isotonic saline but can sting and irritate.",
+      "practical": "Use a labelled product rather than improvising very salty mixtures.",
+      "mechanism": "Osmotic draw from swollen tissue.",
+      "cautions": "Stop if significant burning or bleeding."
+    }
+  ],
+  "practicalSteps": [
+    "Wash hands before preparing or using the device.",
+    "Boil tap water at a rolling boil for at least 1 minute, cool it, or use sterile/distilled water.",
+    "Clean and air-dry the device after each use.",
+    "Discard old homemade solution rather than storing it indefinitely."
+  ],
+  "avoidOrCare": [
+    "Do not irrigate a completely blocked nose with force.",
+    "Seek advice after recent sinus/ear surgery or with immune compromise.",
+    "Stop if irrigation repeatedly causes ear pressure, bleeding or significant pain."
+  ],
+  "myths": [
+    {
+      "claim": "Australian tap water is automatically safe for neti pots.",
+      "reality": "Drinking-water standards do not make water sterile enough for nasal irrigation."
+    },
+    {
+      "claim": "Saline washes viruses out and prevents infection with certainty.",
+      "reality": "It mechanically clears material and may ease symptoms, but evidence for preventing or shortening infection is limited."
+    }
+  ],
+  "redFlags": [
+    "Severe headache, fever, vomiting, confusion or stiff neck after unsafe nasal rinsing",
+    "Persistent nosebleed or severe ear pain",
+    "Eye swelling or vision changes"
+  ],
+  "unsettled": [
+    "Best volume, tonicity and frequency for acute viral illness are not firmly established."
+  ],
+  "sourceIds": [
+    "COCHRANE_SALINE",
+    "CDC_NASAL_RINSE",
+    "FDA_NETI",
+    "HD_SORE",
+    "HD_RUNNY"
+  ],
+  "reviewDate": "2026-07-15"
+}

@@ -1,0 +1,90 @@
+{
+  "id": 3,
+  "slug": "runny-blocked-nose",
+  "section": "A. Symptoms",
+  "title": "Runny nose versus nasal congestion",
+  "summary": "A runny nose is excess discharge; congestion is swelling that narrows the nasal passages. Saline is low-risk for both, while decongestants mainly target swelling and should be used briefly and selectively.",
+  "evidenceSnapshot": "Saline may modestly improve acute upper-respiratory symptoms. Short-term decongestants can improve adult congestion, but oral phenylephrine has poor efficacy evidence.",
+  "interventions": [
+    {
+      "name": "Saline spray or drops",
+      "evidence": "Moderate",
+      "finding": "Can moisturise dry passages and loosen mucus with minimal systemic risk.",
+      "practical": "Use as often as the product directs. Drops are useful for infants before feeds or sleep.",
+      "mechanism": "Changes mucus consistency and mechanically clears secretions.",
+      "cautions": "Keep applicators clean and do not share bottles."
+    },
+    {
+      "name": "Larger-volume saline irrigation",
+      "evidence": "Weak-or-mixed",
+      "finding": "May improve congestion and discharge, but acute-cold trials are small and at risk of bias.",
+      "practical": "Use premixed sachets or an isotonic recipe supplied by the device manufacturer; use only distilled, sterile, or boiled-and-cooled water.",
+      "mechanism": "Mechanical flushing removes mucus and irritants.",
+      "cautions": "Incorrect water or device hygiene can cause rare severe infections."
+    },
+    {
+      "name": "Oral pseudoephedrine",
+      "evidence": "Moderate",
+      "finding": "Can provide short-term congestion relief in adults and older adolescents.",
+      "practical": "In Australia it is pharmacist-only or prescription-only depending on formulation; ask the pharmacist whether it is suitable.",
+      "mechanism": "Systemic vasoconstriction reduces swollen nasal blood vessels.",
+      "cautions": "Can raise heart rate or blood pressure and worsen insomnia, anxiety, urinary retention or glaucoma."
+    },
+    {
+      "name": "Oral phenylephrine",
+      "evidence": "Weak-or-mixed",
+      "finding": "The US FDA's extensive review concluded that standard oral doses are not effective as nasal decongestants, although Australian products may still contain it.",
+      "practical": "Read the active ingredients; do not assume a 'PE' product is equivalent to pseudoephedrine.",
+      "mechanism": "Oral bioavailability is too low to produce reliable decongestion at marketed doses.",
+      "cautions": "Still has sympathomimetic cautions despite doubtful efficacy."
+    },
+    {
+      "name": "Topical decongestant sprays",
+      "evidence": "Moderate",
+      "finding": "Oxymetazoline or xylometazoline can rapidly reduce congestion for a few nights.",
+      "practical": "Use only for the shortest label-approved period, commonly no more than 3 days unless a clinician advises otherwise.",
+      "mechanism": "Local vasoconstriction.",
+      "cautions": "Longer use can cause rebound congestion; keep away from young children unless specifically advised."
+    }
+  ],
+  "practicalSteps": [
+    "Blow gently, one nostril at a time.",
+    "Use saline before feeds and sleep in infants.",
+    "Treat allergy differently from a viral cold; persistent itch/sneezing may need antihistamine or steroid nasal-spray advice.",
+    "Sleep with the head slightly elevated if congestion is worse lying flat."
+  ],
+  "avoidOrCare": [
+    "One-sided persistent discharge, especially foul-smelling in a child, may indicate a foreign body.",
+    "Severe facial pain, eye swelling, vision change or severe headache needs urgent review.",
+    "Do not use medicated nasal sprays for longer than directed."
+  ],
+  "myths": [
+    {
+      "claim": "Green mucus proves a bacterial sinus infection.",
+      "reality": "Mucus often changes colour as immune cells accumulate; colour alone does not identify bacterial infection."
+    },
+    {
+      "claim": "More decongestant works better.",
+      "reality": "Higher or repeated doses increase cardiovascular and nervous-system risks without guaranteeing better relief."
+    }
+  ],
+  "redFlags": [
+    "Severe breathing difficulty",
+    "Eye swelling, vision change or intense facial pain",
+    "Fluid or blood after head injury",
+    "One-sided blockage that does not improve",
+    "Symptoms lasting over 10 days without improvement or worsening after initial recovery"
+  ],
+  "unsettled": [
+    "The magnitude of benefit from saline irrigation in uncomplicated acute colds remains uncertain."
+  ],
+  "sourceIds": [
+    "HD_RUNNY",
+    "HD_BLOCKED",
+    "COCHRANE_SALINE",
+    "FDA_PHENYLEPHRINE",
+    "TGA_PSEUDO_2026",
+    "CDC_NASAL_RINSE"
+  ],
+  "reviewDate": "2026-07-15"
+}

@@ -1,0 +1,115 @@
+{
+  "id": 14,
+  "slug": "natural-traditional-remedies",
+  "section": "B. Interventions",
+  "title": "Natural and traditional remedies",
+  "summary": "Natural does not mean proven or risk-free. Honey has the most useful symptom evidence; zinc may shorten a cold but certainty is low, while vitamin C, echinacea, elderberry, garlic and ginger have limited or inconsistent evidence.",
+  "evidenceSnapshot": "Product formulation, timing and trial quality vary greatly. None of these remedies reliably cures influenza or replaces antiviral treatment for high-risk people.",
+  "interventions": [
+    {
+      "name": "Honey",
+      "evidence": "Moderate",
+      "finding": "May ease acute cough and sleep in people over 12 months.",
+      "practical": "Use a small spoonful or in a warm drink.",
+      "mechanism": "Soothing coating and possible antimicrobial effects.",
+      "cautions": "Never under 12 months; sugar and allergy considerations."
+    },
+    {
+      "name": "Zinc lozenges/oral zinc",
+      "evidence": "Weak-or-mixed",
+      "finding": "2024 Cochrane review found possible average shortening by about two days, but evidence was low certainty and side effects were more common.",
+      "practical": "If used, start early and follow a reputable product label; avoid prolonged high-dose use.",
+      "mechanism": "May interfere with viral replication and local inflammatory signalling.",
+      "cautions": "Nausea, bad taste and copper deficiency with prolonged excess; never use intranasal zinc."
+    },
+    {
+      "name": "Vitamin C",
+      "evidence": "Weak-or-mixed",
+      "finding": "Regular supplementation may slightly shorten colds in some people, but starting high doses after symptoms begin has not shown consistent benefit.",
+      "practical": "Meet normal dietary requirements; avoid megadoses.",
+      "mechanism": "Antioxidant and immune cofactor.",
+      "cautions": "High doses can cause diarrhoea and kidney-stone risk in susceptible people."
+    },
+    {
+      "name": "Echinacea",
+      "evidence": "Weak-or-mixed",
+      "finding": "Results differ by species, plant part and extraction; no clear reliable preventive or treatment effect.",
+      "practical": "Do not assume products are interchangeable.",
+      "mechanism": "Proposed immune-modulating effects.",
+      "cautions": "Allergy risk, especially with daisy-family allergy; interactions possible."
+    },
+    {
+      "name": "Elderberry",
+      "evidence": "Weak-or-mixed",
+      "finding": "Small studies suggest possible symptom reduction, but evidence quality and independence are insufficient.",
+      "practical": "Do not use raw or improperly prepared berries/leaves.",
+      "mechanism": "Proposed antiviral and cytokine effects remain uncertain clinically.",
+      "cautions": "Raw plant parts can cause toxicity; caution with immune conditions and pregnancy."
+    },
+    {
+      "name": "Garlic",
+      "evidence": "Weak-or-mixed",
+      "finding": "Insufficient evidence to treat an established cold; small prevention studies are not conclusive.",
+      "practical": "Use as food rather than a high-dose cure.",
+      "mechanism": "Laboratory antimicrobial effects do not establish human treatment benefit.",
+      "cautions": "Supplements may increase bleeding risk and interact with medicines."
+    },
+    {
+      "name": "Ginger",
+      "evidence": "Traditional-but-untested",
+      "finding": "Can soothe nausea or provide a pleasant warm drink, but evidence for shortening colds is poor.",
+      "practical": "Use food-level amounts.",
+      "mechanism": "Possible anti-inflammatory and anti-nausea effects.",
+      "cautions": "Concentrated products may affect bleeding or reflux."
+    },
+    {
+      "name": "Vitamin D",
+      "evidence": "Weak-or-mixed",
+      "finding": "Correcting deficiency supports health, but taking a large dose after symptoms start is not a proven cold treatment.",
+      "practical": "Use routine supplementation only according to personal needs and Australian guidance.",
+      "mechanism": "Immune regulation.",
+      "cautions": "Toxicity with excessive long-term dosing."
+    }
+  ],
+  "practicalSteps": [
+    "Ask what outcome matters: comfort, duration, prevention or severe-disease reduction.",
+    "Prefer single-ingredient, quality-controlled products.",
+    "Record supplements alongside medicines because interactions count.",
+    "Stop products causing rash, wheeze, vomiting or palpitations."
+  ],
+  "avoidOrCare": [
+    "Pregnancy, breastfeeding, immune-suppressing treatment, anticoagulants and chronic disease warrant pharmacist/doctor review.",
+    "Do not give herbal products to infants without clinical advice."
+  ],
+  "myths": [
+    {
+      "claim": "If it is natural, it cannot interact with medicine.",
+      "reality": "Herbs and supplements can alter bleeding, sedation, blood pressure and drug metabolism."
+    },
+    {
+      "claim": "Megadose vitamin C cures a cold.",
+      "reality": "Therapeutic megadoses after onset have not produced consistent clinical benefit."
+    },
+    {
+      "claim": "Zinc always cuts two days off a cold.",
+      "reality": "That estimate is uncertain, trial results vary widely and side effects are common."
+    }
+  ],
+  "redFlags": [
+    "Allergic reaction or wheeze",
+    "Persistent vomiting or severe abdominal symptoms after a supplement",
+    "Suspected overdose or use of raw elderberry plant material",
+    "Using supplements instead of timely antiviral/medical care in a high-risk person"
+  ],
+  "unsettled": [
+    "Optimal zinc formulation, elemental dose, timing and lozenge dissolution pattern remain debated.",
+    "Elderberry evidence requires larger independent trials with standardised products."
+  ],
+  "sourceIds": [
+    "COCHRANE_ZINC",
+    "COCHRANE_HONEY",
+    "COCHRANE_ECHINACEA",
+    "NCCIH_COMPLEMENTARY"
+  ],
+  "reviewDate": "2026-07-15"
+}

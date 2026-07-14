@@ -1,0 +1,68 @@
+{
+  "id": 18,
+  "slug": "antivirals-influenza",
+  "section": "B. Interventions",
+  "title": "Influenza antivirals",
+  "summary": "Prescription antivirals such as oseltamivir are relevant to influenza, not ordinary colds. Benefit is greatest when treatment starts early, especially for people at high risk, severely unwell or hospitalised.",
+  "evidenceSnapshot": "Antivirals can modestly shorten uncomplicated influenza and may reduce complications in higher-risk or severe disease. They work best within 48 hours, but later treatment may still be appropriate for severe/high-risk cases.",
+  "interventions": [
+    {
+      "name": "Early clinical contact for high-risk influenza",
+      "evidence": "Strong",
+      "finding": "Allows timely testing and antiviral prescribing.",
+      "practical": "Contact a GP, urgent care service or healthdirect promptly when flu symptoms begin in a high-risk person.",
+      "mechanism": "Earlier antiviral exposure limits viral replication.",
+      "cautions": "Do not wait for severe symptoms if high risk."
+    },
+    {
+      "name": "Oseltamivir (Tamiflu)",
+      "evidence": "Strong",
+      "finding": "Prescription neuraminidase inhibitor used for treatment or prevention in selected cases.",
+      "practical": "Dose and duration depend on age, weight, kidney function and indication; use exactly as prescribed.",
+      "mechanism": "Blocks release of new influenza virus particles.",
+      "cautions": "Nausea/vomiting are common; rare neuropsychiatric events have been reported."
+    },
+    {
+      "name": "Antivirals after 48 hours",
+      "evidence": "Moderate",
+      "finding": "May still help people who are hospitalised, severely ill or at high risk.",
+      "practical": "Clinical decision rather than automatic exclusion.",
+      "mechanism": "Ongoing viral replication may remain clinically important.",
+      "cautions": "Do not self-source or share prescriptions."
+    }
+  ],
+  "practicalSteps": [
+    "Know whether the person is in a high-risk group before winter illness occurs.",
+    "Call early if symptoms are abrupt with fever, aches and marked fatigue.",
+    "Continue supportive care; antivirals do not replace hydration, monitoring or emergency assessment."
+  ],
+  "avoidOrCare": [
+    "Antivirals do not treat rhinovirus and are not antibiotics.",
+    "Pregnant people are a high-risk group and should seek prompt advice for suspected influenza."
+  ],
+  "myths": [
+    {
+      "claim": "Tamiflu cures any cold or flu-like illness.",
+      "reality": "It targets influenza viruses only."
+    },
+    {
+      "claim": "There is no point after 48 hours.",
+      "reality": "Early is best, but severe, hospitalised or high-risk patients may still benefit later."
+    }
+  ],
+  "redFlags": [
+    "Breathing difficulty, chest pain, confusion, blue lips or collapse",
+    "High-risk person deteriorating rapidly",
+    "Dehydration or inability to take medicines/fluids",
+    "Symptoms improve then return with fever or breathlessness"
+  ],
+  "unsettled": [
+    "The absolute benefit varies by influenza strain, baseline risk, timing and outcome measured."
+  ],
+  "sourceIds": [
+    "CDC_FLU_ANTIVIRALS",
+    "HD_FLU",
+    "HD_MEDICINES"
+  ],
+  "reviewDate": "2026-07-15"
+}

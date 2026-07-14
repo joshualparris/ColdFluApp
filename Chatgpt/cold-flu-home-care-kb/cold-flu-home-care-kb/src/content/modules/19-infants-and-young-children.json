@@ -1,0 +1,91 @@
+{
+  "id": 19,
+  "slug": "infants-and-young-children",
+  "section": "C. Special populations",
+  "title": "Infants and young children",
+  "summary": "Young children usually need supportive care rather than cough-and-cold medicines. Age-specific fever and breathing signs matter more than the exact label of the virus.",
+  "evidenceSnapshot": "Fluids or feeds, saline nose drops and careful monitoring are the main home measures. Honey is unsafe under 12 months, and Australian regulators restrict sedating antihistamines for cough/cold/flu in children under 6.",
+  "interventions": [
+    {
+      "name": "Frequent breastfeeds, formula or usual fluids",
+      "evidence": "Strong",
+      "finding": "Helps prevent dehydration when intake is reduced.",
+      "practical": "Offer smaller amounts more often; track wet nappies or urine.",
+      "mechanism": "Replaces fluid losses.",
+      "cautions": "Seek review if the child cannot keep fluids down or urinates much less."
+    },
+    {
+      "name": "Saline nose drops or spray",
+      "evidence": "Moderate",
+      "finding": "Can loosen nasal mucus and make feeding or sleep more comfortable.",
+      "practical": "Use a child-appropriate saline product before feeds or sleep; gently wipe or suction only if needed.",
+      "mechanism": "Moistens and mechanically clears secretions.",
+      "cautions": "Avoid forceful suction, which can irritate the nose."
+    },
+    {
+      "name": "Paracetamol or ibuprofen for distress",
+      "evidence": "Strong",
+      "finding": "Can relieve fever-related discomfort and pain; the goal is comfort, not forcing temperature to normal.",
+      "practical": "Dose by the child's current weight and the product label. Ibuprofen is generally for children older than 3 months unless a clinician advises otherwise.",
+      "mechanism": "Analgesic and antipyretic effects.",
+      "cautions": "Do not alternate routinely without professional advice; avoid ibuprofen with dehydration or certain medical conditions."
+    },
+    {
+      "name": "Honey for cough",
+      "evidence": "Moderate",
+      "finding": "May reduce night cough in children older than 12 months.",
+      "practical": "A small spoonful before bed can be tried from 12 months of age.",
+      "mechanism": "Soothing and possible antioxidant/antimicrobial effects.",
+      "cautions": "Never give honey to a baby under 12 months because of infant botulism risk."
+    },
+    {
+      "name": "OTC cough, cold and decongestant medicines",
+      "evidence": "Weak-or-mixed",
+      "finding": "There is little evidence of meaningful benefit in young children and a real risk of dosing errors and adverse effects.",
+      "practical": "Do not use unless a doctor or pharmacist specifically recommends an age-appropriate product.",
+      "mechanism": "Varies by ingredient.",
+      "cautions": "First-generation sedating antihistamines must not be used for cough/cold/flu in children under 6 in Australia; adult products are inappropriate."
+    }
+  ],
+  "practicalSteps": [
+    "Keep the child close enough to notice work of breathing, colour, alertness and fluid intake.",
+    "Use saline before feeds if congestion is making sucking difficult.",
+    "Let the child rest, but use normal safe-sleep practices: on a flat, firm surface without pillows or improvised elevation for babies.",
+    "Write down medicine name, strength, dose and time to prevent accidental repeat dosing."
+  ],
+  "avoidOrCare": [
+    "No honey under 12 months.",
+    "No aspirin in children unless specifically prescribed.",
+    "Do not use steam bowls, essential oils near the face, or adult vapour rubs in babies.",
+    "Avoid cold baths, stripping the child or trying to 'sweat out' a fever."
+  ],
+  "myths": [
+    {
+      "claim": "A high fever number alone tells you how sick a child is.",
+      "reality": "Age, breathing, alertness, hydration and the overall pattern are crucial; any fever in a baby under 3 months needs urgent assessment."
+    },
+    {
+      "claim": "Cough syrup helps young children sleep and recover.",
+      "reality": "Benefit is unproven for most products, while sedation and dosing harms are well documented."
+    }
+  ],
+  "redFlags": [
+    "Baby younger than 3 months with a temperature of 38°C or higher — urgent medical assessment",
+    "Blue, grey or very pale colour; grunting; ribs sucking in; pauses in breathing; severe wheeze or stridor",
+    "Very sleepy, difficult to wake, floppy, confused, inconsolable or having a seizure",
+    "Poor feeding with fewer wet nappies, no tears, dry mouth or sunken eyes",
+    "Symptoms worsening, or not starting to improve after about 48 hours in a young child"
+  ],
+  "unsettled": [
+    "Evidence for nasal suction devices is limited; gentle use may help selected infants, but repeated or forceful suction can worsen irritation."
+  ],
+  "sourceIds": [
+    "HD_CHILD_COLDS",
+    "HD_CHILD_MEDS",
+    "HD_CHILD_FEVER",
+    "TGA_CHILD_ANTIHIST",
+    "COCHRANE_HONEY",
+    "COCHRANE_SALINE"
+  ],
+  "reviewDate": "2026-07-15"
+}

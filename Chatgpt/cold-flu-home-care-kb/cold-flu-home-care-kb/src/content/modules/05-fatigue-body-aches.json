@@ -1,0 +1,77 @@
+{
+  "id": 5,
+  "slug": "fatigue-body-aches",
+  "section": "A. Symptoms",
+  "title": "Fatigue and body aches",
+  "summary": "Fatigue and muscle aches are common in influenza and other viral infections. The main aims are pain relief, hydration, sleep and a gradual return to activity rather than pushing through or remaining completely inactive for days.",
+  "evidenceSnapshot": "Paracetamol and NSAIDs help pain and fever. Evidence that supplements or special foods rapidly restore energy is poor.",
+  "interventions": [
+    {
+      "name": "Sleep and reduced workload",
+      "evidence": "Moderate",
+      "finding": "Supports recovery and reduces the chance of overexertion when acutely unwell.",
+      "practical": "Cancel non-essential tasks, take brief naps if needed, and protect a full night of sleep.",
+      "mechanism": "Sleep supports immune regulation and pain tolerance.",
+      "cautions": "Prolonged bed rest can increase stiffness and deconditioning."
+    },
+    {
+      "name": "Paracetamol or ibuprofen",
+      "evidence": "Strong",
+      "finding": "Reduces headache, muscle aches and fever-related discomfort.",
+      "practical": "Use the lowest effective dose for the shortest time and follow the label.",
+      "mechanism": "Analgesic and antipyretic effects.",
+      "cautions": "See medicine cautions in the OTC module."
+    },
+    {
+      "name": "Gentle movement when able",
+      "evidence": "Moderate",
+      "finding": "Short walks around the home and stretching can reduce stiffness after the worst phase has passed.",
+      "practical": "Stop if dizzy, breathless, faint or significantly worse afterward.",
+      "mechanism": "Maintains circulation and mobility.",
+      "cautions": "Avoid vigorous exercise with fever, chest symptoms or marked systemic illness."
+    },
+    {
+      "name": "Energy drinks and 'immune boosters'",
+      "evidence": "Weak-or-mixed",
+      "finding": "Do not treat viral fatigue; high caffeine or sugar may worsen sleep, palpitations or dehydration.",
+      "practical": "Prefer normal fluids and food.",
+      "mechanism": "—",
+      "cautions": "Check stimulant and supplement interactions."
+    }
+  ],
+  "practicalSteps": [
+    "Use a simple rhythm: drink, eat a little, rest, briefly move, then reassess.",
+    "Return to exercise gradually after fever has resolved and energy is clearly improving.",
+    "Expect influenza fatigue to last longer than a mild cold."
+  ],
+  "avoidOrCare": [
+    "New weakness affecting one side, severe muscle pain with dark urine, fainting or chest pain is not routine viral fatigue.",
+    "Persistent exhaustion after the acute illness may need review for complications or another diagnosis."
+  ],
+  "myths": [
+    {
+      "claim": "Exercise will sweat the virus out.",
+      "reality": "Hard exercise during fever or systemic illness adds physiological stress and may worsen symptoms."
+    },
+    {
+      "claim": "Sugar or vitamins provide instant immune energy.",
+      "reality": "Correcting a deficiency matters; megadoses during an ordinary cold rarely produce a rapid clinical effect."
+    }
+  ],
+  "redFlags": [
+    "Chest pain, fainting or severe shortness of breath",
+    "Severe weakness, confusion or inability to stay awake",
+    "Dark urine with severe muscle pain",
+    "Symptoms improving then sharply deteriorating"
+  ],
+  "unsettled": [
+    "The best graded return-to-exercise protocol after uncomplicated influenza has limited direct trial evidence."
+  ],
+  "sourceIds": [
+    "HD_FLU",
+    "HD_PARACETAMOL",
+    "HD_IBUPROFEN",
+    "COCHRANE_NSAIDS"
+  ],
+  "reviewDate": "2026-07-15"
+}

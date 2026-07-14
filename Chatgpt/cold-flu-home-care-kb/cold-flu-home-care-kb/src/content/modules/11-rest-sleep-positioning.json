@@ -1,0 +1,77 @@
+{
+  "id": 11,
+  "slug": "rest-sleep-positioning",
+  "section": "B. Interventions",
+  "title": "Rest, sleep and positioning",
+  "summary": "Sleep and reduced workload support recovery and make symptoms easier to tolerate. Positioning can improve comfort, but strict bed rest or forcing sleep is unnecessary.",
+  "evidenceSnapshot": "Direct cold-treatment trials are limited, but sleep is strongly linked to immune regulation and symptom tolerance. Elevation is a comfort strategy rather than a cure.",
+  "interventions": [
+    {
+      "name": "Adequate sleep",
+      "evidence": "Moderate",
+      "finding": "Supports immune function, mood and pain tolerance during illness.",
+      "practical": "Protect a normal bedtime, reduce evening stimulation and nap briefly if needed.",
+      "mechanism": "Sleep coordinates immune signalling and recovery processes.",
+      "cautions": "Sedating cold medicines can impair driving and interact with alcohol or other sedatives."
+    },
+    {
+      "name": "Upper-body elevation",
+      "evidence": "Moderate",
+      "finding": "May reduce post-nasal drip, reflux-triggered cough and the sensation of blockage while lying down.",
+      "practical": "Raise the upper torso with a wedge or adjust the bed; avoid piling loose pillows around infants.",
+      "mechanism": "Gravity reduces pooling and reflux.",
+      "cautions": "Infants should sleep flat on a firm, safe sleep surface; do not incline infant sleep products."
+    },
+    {
+      "name": "Side sleeping",
+      "evidence": "Traditional-but-untested",
+      "finding": "Some adults breathe more comfortably on one side or with the more open nostril uppermost.",
+      "practical": "Use the position that feels easiest.",
+      "mechanism": "Nasal cycling and gravity change congestion between nostrils.",
+      "cautions": "No special position treats the virus."
+    },
+    {
+      "name": "Prolonged complete bed rest",
+      "evidence": "Weak-or-mixed",
+      "finding": "May worsen stiffness, sleep timing and deconditioning after the acute phase.",
+      "practical": "Get up for fluids, toileting and brief gentle movement when safe.",
+      "mechanism": "—",
+      "cautions": "Stop activity if dizzy, faint or breathless."
+    }
+  ],
+  "practicalSteps": [
+    "Create a simple night setup: water, tissues, thermometer and medicines log.",
+    "Keep the room comfortably cool and dark.",
+    "Use a shower or saline before bed rather than repeatedly waking for multiple remedies.",
+    "Resume normal activity in stages as fever and systemic symptoms settle."
+  ],
+  "avoidOrCare": [
+    "Do not give sedating antihistamines to children to make them sleep.",
+    "Persistent inability to sleep because of breathlessness, chest pain or severe cough needs assessment."
+  ],
+  "myths": [
+    {
+      "claim": "You must stay in bed until every symptom is gone.",
+      "reality": "Rest matters, but gentle movement is reasonable once fever and severe symptoms have eased."
+    },
+    {
+      "claim": "Sleeping upright drains the infection.",
+      "reality": "Elevation may improve comfort but does not remove the virus."
+    }
+  ],
+  "redFlags": [
+    "Breathlessness when lying flat",
+    "Repeated waking gasping or with chest pain",
+    "Confusion or difficulty waking",
+    "Infant placed in an unsafe inclined sleep position"
+  ],
+  "unsettled": [
+    "There is little direct evidence comparing specific sleep positions for ordinary viral upper-respiratory infections."
+  ],
+  "sourceIds": [
+    "HD_COLDS",
+    "HD_CHILD_COLDS",
+    "HD_FLU"
+  ],
+  "reviewDate": "2026-07-15"
+}

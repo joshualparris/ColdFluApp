@@ -1,0 +1,89 @@
+{
+  "id": 23,
+  "slug": "heart-conditions-and-high-blood-pressure",
+  "section": "C. Special populations",
+  "title": "Heart conditions, palpitations and high blood pressure",
+  "summary": "Several cold medicines can increase heart rate or blood pressure, disturb sleep or worsen fluid retention. Saline, rest and carefully selected single-ingredient medicines are usually safer starting points.",
+  "evidenceSnapshot": "Pseudoephedrine and similar sympathomimetics can cause cardiovascular stimulation. NSAIDs can also be problematic in hypertension, kidney disease or heart failure, so pharmacist or clinician review is worthwhile.",
+  "interventions": [
+    {
+      "name": "Saline spray or rinse",
+      "evidence": "Moderate",
+      "finding": "Can reduce congestion without systemic stimulant effects.",
+      "practical": "Use commercial saline or sterile/distilled/boiled-and-cooled water for irrigation.",
+      "mechanism": "Mechanical clearance and moisture.",
+      "cautions": "Use gentle pressure; ask for advice after sinus surgery or with severe ear problems."
+    },
+    {
+      "name": "Paracetamol for pain or fever",
+      "evidence": "Strong",
+      "finding": "Provides symptom relief without the vasoconstrictor effect of decongestants.",
+      "practical": "Follow the label and check combinations for duplicate paracetamol.",
+      "mechanism": "Analgesic and antipyretic.",
+      "cautions": "Liver toxicity with overdose; may not suit everyone."
+    },
+    {
+      "name": "Pseudoephedrine and oral sympathomimetics",
+      "evidence": "Moderate",
+      "finding": "Can improve congestion but may raise heart rate or blood pressure and trigger palpitations, tremor or insomnia.",
+      "practical": "Discuss with a pharmacist before use; avoid when contraindicated.",
+      "mechanism": "Systemic vasoconstriction.",
+      "cautions": "Particular caution with uncontrolled hypertension, arrhythmia, coronary disease, hyperthyroidism and interacting medicines."
+    },
+    {
+      "name": "Medicated nasal decongestant sprays",
+      "evidence": "Moderate",
+      "finding": "Work locally and can relieve congestion rapidly, but systemic absorption and rebound congestion remain possible.",
+      "practical": "Use only for the short label duration.",
+      "mechanism": "Local vasoconstriction.",
+      "cautions": "Ask before use with significant cardiovascular disease; stop if palpitations or severe headache occur."
+    },
+    {
+      "name": "Ibuprofen and other NSAIDs",
+      "evidence": "Strong",
+      "finding": "Relieve pain and fever but can raise blood pressure, affect kidney function or worsen fluid retention in susceptible people.",
+      "practical": "Use only when suitable and for the shortest time.",
+      "mechanism": "Cyclo-oxygenase inhibition.",
+      "cautions": "Extra caution with heart failure, kidney disease, anticoagulants, ulcers or dehydration."
+    }
+  ],
+  "practicalSteps": [
+    "Choose a single active ingredient for one symptom.",
+    "Check labels for pseudoephedrine, phenylephrine, ibuprofen and hidden caffeine.",
+    "Keep taking prescribed heart medicines unless the treating clinician advises otherwise.",
+    "Ask a pharmacist to screen for interactions, including MAO inhibitors and other stimulants."
+  ],
+  "avoidOrCare": [
+    "Avoid oral phenylephrine as an assumed safer/effective substitute; evidence for oral efficacy is poor and sympathomimetic effects remain possible.",
+    "Avoid combining decongestants or taking them near bedtime.",
+    "Avoid NSAIDs during dehydration or a heart-failure flare unless advised."
+  ],
+  "myths": [
+    {
+      "claim": "A nasal medicine cannot affect the heart.",
+      "reality": "Some medicated sprays can be absorbed and may still cause cardiovascular effects."
+    },
+    {
+      "claim": "Phenylephrine is a reliable non-prescription substitute for pseudoephedrine.",
+      "reality": "The FDA's evidence review found oral phenylephrine ineffective at marketed doses."
+    }
+  ],
+  "redFlags": [
+    "Chest pain, fainting, sustained rapid or irregular heartbeat, severe headache or neurological symptoms",
+    "New or worsening breathlessness, ankle swelling or sudden weight gain in heart failure",
+    "Blood pressure markedly above the person's urgent-action threshold",
+    "Symptoms after taking a decongestant that do not settle promptly"
+  ],
+  "unsettled": [
+    "Cardiovascular risk varies with dose, formulation and the person's condition; product labels cannot replace an individual medication review."
+  ],
+  "sourceIds": [
+    "HD_MEDICINES",
+    "HD_PARACETAMOL",
+    "HD_IBUPROFEN",
+    "TGA_PSEUDO_2026",
+    "FDA_PHENYLEPHRINE",
+    "HD_BLOCKED"
+  ],
+  "reviewDate": "2026-07-15"
+}

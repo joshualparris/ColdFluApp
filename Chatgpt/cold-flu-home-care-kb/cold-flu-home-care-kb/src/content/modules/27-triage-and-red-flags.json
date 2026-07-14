@@ -1,0 +1,86 @@
+{
+  "id": 27,
+  "slug": "triage-and-red-flags",
+  "section": "E. Triage",
+  "title": "When to self-manage, see a doctor or seek emergency care",
+  "summary": "Most uncomplicated colds improve with home care, but breathing, hydration, age, risk factors and trajectory determine when to escalate. A sudden deterioration matters more than waiting for an arbitrary day count.",
+  "evidenceSnapshot": "Emergency care is needed for severe breathing difficulty, blue colour, collapse, confusion or other life-threatening signs. Same-day or early clinical review is appropriate for high-risk people, prolonged fever, dehydration, worsening symptoms or suspected influenza where antivirals may help.",
+  "interventions": [
+    {
+      "name": "Self-management",
+      "evidence": "Strong",
+      "finding": "Appropriate when symptoms are mild, breathing and hydration are normal, and the person is gradually stable or improving.",
+      "practical": "Rest, fluids, symptom-specific measures and daily reassessment.",
+      "mechanism": "Supports recovery while avoiding unnecessary treatment.",
+      "cautions": "Use a lower threshold for babies, pregnancy, frailty, immune suppression and chronic heart/lung disease."
+    },
+    {
+      "name": "GP, pharmacist or telehealth review",
+      "evidence": "Strong",
+      "finding": "Helps when diagnosis, medicine choice or risk is uncertain.",
+      "practical": "Seek review for fever lasting more than about 3 days, symptoms beyond 10 days without improvement, 'double worsening', significant pain or persistent cough.",
+      "mechanism": "Clinical assessment identifies complications and targeted treatment.",
+      "cautions": "These are prompts, not absolute rules; severe symptoms need earlier care."
+    },
+    {
+      "name": "Same-day urgent assessment",
+      "evidence": "Strong",
+      "finding": "Needed for moderate breathing difficulty, dehydration, marked deterioration or high-risk influenza/COVID symptoms.",
+      "practical": "Use GP urgent appointments, after-hours services or healthdirect 1800 022 222 in Australia.",
+      "mechanism": "Enables examination, oxygen assessment, testing and treatment.",
+      "cautions": "Do not drive if faint, confused or severely unwell."
+    },
+    {
+      "name": "Emergency care / call 000",
+      "evidence": "Strong",
+      "finding": "Needed for signs of immediate threat to breathing, circulation or consciousness.",
+      "practical": "Call 000 for severe breathing difficulty, blue/grey colour, collapse, seizure, severe chest pain, confusion or inability to wake.",
+      "mechanism": "Rapid emergency assessment and support.",
+      "cautions": "Do not delay for an online diagnosis."
+    }
+  ],
+  "practicalSteps": [
+    "Check breathing effort, colour, alertness, fluid intake and urine at least a few times a day.",
+    "Record fever pattern, medicines and symptom onset.",
+    "Note whether symptoms are steadily improving, static, or improving then worsening again.",
+    "Use healthdirect's Symptom Checker or call 1800 022 222 when unsure in Australia."
+  ],
+  "avoidOrCare": [
+    "Do not use temperature alone to judge severity.",
+    "Do not wait 10 days when breathing, hydration or alertness is abnormal.",
+    "Do not take leftover antibiotics; most colds and influenza are viral.",
+    "Do not dismiss chest pain, haemoptysis or neurological symptoms as 'just flu'."
+  ],
+  "myths": [
+    {
+      "claim": "Green mucus means antibiotics are needed.",
+      "reality": "Mucus colour can change during viral illness and does not by itself prove bacterial infection."
+    },
+    {
+      "claim": "If the fever comes down with paracetamol, the illness cannot be serious.",
+      "reality": "Response to fever medicine does not rule out serious infection."
+    }
+  ],
+  "redFlags": [
+    "Call 000: severe breathing difficulty, blue/grey lips, collapse, seizure, severe chest pain, confusion or inability to wake",
+    "Urgent: baby under 3 months with 38°C or higher",
+    "Urgent: signs of dehydration, repeated vomiting, very little urine or inability to drink",
+    "Urgent: stiff neck with severe headache, non-blanching rash, coughing blood or rapidly worsening illness",
+    "Prompt review: fever over about 3 days, symptoms over 10 days without improvement, or improvement followed by clear worsening"
+  ],
+  "unsettled": [
+    "No single duration or temperature threshold safely replaces clinical judgement; age, baseline health and symptom pattern change risk."
+  ],
+  "sourceIds": [
+    "HD_COLDS",
+    "HD_FEVER",
+    "HD_CHILD_FEVER",
+    "HD_CHILD_COLDS",
+    "HD_DEHYDRATION",
+    "HD_COUGH",
+    "HD_SINUS",
+    "HD_ANTIBIOTICS",
+    "CDC_FLU_ANTIVIRALS"
+  ],
+  "reviewDate": "2026-07-15"
+}

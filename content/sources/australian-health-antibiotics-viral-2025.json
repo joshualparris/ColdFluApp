@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "australian-health-antibiotics-viral-2025",
+  "type": "guideline",
+  "title": "Antibiotics won’t do for colds and flu",
+  "authorsOrOrganisation": ["Australian Government Department of Health, Disability and Ageing"],
+  "publication": "Australian Government Department of Health, Disability and Ageing",
+  "publishedAt": "2025-06-17",
+  "updatedAt": null,
+  "doi": null,
+  "url": "https://www.health.gov.au/news/antibiotics-wont-do-for-colds-and-flu",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian public-health source used narrowly for the claim that antibiotics do not treat viral respiratory infections and should follow clinical assessment when indicated."
+}

@@ -1,0 +1,353 @@
+[
+  {
+    "id": "HD_COLDS",
+    "title": "Colds",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/colds",
+    "year": "2026",
+    "note": "Overview of cold symptoms, self-care, medicines and when to seek care."
+  },
+  {
+    "id": "HD_MEDICINES",
+    "title": "Medicines for colds, flu and COVID-19",
+    "organisation": "healthdirect Australia",
+    "type": "Australian medicines guidance",
+    "url": "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19",
+    "year": "2025",
+    "note": "Active-ingredient guidance, safety cautions and combination-product risks."
+  },
+  {
+    "id": "HD_COUGH",
+    "title": "Cough \u2014 types, treatments and remedies",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/cough",
+    "year": "2026",
+    "note": "Cough types, common causes, self-care and red flags."
+  },
+  {
+    "id": "HD_SORE",
+    "title": "Sore throat (pharyngitis)",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/sore-throat",
+    "year": "2026",
+    "note": "Self-care, causes and urgent warning signs."
+  },
+  {
+    "id": "HD_RUNNY",
+    "title": "Runny nose",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/runny-nose",
+    "year": "2026",
+    "note": "Rhinorrhoea, saline, decongestants and when persistent symptoms need review."
+  },
+  {
+    "id": "HD_BLOCKED",
+    "title": "Blocked nose",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/blocked-nose",
+    "year": "2026",
+    "note": "Congestion care, rebound congestion and red flags."
+  },
+  {
+    "id": "HD_FEVER",
+    "title": "Fever",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/fever",
+    "year": "2026",
+    "note": "Adult and child fever triage, self-care and emergency features."
+  },
+  {
+    "id": "HD_CHILD_FEVER",
+    "title": "Fever and high temperature in children and babies",
+    "organisation": "healthdirect Australia",
+    "type": "Australian paediatric guidance",
+    "url": "https://www.healthdirect.gov.au/fever-and-high-temperature-in-children",
+    "year": "2026",
+    "note": "Includes the under-3-month 38\u00b0C emergency threshold."
+  },
+  {
+    "id": "HD_CHILD_COLDS",
+    "title": "Coughs and colds in children",
+    "organisation": "healthdirect Australia",
+    "type": "Australian paediatric guidance",
+    "url": "https://www.healthdirect.gov.au/coughs-and-colds-in-children",
+    "year": "2025",
+    "note": "Rest, fluids, saline, honey over 12 months and medicines to avoid."
+  },
+  {
+    "id": "HD_CHILD_MEDS",
+    "title": "Medicines for colds, flu and COVID-19 for children",
+    "organisation": "healthdirect Australia",
+    "type": "Australian paediatric medicines guidance",
+    "url": "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19-for-children",
+    "year": "2026",
+    "note": "Age/weight dosing principles and cautions for cough medicines and decongestants."
+  },
+  {
+    "id": "TGA_CHILD_ANTIHIST",
+    "title": "First-generation oral sedating antihistamines \u2014 do not use in children",
+    "organisation": "Therapeutic Goods Administration",
+    "type": "Australian regulator safety update",
+    "url": "https://www.tga.gov.au/news/safety-updates/first-generation-oral-sedating-antihistamines-do-not-use-children",
+    "year": "2022",
+    "note": "Do not use for cough/cold/flu under 6; do not give under 2 for any indication."
+  },
+  {
+    "id": "HD_PREGNANCY",
+    "title": "Colds and flu during pregnancy and breastfeeding",
+    "organisation": "healthdirect Australia",
+    "type": "Australian pregnancy guidance",
+    "url": "https://www.healthdirect.gov.au/cold-and-flu-during-pregnancy",
+    "year": "2026",
+    "note": "Medication and self-care considerations in pregnancy and breastfeeding."
+  },
+  {
+    "id": "HD_PREG_MEDS",
+    "title": "Medicines during pregnancy",
+    "organisation": "healthdirect Australia",
+    "type": "Australian pregnancy medicines guidance",
+    "url": "https://www.healthdirect.gov.au/medicines-during-pregnancy",
+    "year": "2025",
+    "note": "General medicine-safety principles and paracetamol guidance."
+  },
+  {
+    "id": "HD_FLU",
+    "title": "Flu (influenza)",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/flu",
+    "year": "2025",
+    "note": "Symptoms, risk groups, treatment and when to seek care."
+  },
+  {
+    "id": "HD_COVID",
+    "title": "COVID-19",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/covid-19",
+    "year": "2026",
+    "note": "Current Australian symptom, prevention and risk guidance."
+  },
+  {
+    "id": "HD_SINUS",
+    "title": "Sinusitis (rhinosinusitis)",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/sinusitis",
+    "year": "2026",
+    "note": "Facial pain/pressure, smell change, saline and escalation."
+  },
+  {
+    "id": "HD_DEHYDRATION",
+    "title": "Dehydration",
+    "organisation": "healthdirect Australia",
+    "type": "Australian clinical guidance",
+    "url": "https://www.healthdirect.gov.au/dehydration",
+    "year": "2026",
+    "note": "Signs of mild and severe dehydration."
+  },
+  {
+    "id": "HD_ANTIBIOTICS",
+    "title": "Antibiotics",
+    "organisation": "healthdirect Australia",
+    "type": "Australian medicines guidance",
+    "url": "https://www.healthdirect.gov.au/antibiotics",
+    "year": "2026",
+    "note": "Antibiotics do not treat viral colds, flu or COVID-19."
+  },
+  {
+    "id": "HD_PARACETAMOL",
+    "title": "Paracetamol",
+    "organisation": "healthdirect Australia",
+    "type": "Australian medicines guidance",
+    "url": "https://www.healthdirect.gov.au/paracetamol",
+    "year": "2026",
+    "note": "Adult dose ceiling, liver toxicity and duplicate-ingredient warnings."
+  },
+  {
+    "id": "HD_IBUPROFEN",
+    "title": "Ibuprofen",
+    "organisation": "healthdirect Australia",
+    "type": "Australian medicines guidance",
+    "url": "https://www.healthdirect.gov.au/ibuprofen",
+    "year": "2026",
+    "note": "Pain/fever relief and gastrointestinal, renal, cardiovascular and asthma cautions."
+  },
+  {
+    "id": "HD_HANDWASH",
+    "title": "Hand washing",
+    "organisation": "healthdirect Australia",
+    "type": "Australian prevention guidance",
+    "url": "https://www.healthdirect.gov.au/hand-washing",
+    "year": "2025",
+    "note": "Handwashing technique and infection prevention."
+  },
+  {
+    "id": "AU_FLU_DISEASE",
+    "title": "Influenza (flu)",
+    "organisation": "Australian Government Department of Health, Disability and Ageing",
+    "type": "Australian public-health guidance",
+    "url": "https://www.health.gov.au/diseases/influenza-flu",
+    "year": "2026",
+    "note": "Stay home, distance, ventilation, masks and respiratory hygiene."
+  },
+  {
+    "id": "AU_FLU_VACCINE",
+    "title": "Influenza (flu) vaccine",
+    "organisation": "Australian Government Department of Health, Disability and Ageing",
+    "type": "Australian vaccination guidance",
+    "url": "https://www.health.gov.au/topics/immunisation/vaccines/influenza-flu-vaccine",
+    "year": "2026",
+    "note": "2026 vaccine products and NIP-funded groups."
+  },
+  {
+    "id": "AU_IMMUNISATION_HANDBOOK",
+    "title": "Influenza (flu)",
+    "organisation": "Australian Immunisation Handbook",
+    "type": "National clinical vaccination guidance",
+    "url": "https://immunisationhandbook.health.gov.au/influenza-flu",
+    "year": "2026",
+    "note": "Annual vaccination recommendations, age groups and dosing exceptions."
+  },
+  {
+    "id": "TGA_PSEUDO_2026",
+    "title": "Proposed amendments to the Poisons Standard \u2014 pseudoephedrine",
+    "organisation": "Therapeutic Goods Administration",
+    "type": "Australian scheduling document",
+    "url": "https://consultations.tga.gov.au/tga/scheduling-pre-meeting-notice-acms-joint-july-26/user_uploads/pre-meeting-public-notice---july-2026-2.pdf",
+    "year": "2026",
+    "note": "Confirms pseudoephedrine preparations remain Schedule 3 or Schedule 4 depending on formulation."
+  },
+  {
+    "id": "FDA_PHENYLEPHRINE",
+    "title": "FDA proposes ending use of oral phenylephrine as an OTC decongestant",
+    "organisation": "US Food and Drug Administration",
+    "type": "Regulatory evidence review",
+    "url": "https://www.fda.gov/news-events/press-announcements/fda-proposes-ending-use-oral-phenylephrine-otc-monograph-nasal-decongestant-active-ingredient-after",
+    "year": "2024",
+    "note": "FDA review concluded oral phenylephrine is not effective for nasal congestion; proposal does not apply to nasal phenylephrine."
+  },
+  {
+    "id": "COCHRANE_ZINC",
+    "title": "Zinc for prevention and treatment of the common cold",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD014914_zinc-prevention-and-treatment-common-cold",
+    "year": "2024",
+    "note": "Possible shorter duration, low certainty and more non-serious adverse effects."
+  },
+  {
+    "id": "COCHRANE_OTC_COUGH",
+    "title": "Over-the-counter medications for acute cough",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD001831_over-counter-otc-medications-acute-cough-children-and-adults-community-settings",
+    "year": "2014",
+    "note": "No good evidence for or against common OTC cough preparations."
+  },
+  {
+    "id": "COCHRANE_HONEY",
+    "title": "Honey for acute cough in children",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD007094_honey-acute-cough-children",
+    "year": "2018",
+    "note": "Low-to-moderate certainty; possible short-term cough/sleep benefit; never under 12 months."
+  },
+  {
+    "id": "COCHRANE_STEAM",
+    "title": "Heated, humidified air for the common cold",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD001728_heated-humidified-air-common-cold",
+    "year": "2017",
+    "note": "Evidence does not establish meaningful benefit and steam carries burn risk."
+  },
+  {
+    "id": "COCHRANE_SALINE",
+    "title": "Nasal saline irrigation for acute upper airway infection symptoms",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD006821_nasal-saline-irrigation-acute-upper-airway-infection-symptoms",
+    "year": "2015",
+    "note": "Possible symptom benefit, but small trials and high risk of bias."
+  },
+  {
+    "id": "COCHRANE_COMBO",
+    "title": "Oral antihistamine-decongestant-analgesic combinations for the common cold",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD004976_oral-antihistamine-decongestant-analgesic-combinations-common-cold",
+    "year": "2022",
+    "note": "Small overall benefit in adults and older children, no benefit in younger children, some increased side effects."
+  },
+  {
+    "id": "COCHRANE_NSAIDS",
+    "title": "Non-steroidal anti-inflammatory drugs for the common cold",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://www.cochrane.org/evidence/CD006362_non-steroidal-anti-inflammatory-drugs-common-cold",
+    "year": "2015",
+    "note": "Helps pain-related symptoms, not clearly cough or runny nose."
+  },
+  {
+    "id": "COCHRANE_ECHINACEA",
+    "title": "Echinacea for preventing and treating the common cold",
+    "organisation": "Cochrane",
+    "type": "Systematic review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4068831/",
+    "year": "2014",
+    "note": "No clear preventive benefit and inconsistent treatment results across preparations."
+  },
+  {
+    "id": "NCCIH_COMPLEMENTARY",
+    "title": "Colds, flu, and complementary health approaches",
+    "organisation": "US National Center for Complementary and Integrative Health",
+    "type": "Evidence summary",
+    "url": "https://www.nccih.nih.gov/health/colds-flu-and-complementary-health-approaches",
+    "year": "2025",
+    "note": "Evidence for vitamin C, echinacea, garlic and similar products is conflicting, inadequate or mostly negative."
+  },
+  {
+    "id": "CDC_FLU_ANTIVIRALS",
+    "title": "Treatment of flu",
+    "organisation": "US Centers for Disease Control and Prevention",
+    "type": "Clinical/public-health guidance",
+    "url": "https://www.cdc.gov/flu/treatment/index.html",
+    "year": "2025",
+    "note": "Antivirals work best within 48 hours and are particularly important for severe or high-risk illness."
+  },
+  {
+    "id": "CDC_NASAL_RINSE",
+    "title": "How to safely rinse sinuses",
+    "organisation": "US Centers for Disease Control and Prevention",
+    "type": "Safety guidance",
+    "url": "https://www.cdc.gov/naegleria/prevention/sinus-rinsing.html",
+    "year": "2025",
+    "note": "Use distilled, sterile, or boiled and cooled water; never straight tap water."
+  },
+  {
+    "id": "FDA_NETI",
+    "title": "Is rinsing your sinuses with neti pots safe?",
+    "organisation": "US Food and Drug Administration",
+    "type": "Safety guidance",
+    "url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+    "year": "2025",
+    "note": "Safe water, device cleaning and correct technique."
+  },
+  {
+    "id": "MAYO_HUMIDIFIER",
+    "title": "Humidifiers: ease skin, breathing symptoms",
+    "organisation": "Mayo Clinic",
+    "type": "Clinical consumer guidance",
+    "url": "https://www.mayoclinic.org/diseases-conditions/common-cold/in-depth/humidifiers/art-20048021",
+    "year": "2023",
+    "note": "Aim for 30\u201350% indoor humidity and clean devices to prevent mould/bacterial exposure."
+  }
+]

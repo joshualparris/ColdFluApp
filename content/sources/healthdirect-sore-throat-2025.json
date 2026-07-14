@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-sore-throat-2025",
+  "type": "guideline",
+  "title": "Sore throat (pharyngitis) - symptoms, treatments and causes",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2025-04-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/sore-throat",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance used for expected course, self-care, escalation signals and local support pathways. The page says it was last reviewed in April 2025; day precision is not supplied, so the stored date is a metadata convention that must be revisited before publication."
+}

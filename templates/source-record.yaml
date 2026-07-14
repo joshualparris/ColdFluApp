@@ -1,0 +1,16 @@
+id: replace-with-stable-source-id
+type: guideline
+title: Exact document title
+authorsOrOrganisation: []
+publication: null
+publishedAt: null
+updatedAt: null
+doi: null
+url: https://example.invalid/exact-document
+accessedAt: null
+jurisdiction: null
+language: en
+peerReviewed: false
+retractedOrCorrected: false
+notes: Do not use this placeholder record as a real source.
+

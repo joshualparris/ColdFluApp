@@ -1,0 +1,81 @@
+{
+  "id": 4,
+  "slug": "fever",
+  "section": "A. Symptoms",
+  "title": "Fever",
+  "summary": "Fever is part of the immune response and does not need treatment solely because the number is above normal. Treat discomfort, watch hydration and behaviour, and use age-specific thresholds for escalation.",
+  "evidenceSnapshot": "Paracetamol and ibuprofen reduce fever and discomfort but do not cure the infection. The person's breathing, alertness and hydration are usually more important than the exact temperature, except in young infants.",
+  "interventions": [
+    {
+      "name": "Fluids and light clothing",
+      "evidence": "Strong",
+      "finding": "Reduces dehydration risk and avoids unnecessary overheating.",
+      "practical": "Offer frequent small drinks; continue breastfeeding. Dress comfortably rather than bundling up.",
+      "mechanism": "Replaces fluid lost through sweating and faster breathing.",
+      "cautions": "Do not force excessive plain water in infants."
+    },
+    {
+      "name": "Paracetamol for discomfort",
+      "evidence": "Strong",
+      "finding": "Reduces pain and fever; use for comfort rather than chasing a normal number.",
+      "practical": "Follow age/weight instructions. Adults: maximum 1 g every 4–6 hours and 4 g/day unless a clinician gives a lower limit.",
+      "mechanism": "Central antipyretic and analgesic effect.",
+      "cautions": "Overdose can cause fatal liver injury."
+    },
+    {
+      "name": "Ibuprofen for discomfort",
+      "evidence": "Strong",
+      "finding": "Reduces fever, pain and inflammation.",
+      "practical": "Use only when age-appropriate and well hydrated; follow the label.",
+      "mechanism": "Prostaglandin inhibition.",
+      "cautions": "Avoid in babies 3 months or younger; seek advice with dehydration, kidney disease, ulcers, some asthma or pregnancy."
+    },
+    {
+      "name": "Tepid sponging or cold baths",
+      "evidence": "Weak-or-mixed",
+      "finding": "Usually adds discomfort and shivering without meaningful benefit.",
+      "practical": "Prefer comfortable room temperature and light clothing.",
+      "mechanism": "External cooling may trigger vasoconstriction and shivering.",
+      "cautions": "Never use alcohol rubs."
+    }
+  ],
+  "practicalSteps": [
+    "Check temperature with a reliable digital thermometer.",
+    "Record time, temperature, medicines and fluid intake when monitoring a child.",
+    "Focus on breathing, responsiveness, urine output and ability to drink.",
+    "Let the person sleep unless there is a reason to assess them."
+  ],
+  "avoidOrCare": [
+    "A baby under 3 months with temperature 38°C or higher needs immediate emergency assessment.",
+    "Do not alternate paracetamol and ibuprofen routinely without a clear dosing plan from a clinician.",
+    "Aspirin should not be given to children for viral illness."
+  ],
+  "myths": [
+    {
+      "claim": "You must sweat out a fever.",
+      "reality": "Overheating increases discomfort and dehydration and does not remove the virus."
+    },
+    {
+      "claim": "Starve a fever.",
+      "reality": "There is no evidence for deliberate fasting. Fluids matter most; food can follow appetite."
+    }
+  ],
+  "redFlags": [
+    "Baby under 3 months with 38°C or higher",
+    "Difficulty breathing, confusion, marked drowsiness or seizure",
+    "Stiff neck, severe headache, light sensitivity or non-blanching rash",
+    "Persistent vomiting or severe dehydration",
+    "Fever lasting more than 3 days or worsening despite self-care"
+  ],
+  "unsettled": [
+    "Fever reduction may improve comfort but has not been shown to shorten uncomplicated viral illness."
+  ],
+  "sourceIds": [
+    "HD_FEVER",
+    "HD_CHILD_FEVER",
+    "HD_PARACETAMOL",
+    "HD_IBUPROFEN",
+    "HD_DEHYDRATION"
+  ],
+  "reviewDate": "2026-07-15"
+}

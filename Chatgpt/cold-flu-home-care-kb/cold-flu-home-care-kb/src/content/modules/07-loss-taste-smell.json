@@ -1,0 +1,77 @@
+{
+  "id": 7,
+  "slug": "loss-taste-smell",
+  "section": "A. Symptoms",
+  "title": "Loss of taste or smell",
+  "summary": "Temporary smell reduction is common when the nose is blocked, but sudden marked loss without congestion is more suggestive of COVID-19 or another post-viral smell disorder. Taste complaints are often actually reduced smell.",
+  "evidenceSnapshot": "Treating nasal obstruction may restore smell when airflow is the problem. Persistent post-viral loss needs medical review; evidence for supplements and home 'cures' is poor.",
+  "interventions": [
+    {
+      "name": "COVID-19 testing and precautions",
+      "evidence": "Strong",
+      "finding": "Loss of smell/taste can occur with COVID-19; testing and reducing contact protects others.",
+      "practical": "Follow current local testing and isolation advice, especially around vulnerable people.",
+      "mechanism": "Identifies a transmissible cause and guides treatment eligibility.",
+      "cautions": "A negative test early in illness may need repeating according to local advice."
+    },
+    {
+      "name": "Saline for blocked nose",
+      "evidence": "Moderate",
+      "finding": "May improve airflow when loss is caused by congestion.",
+      "practical": "Use spray or safe irrigation.",
+      "mechanism": "Clears mucus and improves access of odour molecules to receptors.",
+      "cautions": "Safe-water rules apply."
+    },
+    {
+      "name": "Smell training for persistent post-viral loss",
+      "evidence": "Moderate",
+      "finding": "Repeated, structured exposure to several distinct odours can support recovery over months.",
+      "practical": "Usually involves smelling four familiar odours twice daily for at least 12 weeks; seek clinician guidance.",
+      "mechanism": "Encourages olfactory neural recovery and relearning.",
+      "cautions": "Do not use irritating chemicals or essential oils inside the nose."
+    },
+    {
+      "name": "Zinc nasal products",
+      "evidence": "Strong",
+      "finding": "Intranasal zinc has been associated with loss of smell and should not be used.",
+      "practical": "—",
+      "mechanism": "—",
+      "cautions": "Avoid."
+    }
+  ],
+  "practicalSteps": [
+    "Check whether the nose is physically blocked.",
+    "Use smoke alarms and check food spoilage because smell loss reduces hazard detection.",
+    "Seek review if loss persists after congestion resolves."
+  ],
+  "avoidOrCare": [
+    "Sudden smell loss with neurological symptoms, head injury or severe headache needs urgent assessment.",
+    "Do not put garlic, oils or caustic substances inside the nose."
+  ],
+  "myths": [
+    {
+      "claim": "Burnt orange or other viral social-media remedies restore smell.",
+      "reality": "There is no reliable evidence that a specific food restores olfactory nerves."
+    },
+    {
+      "claim": "Taste and smell loss always means COVID-19.",
+      "reality": "COVID-19 is one cause; congestion, other viruses, medications, injury and nasal disease can also cause it."
+    }
+  ],
+  "redFlags": [
+    "Loss after head injury",
+    "New weakness, facial droop, confusion or severe headache",
+    "Persistent loss with one-sided blockage, bleeding or weight loss",
+    "Inability to smell gas/smoke creating immediate safety risk"
+  ],
+  "unsettled": [
+    "Optimal smell-training odours, duration and adjunct medicines are still being studied."
+  ],
+  "sourceIds": [
+    "HD_COVID",
+    "HD_BLOCKED",
+    "HD_SINUS",
+    "COCHRANE_ZINC"
+  ],
+  "reviewDate": "2026-07-15"
+}

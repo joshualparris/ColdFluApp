@@ -1,0 +1,77 @@
+{
+  "id": 6,
+  "slug": "sinus-pressure-headache",
+  "section": "A. Symptoms",
+  "title": "Sinus pressure and headache",
+  "summary": "Facial pressure during a cold usually comes from inflamed nasal and sinus lining, not a bacterial infection. Pain relief, saline and short-term congestion treatment can help while monitoring for eye or neurological warning signs.",
+  "evidenceSnapshot": "Analgesics have the clearest evidence for pain. Saline and short-term decongestants may help congestion; antibiotics are not routinely useful for early viral symptoms.",
+  "interventions": [
+    {
+      "name": "Paracetamol or ibuprofen",
+      "evidence": "Strong",
+      "finding": "Reduces headache and facial pain.",
+      "practical": "Follow label and individual safety limits.",
+      "mechanism": "Analgesic and anti-inflammatory effects.",
+      "cautions": "Do not combine duplicate ingredients."
+    },
+    {
+      "name": "Saline spray or rinse",
+      "evidence": "Moderate",
+      "finding": "May loosen mucus and improve drainage and comfort.",
+      "practical": "Use safe water for irrigation and clean the device.",
+      "mechanism": "Mechanical clearance and mucosal hydration.",
+      "cautions": "Stop if it causes persistent ear pain or nosebleeding."
+    },
+    {
+      "name": "Short-term decongestant",
+      "evidence": "Moderate",
+      "finding": "Can reduce pressure when swelling is blocking drainage.",
+      "practical": "Use a topical spray briefly or discuss pseudoephedrine with a pharmacist.",
+      "mechanism": "Reduces mucosal blood-vessel swelling.",
+      "cautions": "Cardiovascular and rebound-congestion cautions apply."
+    },
+    {
+      "name": "Warm compress",
+      "evidence": "Traditional-but-untested",
+      "finding": "May feel soothing over the cheeks or forehead but has not been shown to cure sinusitis.",
+      "practical": "Use comfortably warm, not hot, for 10–15 minutes.",
+      "mechanism": "May relax facial muscles and provide sensory comfort.",
+      "cautions": "Avoid burns and do not delay care for eye symptoms."
+    }
+  ],
+  "practicalSteps": [
+    "Check whether pain worsens when bending forward and whether smell is reduced.",
+    "Use saline first, then any prescribed nasal spray using correct technique.",
+    "Allow 7–10 days for an ordinary viral course while watching the direction of change."
+  ],
+  "avoidOrCare": [
+    "Severe unilateral pain, dental symptoms or repeated episodes may need examination.",
+    "Steroid nasal sprays help allergy/chronic inflammation more than an ordinary cold and are not an instant decongestant."
+  ],
+  "myths": [
+    {
+      "claim": "Any sinus pressure requires antibiotics.",
+      "reality": "Most early sinus symptoms are viral and resolve without antibiotics."
+    },
+    {
+      "claim": "Coloured mucus identifies the germ.",
+      "reality": "Colour reflects inflammation and immune cells more than the specific cause."
+    }
+  ],
+  "redFlags": [
+    "Swollen, red or painful eye; vision change",
+    "Severe headache, neck stiffness, confusion or neurological change",
+    "Severe facial swelling",
+    "Symptoms lasting more than 10 days without improvement, or 'double worsening' after initial improvement"
+  ],
+  "unsettled": [
+    "The exact point at which symptom duration and pattern best predict bacterial sinusitis varies between guidelines."
+  ],
+  "sourceIds": [
+    "HD_SINUS",
+    "HD_BLOCKED",
+    "COCHRANE_SALINE",
+    "HD_ANTIBIOTICS"
+  ],
+  "reviewDate": "2026-07-15"
+}

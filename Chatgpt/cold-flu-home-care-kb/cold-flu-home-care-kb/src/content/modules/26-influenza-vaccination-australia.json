@@ -1,0 +1,68 @@
+{
+  "id": 26,
+  "slug": "influenza-vaccination-australia",
+  "section": "D. Prevention and household",
+  "title": "Influenza vaccination in Australia",
+  "summary": "Annual influenza vaccination is recommended for everyone aged 6 months and older who can receive it. It cannot cause influenza and remains worthwhile even if given after the usual autumn campaign.",
+  "evidenceSnapshot": "Australia updates influenza vaccines each year. The National Immunisation Program funds vaccination for specified groups at higher risk of severe influenza.",
+  "interventions": [
+    {
+      "name": "Annual influenza vaccination",
+      "evidence": "Strong",
+      "finding": "Reduces influenza illness and, importantly, severe disease and complications.",
+      "practical": "Book each year, ideally before influenza activity rises; later vaccination can still protect for the remaining season.",
+      "mechanism": "Induces strain-specific adaptive immunity.",
+      "cautions": "Protection is not immediate and varies with age, health and strain match."
+    },
+    {
+      "name": "Vaccination during pregnancy",
+      "evidence": "Strong",
+      "finding": "Protects the pregnant person and provides antibodies that help protect the infant after birth.",
+      "practical": "Recommended in every pregnancy and can be given at any stage.",
+      "mechanism": "Maternal immune response and transplacental antibodies.",
+      "cautions": "Discuss timing alongside other maternal vaccines."
+    },
+    {
+      "name": "NIP-funded vaccination",
+      "evidence": "Strong",
+      "finding": "Improves access for groups at greater risk of severe influenza.",
+      "practical": "Current funded groups include children 6 months to under 5 years, all adults 65+, Aboriginal and Torres Strait Islander people 6 months+, pregnant people and people with specified medical conditions.",
+      "mechanism": "Publicly funded prevention.",
+      "cautions": "Eligibility and delivery arrangements can change; check the current Australian Immunisation Handbook or health.gov.au."
+    }
+  ],
+  "practicalSteps": [
+    "Ask a GP, pharmacist or immunisation provider which vaccine formulation is appropriate.",
+    "Do not delay solely because autumn has passed; influenza can circulate later.",
+    "Allow about two weeks for the immune response to develop.",
+    "Children receiving influenza vaccine for the first time may need two doses depending on age and history; confirm with the provider."
+  ],
+  "avoidOrCare": [
+    "People with a history of severe allergic reaction to a vaccine component need specialist advice.",
+    "Minor cold symptoms without fever usually do not prevent vaccination, but significant acute illness may justify rescheduling.",
+    "Vaccination does not replace staying home when infectious."
+  ],
+  "myths": [
+    {
+      "claim": "The flu vaccine gives you influenza.",
+      "reality": "Injected influenza vaccines used in Australia do not contain live influenza capable of causing flu."
+    },
+    {
+      "claim": "It is too late once winter starts.",
+      "reality": "Vaccination can still be useful while influenza is circulating, although earlier protection is preferable."
+    }
+  ],
+  "redFlags": [
+    "Signs of anaphylaxis after vaccination — call 000",
+    "A concerning or persistent reaction — contact the vaccination provider or seek medical advice"
+  ],
+  "unsettled": [
+    "Vaccine effectiveness varies each season because circulating strains and population immunity change."
+  ],
+  "sourceIds": [
+    "AU_IMMUNISATION_HANDBOOK",
+    "AU_FLU_VACCINE",
+    "AU_FLU_DISEASE"
+  ],
+  "reviewDate": "2026-07-15"
+}

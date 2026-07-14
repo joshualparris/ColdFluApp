@@ -1,0 +1,88 @@
+{
+  "id": 22,
+  "slug": "asthma-copd-and-respiratory-disease",
+  "section": "C. Special populations",
+  "title": "Asthma, COPD and chronic respiratory disease",
+  "summary": "Viral respiratory infections can trigger an asthma or COPD flare. Follow the existing action plan, continue prescribed preventer treatment and act early when breathing changes.",
+  "evidenceSnapshot": "Reliever and preventer medicines prescribed for the underlying disease are more important than unproven cold remedies. Breathlessness, wheeze or reduced response to reliever medicine lowers the threshold for urgent assessment.",
+  "interventions": [
+    {
+      "name": "Follow the written asthma or COPD action plan",
+      "evidence": "Strong",
+      "finding": "Structured escalation helps recognise and treat a flare early.",
+      "practical": "Use reliever and other action-plan steps exactly as prescribed; check technique and spacer use.",
+      "mechanism": "Bronchodilation and control of airway inflammation.",
+      "cautions": "An action plan is individual; do not copy another person's doses."
+    },
+    {
+      "name": "Continue prescribed preventer medicines",
+      "evidence": "Strong",
+      "finding": "Stopping controller treatment can increase flare risk.",
+      "practical": "Continue inhaled corticosteroids and other regular respiratory medicines unless a clinician advises otherwise.",
+      "mechanism": "Maintains suppression of airway inflammation.",
+      "cautions": "Rinse mouth after inhaled corticosteroids where directed."
+    },
+    {
+      "name": "Influenza vaccination and early antiviral review",
+      "evidence": "Strong",
+      "finding": "Chronic respiratory disease increases influenza complication risk.",
+      "practical": "Have annual vaccination and contact a clinician early for suspected influenza.",
+      "mechanism": "Prevention and early antiviral action.",
+      "cautions": "Vaccination does not treat an existing illness."
+    },
+    {
+      "name": "Saline, fluids and simple analgesia",
+      "evidence": "Moderate",
+      "finding": "Can relieve upper-airway symptoms without stimulating the heart or drying secretions excessively.",
+      "practical": "Use saline products and paracetamol as appropriate; ask before NSAIDs if asthma-sensitive.",
+      "mechanism": "Mechanical clearance, hydration and pain relief.",
+      "cautions": "Some people with asthma react to aspirin or NSAIDs."
+    },
+    {
+      "name": "Steam, menthol and essential oils",
+      "evidence": "Weak-or-mixed",
+      "finding": "May feel soothing but do not treat lower-airway narrowing and can irritate some people.",
+      "practical": "Prefer a warm shower or clean humidifier rather than concentrated vapours.",
+      "mechanism": "Sensory cooling/moisture rather than bronchodilation.",
+      "cautions": "Stop if wheeze, cough or chest tightness worsens; avoid burn risks."
+    }
+  ],
+  "practicalSteps": [
+    "Check inhaler technique and spacer availability before illness worsens.",
+    "Measure peak flow only if it is already part of the action plan.",
+    "Avoid smoke, vaping, aerosols and strong fragrances.",
+    "Seek same-day review if symptoms are moving into the chest or usual control is lost."
+  ],
+  "avoidOrCare": [
+    "Do not rely on cough suppressant or steam instead of asthma/COPD treatment.",
+    "Use beta-blockers, NSAIDs and decongestants only with appropriate clinical context.",
+    "Avoid sedating medicines if breathing is impaired or carbon-dioxide retention is a concern."
+  ],
+  "myths": [
+    {
+      "claim": "Wheezing during a cold is just mucus and will clear with steam.",
+      "reality": "It may be airway narrowing that needs reliever treatment and medical review."
+    },
+    {
+      "claim": "Preventer inhalers should be stopped during an infection.",
+      "reality": "They are generally continued; stopping them can worsen control."
+    }
+  ],
+  "redFlags": [
+    "Severe breathlessness, inability to speak full sentences, blue lips, exhaustion or confusion — call 000",
+    "Reliever inhaler not lasting or not helping as the action plan predicts",
+    "Marked chest tightness, rapidly falling peak flow or increasing work of breathing",
+    "COPD flare with new confusion, drowsiness, chest pain or significant change in sputum"
+  ],
+  "unsettled": [
+    "The value of home pulse-oximetry varies; readings can be inaccurate and should not override symptoms or an action plan."
+  ],
+  "sourceIds": [
+    "HD_FLU",
+    "HD_COUGH",
+    "HD_MEDICINES",
+    "AU_IMMUNISATION_HANDBOOK",
+    "CDC_FLU_ANTIVIRALS"
+  ],
+  "reviewDate": "2026-07-15"
+}

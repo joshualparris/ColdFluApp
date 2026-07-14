@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nice-acute-sore-throat-ng84",
+  "type": "guideline",
+  "title": "Sore throat (acute): antimicrobial prescribing (NG84)",
+  "authorsOrOrganisation": ["National Institute for Health and Care Excellence"],
+  "publication": "NICE guideline NG84",
+  "publishedAt": "2018-01-26",
+  "updatedAt": "2023-02-01",
+  "doi": null,
+  "url": "https://www.nice.org.uk/guidance/ng84",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GB",
+  "language": "en-GB",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Evidence-based guideline used for illness course, analgesia, medicated lozenges, evidence gaps and antibiotic stewardship. UK prescribing specifics are not transferred into Australian guidance. Month-only update metadata is stored as the first day and must be checked before publication."
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://coldfluresearch.example/schemas/source.schema.json",
+  "title": "Cold & Flu Research Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "type", "title", "authorsOrOrganisation", "publication", "publishedAt", "updatedAt", "doi", "url", "accessedAt", "jurisdiction", "language", "peerReviewed", "retractedOrCorrected", "notes"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "type": { "enum": ["guideline", "systematic_review", "meta_analysis", "rct", "observational", "regulator", "product_information", "textbook", "other"] },
+    "title": { "type": "string", "minLength": 1 },
+    "authorsOrOrganisation": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "publication": { "type": ["string", "null"] },
+    "publishedAt": { "anyOf": [{ "type": "string", "format": "date" }, { "type": "null" }] },
+    "updatedAt": { "anyOf": [{ "type": "string", "format": "date" }, { "type": "null" }] },
+    "doi": { "type": ["string", "null"] },
+    "url": { "type": "string", "format": "uri" },
+    "accessedAt": { "type": "string", "format": "date" },
+    "jurisdiction": { "type": "string", "pattern": "^(GLOBAL|[A-Z]{2})$" },
+    "language": { "type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+    "peerReviewed": { "type": "boolean" },
+    "retractedOrCorrected": { "type": "boolean" },
+    "notes": { "type": "string", "minLength": 1 }
+  }
+}

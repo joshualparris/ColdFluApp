@@ -1,0 +1,83 @@
+{
+  "id": 16,
+  "slug": "lozenges-throat-sprays",
+  "section": "B. Interventions",
+  "title": "Lozenges and throat sprays",
+  "summary": "Lozenges and sprays can provide short-term sore-throat relief but do not treat the underlying virus. Ingredient choice matters because anaesthetics, anti-inflammatories, antiseptics and zinc have different benefits and risks.",
+  "evidenceSnapshot": "Local symptom relief is plausible and supported for some medicated products, but effects are temporary and formulation-specific.",
+  "interventions": [
+    {
+      "name": "Simple soothing lozenges",
+      "evidence": "Moderate",
+      "finding": "Increase saliva and reduce dryness and irritation.",
+      "practical": "Use as directed; sugar-free options reduce dental exposure.",
+      "mechanism": "Saliva lubricates irritated tissue.",
+      "cautions": "Choking risk in young children."
+    },
+    {
+      "name": "Local anaesthetic lozenges/sprays",
+      "evidence": "Moderate",
+      "finding": "Can numb pain for a limited period.",
+      "practical": "Use label frequency and avoid eating immediately if swallowing feels numb.",
+      "mechanism": "Blocks local nerve conduction.",
+      "cautions": "Overuse can irritate tissue or impair safe swallowing."
+    },
+    {
+      "name": "Anti-inflammatory lozenges",
+      "evidence": "Moderate",
+      "finding": "Some ingredients such as flurbiprofen can reduce throat pain.",
+      "practical": "Ask a pharmacist if NSAIDs are unsafe for you.",
+      "mechanism": "Local NSAID effect.",
+      "cautions": "NSAID cautions still apply."
+    },
+    {
+      "name": "Antiseptic products",
+      "evidence": "Weak-or-mixed",
+      "finding": "May reduce microbes in the mouth but have not been shown to cure a viral sore throat.",
+      "practical": "Use for comfort, not as an antibiotic substitute.",
+      "mechanism": "Local antiseptic action.",
+      "cautions": "Allergy and irritation possible."
+    },
+    {
+      "name": "Zinc lozenges",
+      "evidence": "Weak-or-mixed",
+      "finding": "May shorten a cold in some trials but causes taste disturbance and nausea; optimal formulation is uncertain.",
+      "practical": "See the natural-remedies module.",
+      "mechanism": "Possible local antiviral effect.",
+      "cautions": "Do not use intranasal zinc."
+    }
+  ],
+  "practicalSteps": [
+    "Match the product to the symptom: soothing, numbing or anti-inflammatory.",
+    "Check age restrictions and active ingredients.",
+    "Use pain relief and fluids as the foundation rather than stacking many throat products."
+  ],
+  "avoidOrCare": [
+    "Do not give hard lozenges to children who cannot manage them safely.",
+    "Persistent severe throat pain despite numbing needs assessment."
+  ],
+  "myths": [
+    {
+      "claim": "Antiseptic lozenges sterilise the throat.",
+      "reality": "The throat cannot be safely sterilised, and most sore throats are viral."
+    },
+    {
+      "claim": "If numbness is stronger, the product is treating the cause.",
+      "reality": "Numbness is symptom relief only."
+    }
+  ],
+  "redFlags": [
+    "Difficulty swallowing saliva or breathing",
+    "New swelling of lips/tongue or wheeze",
+    "Severe one-sided pain or neck swelling"
+  ],
+  "unsettled": [
+    "Head-to-head evidence between common Australian lozenge ingredients is limited."
+  ],
+  "sourceIds": [
+    "HD_SORE",
+    "HD_MEDICINES",
+    "COCHRANE_ZINC"
+  ],
+  "reviewDate": "2026-07-15"
+}

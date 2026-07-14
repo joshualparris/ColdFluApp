@@ -1,0 +1,85 @@
+{
+  "id": 25,
+  "slug": "immune-supporting-lifestyle",
+  "section": "D. Prevention and household",
+  "title": "Sleep, exercise, stress and immune-supporting habits",
+  "summary": "There is no instant way to 'boost' immunity, but sleep, vaccination, adequate nutrition, regular activity and avoiding smoke support normal immune function over time. During acute illness, recovery and safety take priority over fitness goals.",
+  "evidenceSnapshot": "These lifestyle factors have stronger evidence for general health and infection resilience than most marketed immune supplements. Effects are gradual and do not replace vaccination, testing or treatment.",
+  "interventions": [
+    {
+      "name": "Consistent adequate sleep",
+      "evidence": "Strong",
+      "finding": "Supports immune regulation and recovery; chronic sleep restriction is associated with greater infection susceptibility.",
+      "practical": "Protect a regular sleep opportunity, reduce late alcohol and share overnight caregiving when possible.",
+      "mechanism": "Sleep coordinates immune signalling and tissue recovery.",
+      "cautions": "Acute symptoms may fragment sleep; focus on opportunity and comfort rather than perfect metrics."
+    },
+    {
+      "name": "Regular moderate physical activity",
+      "evidence": "Strong",
+      "finding": "Improves cardiometabolic health and is associated with better immune function over time.",
+      "practical": "Resume gently after fever and significant systemic symptoms have resolved.",
+      "mechanism": "Improves circulation, metabolic health and immune surveillance.",
+      "cautions": "Avoid hard training with fever, chest symptoms, severe fatigue or dehydration."
+    },
+    {
+      "name": "Adequate energy, protein and micronutrients",
+      "evidence": "Strong",
+      "finding": "Prevents deficiency-related impairment of normal immune function.",
+      "practical": "Eat a varied diet; use supplements to correct a documented or likely deficiency rather than megadosing.",
+      "mechanism": "Provides substrates for immune cells and recovery.",
+      "cautions": "High-dose supplements can cause toxicity and interactions."
+    },
+    {
+      "name": "Stress regulation and social support",
+      "evidence": "Moderate",
+      "finding": "Chronic stress can impair sleep, health behaviours and aspects of immune regulation.",
+      "practical": "Use brief breathing, daylight, practical help and compassionate expectations while sick.",
+      "mechanism": "Reduces sustained stress activation and supports adherence.",
+      "cautions": "Not a cure and not grounds for blaming someone whose illness persists."
+    },
+    {
+      "name": "Avoid smoking and vaping",
+      "evidence": "Strong",
+      "finding": "Reduces airway irritation and long-term respiratory risk.",
+      "practical": "Keep the home and car smoke-free.",
+      "mechanism": "Protects mucociliary function and airway tissue.",
+      "cautions": "Seek cessation support rather than relying on willpower alone."
+    }
+  ],
+  "practicalSteps": [
+    "Prioritise one extra sleep opportunity rather than buying an 'immune' product.",
+    "Eat simple foods with carbohydrate, protein and fruit or vegetables as appetite allows.",
+    "Use daylight and gentle movement once improving to re-establish rhythm.",
+    "Return to exercise progressively after fever, chest symptoms and marked fatigue settle."
+  ],
+  "avoidOrCare": [
+    "Do not exercise hard to 'sweat out' a fever.",
+    "Avoid mega-dose vitamin C, zinc or vitamin D without a clear reason.",
+    "Avoid interpreting stress or attitude as the cause of infection or failed recovery."
+  ],
+  "myths": [
+    {
+      "claim": "You can boost the immune system overnight.",
+      "reality": "Immune function is complex; healthy routines support it, but no food or supplement provides instant broad protection."
+    },
+    {
+      "claim": "Sweating or intense exercise clears a virus faster.",
+      "reality": "It can worsen dehydration and strain the body while systemically unwell."
+    }
+  ],
+  "redFlags": [
+    "Chest pain, fainting, unusual breathlessness or palpitations during return to exercise",
+    "Severe fatigue that persists or worsens well beyond the acute illness",
+    "Signs of disordered supplement use or possible overdose"
+  ],
+  "unsettled": [
+    "Associations between lifestyle factors and infection risk do not always prove a specific causal effect or predict benefit from changing one factor during an existing cold."
+  ],
+  "sourceIds": [
+    "NCCIH_COMPLEMENTARY",
+    "AU_FLU_DISEASE",
+    "HD_FLU"
+  ],
+  "reviewDate": "2026-07-15"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 24,
+  "slug": "household-hygiene-and-transmission",
+  "section": "D. Prevention and household",
+  "title": "Household hygiene and reducing spread",
+  "summary": "Respiratory viruses mainly spread through shared air and close contact, with hands and contaminated surfaces also contributing. Layer a few realistic measures rather than trying to sterilise the whole house.",
+  "evidenceSnapshot": "Staying home while acutely unwell, improving ventilation, covering coughs, handwashing and masking during close indoor contact are practical evidence-based measures.",
+  "interventions": [
+    {
+      "name": "Stay home and reduce close contact while acutely unwell",
+      "evidence": "Strong",
+      "finding": "Reduces opportunities to transmit infection.",
+      "practical": "Avoid work, school and vulnerable visitors while feverish or clearly infectious; follow current public-health advice.",
+      "mechanism": "Reduces exposure dose and contact events.",
+      "cautions": "Caregivers may still need close contact; add ventilation, hand hygiene and a well-fitting mask."
+    },
+    {
+      "name": "Ventilation and outdoor air",
+      "evidence": "Strong",
+      "finding": "Dilutes airborne virus particles indoors.",
+      "practical": "Open suitable windows/doors, use exhaust fans and prefer outdoor or larger rooms when practical.",
+      "mechanism": "Air exchange lowers particle concentration.",
+      "cautions": "Balance with weather, smoke, security and child safety."
+    },
+    {
+      "name": "Well-fitting masks in close indoor contact",
+      "evidence": "Strong",
+      "finding": "Reduce emission and inhalation of respiratory particles.",
+      "practical": "Use the best-fitting mask the person can tolerate, especially around vulnerable household members.",
+      "mechanism": "Filtration and source control.",
+      "cautions": "Replace wet or soiled masks; children require age-appropriate supervision."
+    },
+    {
+      "name": "Handwashing",
+      "evidence": "Strong",
+      "finding": "Reduces transfer from hands to eyes, nose, mouth and shared objects.",
+      "practical": "Wash with soap and water for about 20 seconds, especially after nose-blowing and before food preparation.",
+      "mechanism": "Soap lifts and disrupts microbes; rinsing removes them.",
+      "cautions": "Alcohol hand rub is useful when hands are not visibly dirty."
+    },
+    {
+      "name": "High-touch surface cleaning",
+      "evidence": "Moderate",
+      "finding": "Can reduce indirect transmission, especially in shared bathrooms and kitchens.",
+      "practical": "Clean visibly dirty and frequently touched surfaces with ordinary detergent; disinfect when indicated.",
+      "mechanism": "Removes or inactivates virus on surfaces.",
+      "cautions": "Do not mix cleaning chemicals; ventilation matters more than obsessive whole-house disinfection."
+    }
+  ],
+  "practicalSteps": [
+    "Give the sick person their own towel, drink bottle and toothbrush.",
+    "Place tissues and a bin near the resting area; wash hands after handling them.",
+    "Ventilate the main shared room and bathroom.",
+    "Avoid sharing food utensils before they are washed.",
+    "Clean phones, remote controls, taps, handles and bathroom surfaces routinely."
+  ],
+  "avoidOrCare": [
+    "Do not spray disinfectant into the air or onto skin.",
+    "Do not mix bleach with ammonia, acids or other cleaners.",
+    "Avoid rigid isolation that is unsafe or emotionally harmful for a young child; use layered risk reduction instead."
+  ],
+  "myths": [
+    {
+      "claim": "Every surface must be disinfected constantly.",
+      "reality": "Shared air and close contact are major routes; targeted cleaning plus ventilation and hand hygiene is more proportionate."
+    },
+    {
+      "claim": "Being cold causes a cold.",
+      "reality": "Viruses cause colds; seasonal indoor crowding and environmental factors can affect transmission, but temperature alone is not the infection."
+    }
+  ],
+  "redFlags": [
+    "A vulnerable household member develops symptoms — seek early medical advice",
+    "The caregiver becomes too unwell to provide safe care",
+    "Use of cleaning products causes breathing difficulty, eye injury or poisoning — move to fresh air and seek urgent advice"
+  ],
+  "unsettled": [
+    "The relative contribution of aerosols, droplets and surfaces varies by virus, setting and behaviour; layered controls remain more reliable than a single measure."
+  ],
+  "sourceIds": [
+    "AU_FLU_DISEASE",
+    "HD_HANDWASH",
+    "HD_FLU",
+    "HD_COVID"
+  ],
+  "reviewDate": "2026-07-15"
+}

@@ -1,0 +1,77 @@
+{
+  "id": 9,
+  "slug": "hydration",
+  "section": "B. Interventions",
+  "title": "Hydration",
+  "summary": "Hydration prevents dehydration and can make thick secretions easier to manage, but drinking beyond thirst does not flush out viruses or dramatically shorten a cold. The goal is normal hydration, not forced litres of fluid.",
+  "evidenceSnapshot": "Strong physiological rationale for replacing fluid losses; limited direct evidence that extra fluid changes cold duration.",
+  "interventions": [
+    {
+      "name": "Water and usual fluids",
+      "evidence": "Strong",
+      "finding": "Maintains circulation, urine output and mucosal moisture.",
+      "practical": "Drink to thirst and take extra small amounts with fever, sweating, vomiting or poor intake.",
+      "mechanism": "Replaces fluid losses.",
+      "cautions": "People with heart failure, kidney disease or fluid restrictions need individual advice."
+    },
+    {
+      "name": "Warm drinks and soup",
+      "evidence": "Moderate",
+      "finding": "Can soothe the throat, provide fluid and make nasal airflow feel easier.",
+      "practical": "Choose low-salt options when sodium restriction matters.",
+      "mechanism": "Warmth and sensory effects may reduce discomfort.",
+      "cautions": "Very salty soups can be unsuitable for some heart or kidney conditions."
+    },
+    {
+      "name": "Oral rehydration solution",
+      "evidence": "Strong",
+      "finding": "Useful when vomiting, diarrhoea or poor intake causes meaningful fluid and electrolyte loss.",
+      "practical": "Use a commercial oral rehydration product mixed exactly as directed.",
+      "mechanism": "Provides glucose and electrolytes in a ratio that supports intestinal absorption.",
+      "cautions": "Sports drinks and juice are not equivalent for significant dehydration."
+    },
+    {
+      "name": "Excessive forced water",
+      "evidence": "Strong",
+      "finding": "Does not cure infection and can rarely cause dangerous low sodium.",
+      "practical": "Use thirst, urine colour and output as guides rather than a fixed high target.",
+      "mechanism": "—",
+      "cautions": "Higher risk in endurance athletes, kidney disease and people taking some medicines."
+    }
+  ],
+  "practicalSteps": [
+    "Aim for pale-yellow urine and regular urination.",
+    "Offer small frequent drinks rather than a large glass when nauseated.",
+    "For children, count wet nappies and watch tears, mouth moisture and alertness.",
+    "Add fluid through ice blocks, soup or fruit when plain water is unappealing."
+  ],
+  "avoidOrCare": [
+    "Severe dehydration may require urgent medical treatment, not just more home fluids.",
+    "Dry mouth alone can also result from mouth breathing or medicines."
+  ],
+  "myths": [
+    {
+      "claim": "Eight or more glasses will flush the virus out.",
+      "reality": "Normal hydration supports body function; the immune system clears the virus."
+    },
+    {
+      "claim": "Milk creates mucus.",
+      "reality": "Milk can leave a temporary coating sensation but has not been shown to increase respiratory mucus production."
+    }
+  ],
+  "redFlags": [
+    "Very little or no urine",
+    "Sunken eyes, cold hands/feet, fast breathing or fast heart rate",
+    "Confusion, marked drowsiness or inability to drink",
+    "Infant with fewer wet nappies, no tears or sunken fontanelle"
+  ],
+  "unsettled": [
+    "Trials have not established an ideal fluid volume specifically for uncomplicated colds."
+  ],
+  "sourceIds": [
+    "HD_DEHYDRATION",
+    "HD_CHILD_COLDS",
+    "HD_COLDS"
+  ],
+  "reviewDate": "2026-07-15"
+}

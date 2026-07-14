@@ -1,0 +1,82 @@
+{
+  "id": 21,
+  "slug": "older-adults-and-immunocompromised",
+  "section": "C. Special populations",
+  "title": "Older adults and immunocompromised people",
+  "summary": "People who are older or immunocompromised have a lower margin for dehydration, pneumonia and medication side effects. Seek advice earlier rather than relying on symptom severity alone.",
+  "evidenceSnapshot": "Early testing and prescription antiviral assessment can matter for influenza or COVID-19. Medication review is essential because sedatives, anticholinergics, NSAIDs and decongestants can cause disproportionate harm.",
+  "interventions": [
+    {
+      "name": "Early clinical contact for flu-like illness",
+      "evidence": "Strong",
+      "finding": "High-risk people may benefit from early testing, monitoring and antiviral treatment.",
+      "practical": "Contact a GP or urgent-care service promptly, particularly within the first 48 hours of influenza symptoms.",
+      "mechanism": "Earlier treatment can limit viral replication and complications.",
+      "cautions": "Do not wait for severe fever; older adults may have muted fever responses."
+    },
+    {
+      "name": "Hydration and intake monitoring",
+      "evidence": "Strong",
+      "finding": "Prevents or identifies dehydration, which can worsen confusion, kidney function and falls.",
+      "practical": "Offer regular fluids if not fluid-restricted; track intake, urine and alertness.",
+      "mechanism": "Maintains circulation and renal function.",
+      "cautions": "People with heart or kidney failure need an individual fluid plan."
+    },
+    {
+      "name": "Medication reconciliation",
+      "evidence": "Strong",
+      "finding": "Reduces duplicate ingredients, interactions and adverse effects.",
+      "practical": "Use one written list and ask a pharmacist to review cold-and-flu choices.",
+      "mechanism": "Avoids additive pharmacological effects.",
+      "cautions": "Extra caution with anticoagulants, sedatives, blood-pressure medicines, kidney disease and glaucoma."
+    },
+    {
+      "name": "Vaccination and household prevention",
+      "evidence": "Strong",
+      "finding": "Influenza vaccination and practical infection-control measures reduce risk of severe disease and transmission.",
+      "practical": "Annual influenza vaccination and current recommended COVID vaccination; improve ventilation and avoid close contact when ill.",
+      "mechanism": "Primes immune responses and reduces exposure.",
+      "cautions": "Immune response may be weaker but vaccination still provides important protection."
+    }
+  ],
+  "practicalSteps": [
+    "Record baseline cognition, mobility, temperature, breathing and fluid intake so changes are noticeable.",
+    "Arrange someone to check in if the person lives alone.",
+    "Keep a pulse oximeter only if a clinician has explained how to interpret it; symptoms still matter.",
+    "Have an up-to-date medicine and allergy list ready for telehealth or urgent care."
+  ],
+  "avoidOrCare": [
+    "Avoid sedating antihistamines unless specifically advised; they can cause confusion, urinary retention and falls.",
+    "Avoid NSAIDs without advice in kidney disease, dehydration, ulcers, anticoagulant use or heart failure.",
+    "Avoid decongestants with uncontrolled hypertension, arrhythmia or urinary retention.",
+    "Do not assume absence of fever means absence of serious infection."
+  ],
+  "myths": [
+    {
+      "claim": "It is safe to watch and wait until an older person develops a high fever.",
+      "reality": "Serious infection may present with weakness, confusion, falls or reduced intake without a dramatic fever."
+    },
+    {
+      "claim": "OTC means low-risk.",
+      "reality": "Common cold medicines can interact with regular medicines and worsen cognition, blood pressure, kidneys or bladder function."
+    }
+  ],
+  "redFlags": [
+    "New confusion, collapse, marked weakness or inability to manage usual activities",
+    "Breathlessness, chest pain, blue lips, oxygen level below the person's clinician-set threshold or rapid deterioration",
+    "Very low intake, little urine, dizziness or inability to keep medicines down",
+    "Fever or respiratory symptoms after transplant, chemotherapy, high-dose steroids or another major immune-suppressing treatment"
+  ],
+  "unsettled": [
+    "Exact thresholds for antiviral treatment depend on the cause, immune condition, local circulation and current Australian guidance; individual assessment is required."
+  ],
+  "sourceIds": [
+    "HD_FLU",
+    "HD_COVID",
+    "HD_DEHYDRATION",
+    "HD_MEDICINES",
+    "CDC_FLU_ANTIVIRALS",
+    "AU_IMMUNISATION_HANDBOOK"
+  ],
+  "reviewDate": "2026-07-15"
+}

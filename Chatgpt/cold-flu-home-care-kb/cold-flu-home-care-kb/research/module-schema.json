@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cold and flu knowledge module",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "section",
+    "title",
+    "summary",
+    "evidenceSnapshot",
+    "interventions",
+    "practicalSteps",
+    "avoidOrCare",
+    "myths",
+    "redFlags",
+    "unsettled",
+    "sourceIds",
+    "reviewDate"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "section": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "evidenceSnapshot": {
+      "type": "string"
+    },
+    "interventions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "evidence",
+          "finding",
+          "practical",
+          "mechanism",
+          "cautions"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "evidence": {
+            "enum": [
+              "Strong",
+              "Moderate",
+              "Weak-or-mixed",
+              "Traditional-but-untested"
+            ]
+          },
+          "finding": {
+            "type": "string"
+          },
+          "practical": {
+            "type": "string"
+          },
+          "mechanism": {
+            "type": "string"
+          },
+          "cautions": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "practicalSteps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "avoidOrCare": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "myths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "reality"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "reality": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "redFlags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unsettled": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "comparisonRows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

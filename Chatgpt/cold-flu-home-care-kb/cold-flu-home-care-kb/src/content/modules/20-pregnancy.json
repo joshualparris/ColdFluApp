@@ -1,0 +1,89 @@
+{
+  "id": 20,
+  "slug": "pregnancy",
+  "section": "C. Special populations",
+  "title": "Pregnancy",
+  "summary": "Pregnancy changes both influenza risk and medicine choices. Use the fewest medicines needed, check active ingredients, and seek early medical advice for suspected influenza or significant breathing symptoms.",
+  "evidenceSnapshot": "Paracetamol is generally the preferred medicine for pain or fever in pregnancy when used as directed. Influenza antivirals are most useful when started early, and pregnancy is a recognised higher-risk state.",
+  "interventions": [
+    {
+      "name": "Rest, fluids, saline spray and warm drinks",
+      "evidence": "Moderate",
+      "finding": "Low-risk measures can ease congestion, throat discomfort and dehydration.",
+      "practical": "Use sterile commercial saline or correctly prepared rinse water; drink to thirst.",
+      "mechanism": "Hydration, mechanical clearance and soothing.",
+      "cautions": "Avoid burns from steam and avoid assuming herbal products are pregnancy-safe."
+    },
+    {
+      "name": "Paracetamol",
+      "evidence": "Strong",
+      "finding": "Relieves fever and pain and is generally considered suitable in pregnancy at recommended doses.",
+      "practical": "Use the lowest effective dose for the shortest necessary time and check combination products.",
+      "mechanism": "Analgesic and antipyretic.",
+      "cautions": "Seek advice if fever persists or frequent dosing is needed; overdose can seriously injure the liver."
+    },
+    {
+      "name": "Ibuprofen and other NSAIDs",
+      "evidence": "Weak-or-mixed",
+      "finding": "They are not routine first-line cold/flu medicines in pregnancy and may be harmful at some stages, particularly later pregnancy.",
+      "practical": "Use only if a clinician who knows the pregnancy recommends it.",
+      "mechanism": "Reduces prostaglandins.",
+      "cautions": "Risks vary by gestation and maternal conditions."
+    },
+    {
+      "name": "Decongestants",
+      "evidence": "Weak-or-mixed",
+      "finding": "Systemic decongestants have cardiovascular effects and limited pregnancy safety certainty; saline is preferred.",
+      "practical": "Ask a pharmacist, GP or obstetric clinician before oral or medicated nasal decongestants.",
+      "mechanism": "Vasoconstriction reduces nasal swelling.",
+      "cautions": "Extra caution with hypertension, palpitations, placental problems or interacting medicines."
+    },
+    {
+      "name": "Prescription influenza antivirals",
+      "evidence": "Strong",
+      "finding": "Early treatment can reduce influenza severity and complications; pregnancy is a high-risk group in whom prompt assessment is important.",
+      "practical": "Contact a clinician promptly when influenza is suspected rather than waiting several days.",
+      "mechanism": "Inhibits influenza viral replication.",
+      "cautions": "Prescription-only; dosing and choice require clinical assessment."
+    }
+  ],
+  "practicalSteps": [
+    "Check every ingredient in a cold-and-flu product rather than relying on the brand name.",
+    "Tell the pharmacist the gestational week and all medicines and supplements being used.",
+    "Test for COVID-19 or influenza when advised, especially with fever, marked aches or exposure.",
+    "Keep taking prescribed asthma or other chronic-disease medicines unless the treating clinician advises a change."
+  ],
+  "avoidOrCare": [
+    "Avoid multi-ingredient products unless each ingredient is needed and confirmed appropriate.",
+    "Do not use herbal remedies, high-dose vitamins or essential oils internally simply because they are 'natural'.",
+    "Avoid overheating, dehydration and delaying assessment for breathlessness or reduced fetal movement."
+  ],
+  "myths": [
+    {
+      "claim": "No medicine at all is safer than treating a fever.",
+      "reality": "Untreated significant fever can also matter; paracetamol is generally preferred when needed, alongside clinical advice."
+    },
+    {
+      "claim": "Natural cold remedies are automatically safe in pregnancy.",
+      "reality": "Many have limited pregnancy data, variable ingredients and possible interactions."
+    }
+  ],
+  "redFlags": [
+    "Breathing difficulty, chest pain, fainting, blue lips or severe wheeze",
+    "Persistent high fever, inability to keep fluids down or signs of dehydration",
+    "Reduced fetal movement, contractions, bleeding or any obstetric concern",
+    "Rapid deterioration or suspected influenza in someone with additional risk factors"
+  ],
+  "unsettled": [
+    "Pregnancy safety data are sparse for many complementary products and some OTC decongestants; absence of evidence is not evidence of safety."
+  ],
+  "sourceIds": [
+    "HD_PREGNANCY",
+    "HD_PREG_MEDS",
+    "HD_MEDICINES",
+    "HD_FLU",
+    "CDC_FLU_ANTIVIRALS",
+    "AU_FLU_VACCINE"
+  ],
+  "reviewDate": "2026-07-15"
+}

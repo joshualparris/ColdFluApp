@@ -1,0 +1,81 @@
+{
+  "id": 12,
+  "slug": "nutrition",
+  "section": "B. Interventions",
+  "title": "Nutrition during illness",
+  "summary": "There is no special diet that cures a cold or influenza. Eat according to appetite, prioritising fluids, easy-to-tolerate foods, protein and overall nutritional adequacy.",
+  "evidenceSnapshot": "Evidence for chicken soup or individual foods changing disease duration is weak. Adequate nutrition matters most when intake is poor or deficiency exists.",
+  "interventions": [
+    {
+      "name": "Normal balanced food as tolerated",
+      "evidence": "Strong",
+      "finding": "Supports energy, protein and micronutrient needs without requiring a special protocol.",
+      "practical": "Use small meals: soup, oats, toast, rice, fruit, vegetables, eggs, legumes or other tolerated protein.",
+      "mechanism": "Provides substrates for immune and tissue function.",
+      "cautions": "Adjust for allergies, swallowing problems and medical diets."
+    },
+    {
+      "name": "Chicken or vegetable soup",
+      "evidence": "Traditional-but-untested",
+      "finding": "Provides fluid, salt, energy and comfort; limited laboratory or small human studies do not prove a clinical cure.",
+      "practical": "Choose a nourishing soup with vegetables and protein.",
+      "mechanism": "Warmth, hydration and aroma may improve comfort.",
+      "cautions": "Watch sodium if medically restricted."
+    },
+    {
+      "name": "Protein-rich foods",
+      "evidence": "Moderate",
+      "finding": "Helpful when illness reduces intake, particularly for older or frail people.",
+      "practical": "Include a tolerated protein source at meals or snacks.",
+      "mechanism": "Supports muscle maintenance and immune proteins.",
+      "cautions": "Supplements are not automatically necessary."
+    },
+    {
+      "name": "Alcohol",
+      "evidence": "Strong",
+      "finding": "Can worsen sleep, dehydration, reflux and medicine side effects.",
+      "practical": "Skip alcohol while significantly unwell or taking sedating/interactive medicines.",
+      "mechanism": "—",
+      "cautions": "Increases risk with paracetamol misuse and sedatives."
+    }
+  ],
+  "practicalSteps": [
+    "Prioritise drinking if appetite is low for a day or two.",
+    "Use bland, soft foods for sore throat or nausea.",
+    "Return to normal balanced meals as appetite returns.",
+    "Do not pressure a child to eat; offer familiar foods and monitor fluids/urine."
+  ],
+  "avoidOrCare": [
+    "Prolonged poor intake is more concerning in infants, older adults and people with diabetes.",
+    "Seek advice if swallowing is unsafe or vomiting prevents fluids."
+  ],
+  "myths": [
+    {
+      "claim": "Starve a fever, feed a cold.",
+      "reality": "There is no evidence-based reason to deliberately fast either illness."
+    },
+    {
+      "claim": "Dairy must be avoided because it makes mucus.",
+      "reality": "Dairy may change mouthfeel but is not shown to increase respiratory mucus."
+    },
+    {
+      "claim": "Garlic-heavy food kills the infection.",
+      "reality": "Garlic is food, not a proven antiviral treatment for an established cold."
+    }
+  ],
+  "redFlags": [
+    "Unable to keep fluids down",
+    "Signs of dehydration",
+    "Infant refusing feeds",
+    "Unintentional weight loss or poor intake lasting several days in a vulnerable person"
+  ],
+  "unsettled": [
+    "The clinical relevance of anti-inflammatory effects observed in laboratory studies of soup ingredients is unknown."
+  ],
+  "sourceIds": [
+    "HD_CHILD_COLDS",
+    "HD_DEHYDRATION",
+    "NCCIH_COMPLEMENTARY"
+  ],
+  "reviewDate": "2026-07-15"
+}

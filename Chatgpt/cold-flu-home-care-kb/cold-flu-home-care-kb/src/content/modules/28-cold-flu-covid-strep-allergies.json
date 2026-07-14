@@ -1,0 +1,140 @@
+{
+  "id": 28,
+  "slug": "cold-flu-covid-strep-allergies",
+  "section": "E. Triage",
+  "title": "Cold vs influenza vs COVID-19 vs strep throat vs allergies",
+  "summary": "Symptoms overlap heavily, so a table can guide suspicion but cannot make a diagnosis. Onset pattern, fever, itch, exposure, testing and examination provide the most useful distinctions.",
+  "evidenceSnapshot": "Influenza often starts abruptly with prominent systemic symptoms; allergies commonly cause itch and repeated sneezing without fever; strep classically causes sore throat and fever without cough. COVID-19 can resemble either a cold or flu and may require testing.",
+  "interventions": [
+    {
+      "name": "Use pattern recognition cautiously",
+      "evidence": "Moderate",
+      "finding": "Combinations of symptoms shift probability but are not definitive.",
+      "practical": "Compare onset, fever, cough, nasal itch, aches and exposures.",
+      "mechanism": "Different diseases have typical but overlapping inflammatory patterns.",
+      "cautions": "Young children, older adults and immunocompromised people may present atypically."
+    },
+    {
+      "name": "Targeted testing",
+      "evidence": "Strong",
+      "finding": "Can identify COVID-19, influenza or group A streptococcus when the result would change treatment or precautions.",
+      "practical": "Follow current Australian testing advice and clinician guidance.",
+      "mechanism": "Detects pathogen antigen, nucleic acid or immune response.",
+      "cautions": "A negative test can be falsely reassuring if timing or sampling is poor."
+    },
+    {
+      "name": "Clinical examination",
+      "evidence": "Strong",
+      "finding": "Assesses tonsils, lymph nodes, breathing, hydration, ears and complications.",
+      "practical": "Seek review for severe sore throat, breathing difficulty, persistent fever or high-risk status.",
+      "mechanism": "Adds objective findings and differential diagnosis.",
+      "cautions": "Online symptom comparison cannot detect every complication."
+    }
+  ],
+  "practicalSteps": [
+    "Treat the comparison table as a probability guide, not a verdict.",
+    "Test when a result changes isolation, antivirals, antibiotics or contact with vulnerable people.",
+    "Reassess if the illness changes course or lasts longer than expected.",
+    "Antibiotics are for confirmed or strongly suspected bacterial disease, not routine colds, influenza or COVID-19."
+  ],
+  "avoidOrCare": [
+    "Do not diagnose strep only from white spots; viral tonsillitis can look similar.",
+    "Do not rule out COVID-19 because symptoms are mild or include a runny nose.",
+    "Do not assume loss of smell is unique to COVID-19; severe congestion and other causes can contribute."
+  ],
+  "myths": [
+    {
+      "claim": "Body aches always mean influenza.",
+      "reality": "They are more typical and often stronger in influenza, but COVID-19 and other infections can also cause them."
+    },
+    {
+      "claim": "No cough means strep throat.",
+      "reality": "Absence of cough is only one feature; testing or clinical scoring is needed when strep is suspected."
+    }
+  ],
+  "redFlags": [
+    "Drooling, inability to swallow saliva, muffled voice, neck swelling or breathing difficulty",
+    "Severe one-sided throat pain, trismus or rapidly worsening swelling",
+    "Breathlessness, chest pain, confusion, dehydration or blue/grey colour",
+    "High-risk person with possible influenza or COVID-19 who may qualify for early treatment"
+  ],
+  "unsettled": [
+    "Symptom profiles change with variants, vaccination, prior immunity, age and co-infection."
+  ],
+  "comparisonRows": [
+    {
+      "feature": "Typical onset",
+      "Common cold": "Gradual",
+      "Influenza": "Often abrupt",
+      "COVID-19": "Variable",
+      "Strep throat": "Often abrupt throat pain",
+      "Allergies": "After exposure; recurrent/seasonal"
+    },
+    {
+      "feature": "Fever",
+      "Common cold": "Uncommon or low-grade",
+      "Influenza": "Common, often prominent",
+      "COVID-19": "Possible",
+      "Strep throat": "Common",
+      "Allergies": "No"
+    },
+    {
+      "feature": "Runny/blocked nose",
+      "Common cold": "Very common",
+      "Influenza": "Possible",
+      "COVID-19": "Common in many cases",
+      "Strep throat": "Usually absent",
+      "Allergies": "Very common; often watery/itchy"
+    },
+    {
+      "feature": "Cough",
+      "Common cold": "Common",
+      "Influenza": "Common, often dry",
+      "COVID-19": "Common",
+      "Strep throat": "Usually absent",
+      "Allergies": "Possible from postnasal drip"
+    },
+    {
+      "feature": "Sore throat",
+      "Common cold": "Common",
+      "Influenza": "Possible",
+      "COVID-19": "Common",
+      "Strep throat": "Prominent",
+      "Allergies": "Mild irritation possible"
+    },
+    {
+      "feature": "Aches/fatigue",
+      "Common cold": "Mild",
+      "Influenza": "Often marked",
+      "COVID-19": "Variable, sometimes marked",
+      "Strep throat": "Possible but less dominant",
+      "Allergies": "Usually absent except poor sleep"
+    },
+    {
+      "feature": "Itchy eyes/nose",
+      "Common cold": "Unusual",
+      "Influenza": "Unusual",
+      "COVID-19": "Unusual",
+      "Strep throat": "No",
+      "Allergies": "Characteristic"
+    },
+    {
+      "feature": "Useful next step",
+      "Common cold": "Home care unless red flags",
+      "Influenza": "Early antiviral assessment if high-risk/severe",
+      "COVID-19": "Test/precautions and early treatment assessment if eligible",
+      "Strep throat": "Clinical assessment and test when indicated",
+      "Allergies": "Trigger control and allergy treatment"
+    }
+  ],
+  "sourceIds": [
+    "HD_COLDS",
+    "HD_FLU",
+    "HD_COVID",
+    "HD_SORE",
+    "HD_RUNNY",
+    "HD_ANTIBIOTICS",
+    "CDC_FLU_ANTIVIRALS"
+  ],
+  "reviewDate": "2026-07-15"
+}
