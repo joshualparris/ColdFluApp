@@ -1,0 +1,2 @@
+import {readFile} from "node:fs/promises";import path from "node:path";
+export default async function Page(){const[a,g]=await Promise.all([readFile(path.join(process.cwd(),"docs","ASSIGNMENTS.md"),"utf8"),readFile(path.join(process.cwd(),"content","research","sore-throat","evidence-gaps.md"),"utf8")]);return <><h1>Assignments and evidence gaps</h1><p>Read-only views of canonical coordination artefacts.</p><h2>Assignments</h2><pre className="research-text">{a}</pre><h2>Sore-throat evidence gaps</h2><pre className="research-text">{g}</pre></>}

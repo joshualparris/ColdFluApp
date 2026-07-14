@@ -22,8 +22,8 @@ Thumbs.db
 *.log
 *.tmp
 *.temp
+*.tsbuildinfo
 ~$*
 
 # Local research downloads that may be copyrighted or large
 local-full-text/
-

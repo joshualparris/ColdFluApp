@@ -39,10 +39,16 @@ export async function validateRepository(root = process.cwd(), today = new Date(
     const referenced = new Set([...(data.sourceIds ?? []), ...(data.claims ?? []).flatMap(x => x.sourceIds ?? []), ...(data.practicalGuidance ?? []).flatMap(x => x.sourceIds ?? []), ...(data.myths ?? []).flatMap(x => x.sourceIds ?? []), ...(data.jurisdictionNotes ?? []).flatMap(x => x.sourceIds ?? []), ...(data.safety?.redFlags ?? []).flatMap(x => x.sourceIds ?? []), ...(data.safety?.vulnerableGroups ?? []).flatMap(x => x.sourceIds ?? [])]);
     for (const id of referenced) if (!sources.has(id)) fail(file, `references missing source ${id}`);
     for (const jurisdiction of new Set([...(data.jurisdictions ?? []), ...(data.claims ?? []).flatMap(x => x.jurisdictions ?? []), ...(data.jurisdictionNotes ?? []).map(x => x.jurisdiction)])) if (!supportedJurisdictions.has(jurisdiction)) fail(file, `unsupported jurisdiction ${jurisdiction}`);
+    const evidenceReviewer = data.review?.evidenceReviewer;
+    const accountableEvidenceReviewer = evidenceReviewer && !/\b(?:ai|codex|chatgpt|claude|model|assistant)\b/i.test(evidenceReviewer);
+    for (const claim of data.claims ?? []) {
+      if (claim.reviewedAt && !accountableEvidenceReviewer) fail(file, `claim ${claim.id} has reviewedAt without an accountable evidence reviewer`);
+      if (claim.reviewedAt && data.review?.lastClinicallyReviewed && claim.reviewedAt > data.review.lastClinicallyReviewed) fail(file, `claim ${claim.id} review date is after the module clinical review date`);
+    }
     if (data.status === "published") {
       for (const field of ["evidenceReviewer", "clinicalReviewer", "editorialReviewer", "lastClinicallyReviewed", "nextReviewDue"]) if (!data.review?.[field]) fail(file, `published module requires review.${field}`);
       if (data.review?.nextReviewDue && data.review.nextReviewDue < today) fail(file, "published module review is overdue");
-      for (const claim of data.claims ?? []) if (!(claim.sourceIds?.length)) fail(file, `published material claim ${claim.id} has no sources`);
+      for (const claim of data.claims ?? []) { if (!(claim.sourceIds?.length)) fail(file, `published material claim ${claim.id} has no sources`); if (!claim.reviewedAt) fail(file, `published claim ${claim.id} requires reviewedAt`); }
       for (const related of data.relatedModules ?? []) if (!moduleIds.has(related)) fail(file, `references missing related module ${related}`);
       if (placeholders.test(JSON.stringify(data))) fail(file, "published module contains placeholder or unresolved review text");
       for (const item of [...(data.safety?.redFlags ?? []), ...(data.safety?.vulnerableGroups ?? [])]) {

@@ -1,0 +1,7 @@
+import "server-only";import {readFile,readdir} from "node:fs/promises";import path from "node:path";
+export interface ImportedDiscoveryDraft{id:number;slug:string;section:string;title:string;summary:string;evidenceSnapshot:string;interventions:{name:string;evidence:string;finding:string;practical:string;mechanism:string;cautions:string}[];practicalSteps:string[];avoidOrCare:string[];myths:{claim:string;reality:string}[];redFlags:string[];unsettled:string[];sourceIds:string[];reviewDate:string;comparisonRows?:Record<string,string>[]}
+export interface ImportedCandidateSource{id:string;title:string;organisation:string;type:string;url:string;year:string;note:string}
+const root=path.join(process.cwd(),"inputs","imported-research","chatgpt-prototype-2026-07-15","package");
+export async function getImportedDrafts():Promise<ImportedDiscoveryDraft[]>{const d=path.join(root,"src","content","modules");return Promise.all((await readdir(d)).filter(n=>n.endsWith(".json")).sort().map(async n=>JSON.parse(await readFile(path.join(d,n),"utf8"))));}
+export async function getImportedSources():Promise<ImportedCandidateSource[]>{return JSON.parse(await readFile(path.join(root,"src","content","sources.json"),"utf8"));}
+export async function getImportedMarkdown(slug:string):Promise<string|null>{const d=path.join(root,"research","modules");const n=(await readdir(d)).find(x=>x.endsWith(".md")&&x.replace(/^\d+-/,"").replace(/\.md$/,"")===slug);return n?readFile(path.join(d,n),"utf8"):null;}

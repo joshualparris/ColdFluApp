@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import Link from "next/link";
+export const metadata:Metadata={title:"Private research workspace",robots:{index:false,follow:false,nocache:true}};export const dynamic="force-dynamic";
+export default function Layout({children}:{children:React.ReactNode}){return <><aside className="draft-banner"><strong>PRIVATE RESEARCH WORKSPACE</strong><span>Unpublished and imported material is unverified, not approved medical guidance, and must not be copied into public content without the canonical workflow.</span></aside><nav aria-label="Research workspace"><Link href="/research-preview">Dashboard</Link> · <Link href="/research-preview/sources">Sources</Link> · <Link href="/research-preview/governance">Assignments and gaps</Link></nav>{children}</>}

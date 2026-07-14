@@ -2,6 +2,10 @@
 
 ## Recommended first architecture
 
+Current implementation status: a minimal Next.js project-status scaffold is retained for build continuity. It may read only canonical repository content, exposes no unpublished module preview, and is not the developed product interface.
+
+An isolated `/research-preview` workspace may read imported discovery material through a private-only adapter. Middleware checks a disabled-by-default feature flag and server-side Basic Authentication before routes load content. Responses use `noindex, nofollow, noarchive` and `private, no-store`; public indexes and module routes remain canonical and publication-filtered.
+
 - **Framework:** Next.js App Router with TypeScript.
 - **Content:** version-controlled Markdown/MDX plus structured YAML or JSON records.
 - **Validation:** a runtime schema library and build-time integrity checks.
@@ -84,4 +88,3 @@ Every change should run formatting, linting, type checks, unit tests, schema val
 - Native mobile applications
 
 Each requires a separate product, clinical-safety, privacy, and security decision before implementation.
-

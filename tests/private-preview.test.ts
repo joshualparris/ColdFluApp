@@ -1,0 +1,12 @@
+import test from "node:test";import assert from "node:assert/strict";import {readFile} from "node:fs/promises";import {previewEnabled,validBasicAuthorization} from "../src/lib/private-preview/auth";
+const env={NODE_ENV:"test",ENABLE_PRIVATE_RESEARCH_PREVIEW:"true",RESEARCH_PREVIEW_USERNAME:"josh",RESEARCH_PREVIEW_PASSWORD:"strong-secret"} as NodeJS.ProcessEnv;
+test("private preview is disabled by default",()=>assert.equal(previewEnabled({} as NodeJS.ProcessEnv),false));
+test("private preview feature flag enables access checks",()=>assert.equal(previewEnabled(env),true));
+test("missing credentials are rejected",()=>assert.equal(validBasicAuthorization(null,env),false));
+test("invalid credentials are rejected",()=>assert.equal(validBasicAuthorization(`Basic ${btoa("josh:wrong")}`,env),false));
+test("valid credentials are accepted",()=>assert.equal(validBasicAuthorization(`Basic ${btoa("josh:strong-secret")}`,env),true));
+test("middleware applies private cache and robots headers",async()=>{const source=await readFile("middleware.ts","utf8");assert.match(source,/noindex, nofollow, noarchive/);assert.match(source,/private, no-store/);assert.match(source,/status:404/);});
+test("public sitemap contains no private preview",async()=>assert.doesNotMatch(await readFile("src/app/sitemap.ts","utf8"),/research-preview/));
+test("imported sources carry an unverified label",async()=>assert.match(await readFile("src/app/research-preview/imported/[slug]/page.tsx","utf8"),/Candidate source — exact metadata and claim applicability not independently verified/));
+test("draft generation date is not called a clinical review date",async()=>{const source=await readFile("src/app/research-preview/imported/[slug]/page.tsx","utf8");assert.match(source,/Draft generation date/);assert.doesNotMatch(source,/Clinical review date/);});
+test("credential values are not present in preview application source",async()=>{const source=await readFile("src/lib/private-preview/auth.ts","utf8");assert.doesNotMatch(source,/strong-secret|josh:/);});

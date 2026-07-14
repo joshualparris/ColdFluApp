@@ -44,6 +44,9 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 
 ## Vertical-slice application
 
+- [x] Add a disabled-by-default, authenticated private research workspace without changing public publication gates.
+- [!] Configure and rotate private preview credentials in the deployment environment; add platform deployment protection where available.
+
 - [ ] Initialise Next.js and TypeScript only after schema review.
 - [ ] Add content validation and build-failing publication gates.
 - [ ] Build module, evidence, safety, source, review-date, and jurisdiction components.

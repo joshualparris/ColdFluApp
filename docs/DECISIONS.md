@@ -55,3 +55,9 @@ This lightweight log records decisions that constrain future work. Add dated ent
 **Status:** accepted  
 **Decision:** Do not expand or integrate the imported application until the sore-throat vertical slice, terminology and workflow receive accountable approval.  
 **Reason:** Phase 0 must prove evidence governance and publication controls before interface scale.
+
+## D-010 — Authenticated private research workspace
+
+**Status:** accepted
+**Decision:** The application may provide an authenticated, non-indexed, read-only private research workspace containing unpublished canonical and imported material. This does not change canonical publication requirements. Drafts remain excluded from all public health-content routes.
+**Reason:** Reviewers need a usable inspection tool without presenting unfinished medical content as public guidance.

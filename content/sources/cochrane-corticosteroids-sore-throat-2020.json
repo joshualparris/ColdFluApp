@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cochrane-corticosteroids-sore-throat-2020",
+  "type": "systematic_review",
+  "title": "Corticosteroids as standalone or add-on treatment for sore throat",
+  "authorsOrOrganisation": ["Simone de Cassan", "Matthew J Thompson", "Rafael Perera", "Paul P Glasziou", "Chris B Del Mar", "Carl J Heneghan", "Gail Hayward"],
+  "publication": "Cochrane Database of Systematic Reviews",
+  "publishedAt": "2020-05-01",
+  "updatedAt": null,
+  "doi": "10.1002/14651858.CD008268.pub3",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32356360/",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "PMID 32356360. Nine trials (1319 participants); eight used antibiotics in both groups. Limited paediatric data and poor adverse-event reporting constrain uncomplicated home-care applicability. Crossref identifies this as the 2020 update of the prior review, not a correction notice."
+}

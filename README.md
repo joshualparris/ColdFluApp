@@ -25,7 +25,7 @@ The project is in **Phase 0: foundation and evidence governance**.
 
 - The original 28-module scope has been captured.
 - Seven AI-produced module drafts exist, but have not passed the required evidence, editorial, or clinical review gates.
-- No production website has been implemented.
+- A minimal Next.js project-status scaffold exists, but product interface development is deferred. It reads only canonical content and exposes only modules with `status: published`.
 - One schema-validated sore-throat module is an unpublished vertical-slice draft; no module is approved for publication.
 
 The original prompt, conversation export, and Batch 1 files are retained under `inputs/` as source material. They are not canonical product content.
@@ -62,9 +62,15 @@ See [repository conventions](docs/REPOSITORY_CONVENTIONS.md) before adding or mo
 With Node.js installed:
 
 ```sh
-npm install
+npm ci
 npm run validate:content
 npm test
 ```
 
 Validation checks schemas, identifiers and references, jurisdictions, research-package completeness, and mandatory publication/review/safety gates. Tests exercise valid and failing fixture repositories without duplicating live medical content.
+
+## Private research preview
+
+An authenticated, read-only workspace is available at `/research-preview` when explicitly enabled. It is disabled by default and does not change public publication gates. Set `ENABLE_PRIVATE_RESEARCH_PREVIEW=true`, `RESEARCH_PREVIEW_USERNAME`, and a strong `RESEARCH_PREVIEW_PASSWORD` in the local or deployment environment; never commit their values. Disable it by setting the flag to `false` or removing it. Rotate access by replacing both credential values and redeploying.
+
+HTTP Basic Authentication assumes HTTPS and provides only modest personal-workspace protection. Add Vercel Deployment Protection where available. Every private response is non-indexed and non-cacheable, but imported material remains unverified discovery content rather than canonical evidence.

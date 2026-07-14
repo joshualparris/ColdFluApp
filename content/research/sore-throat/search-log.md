@@ -13,6 +13,8 @@ Search date: 2026-07-15
 | PubMed web index | `acute sore throat systematic review analgesics lozenges corticosteroids gargle` | Located PMID 32356360, 39318911 and 24621446 | Discovery leads only; full record retrieval was blocked by reCAPTCHA and no record was promoted |
 | NICE evidence pages | NG84 evidence review, summary, history and recommendations | Rechecked | Confirmed formulation-specific limits and evidence gaps |
 | Cochrane Library web search | `sore throat corticosteroids lozenges analgesics review` | No directly retrievable record | CENTRAL/full Cochrane searching remains incomplete |
+| NCBI E-utilities PubMed XML | `efetch?db=pubmed&id=32356360,39318911,24621446&retmode=xml` | 3 records retrieved and screened | Exact titles, authors, abstracts, dates, DOI, publication type and PMID retrieved without interactive PubMed; 2 retained as canonical source records |
+| Crossref REST API | DOI lookups for `10.1002/14651858.CD008268.pub3`, `10.7759/cureus.67740`, `10.1186/1471-2296-15-45` | 3 metadata records checked | Confirmed titles, dates, authors and DOI update relation; no correction/retraction relation reported for retained records |
 
 ## Screening notes
 
@@ -28,4 +30,4 @@ Search date: 2026-07-15
 - Search harms, contraindications and paediatric/pregnancy applicability using Australian medicine information.
 - Run forward-citation, correction and retraction checks.
 - Have a second person screen and verify the claim-to-source extraction.
-- Retrieve exact metadata, full text where lawful, conflicts and correction status for the PubMed leads before citing them.
+- Complete trial-level funding/conflict and formal retraction-database checks; metadata verification alone does not complete appraisal.

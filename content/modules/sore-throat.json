@@ -54,7 +54,7 @@
       "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
       "caveats": ["This course does not apply when symptoms are rapidly worsening, severe or associated with red flags."],
       "jurisdictions": ["AU", "GB"],
-      "reviewedAt": "2026-07-15"
+      "reviewedAt": null
     },
     {
       "id": "sore-throat-oral-analgesia",
@@ -72,7 +72,7 @@
       "sourceIds": ["nice-acute-sore-throat-ng84", "healthdirect-sore-throat-2025"],
       "caveats": ["Follow the product label and avoid duplicate active ingredients.", "Suitability differs with age, pregnancy, allergies, kidney or liver disease, gastrointestinal risk, other conditions and medicines; seek pharmacist or medical advice when unsure."],
       "jurisdictions": ["AU", "GB"],
-      "reviewedAt": "2026-07-15"
+      "reviewedAt": null
     },
     {
       "id": "sore-throat-medicated-lozenges",
@@ -90,7 +90,7 @@
       "sourceIds": ["nice-acute-sore-throat-ng84"],
       "caveats": ["Not all lozenges contain the studied ingredients.", "Age restrictions, choking risk, allergies, NSAID contraindications and local adverse effects vary by product."],
       "jurisdictions": ["GB", "AU"],
-      "reviewedAt": "2026-07-15"
+      "reviewedAt": null
     },
     {
       "id": "sore-throat-salt-water-gargle",
@@ -108,7 +108,7 @@
       "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
       "caveats": ["Do not use in anyone unable to gargle and spit safely.", "This is comfort care, not treatment of the underlying cause."],
       "jurisdictions": ["AU", "GB"],
-      "reviewedAt": "2026-07-15"
+      "reviewedAt": null
     }
   ],
   "practicalGuidance": [
@@ -164,6 +164,6 @@
     "lastEvidenceSearch": "2026-07-15",
     "lastClinicallyReviewed": null,
     "nextReviewDue": null,
-    "changeSummary": "Initial structured vertical-slice draft. Not approved for publication."
+    "changeSummary": "Corrected claim review dates to null because no accountable evidence review has occurred; structured evidence search remains incomplete and the module is not ready for evidence review or publication."
   }
 }

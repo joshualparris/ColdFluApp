@@ -66,6 +66,8 @@ Evidence ratings belong to claims, not remedies or whole pages.
   reviewedAt: null
 ```
 
+`claim.reviewedAt` is the date an accountable evidence reviewer completed claim-level review. It is not a search, generation, drafting or AI-edit date. It must remain `null` unless `review.evidenceReviewer` identifies an accountable non-AI reviewer. Every published claim requires a review date, and it cannot be later than the module's recorded completed review workflow dates.
+
 Do not use `strong`, `moderate`, or `weak` without defining whether the label describes certainty, magnitude, recommendation strength, or study design. The initial UI should show certainty and direction separately.
 
 ## Source shape
@@ -121,4 +123,3 @@ Draft and review content may render only in protected previews clearly labelled 
 ## Versioning
 
 Schema migrations must be explicit and reversible. Content changes should preserve a changelog showing what changed, why, who reviewed it, and which sources triggered the change.
-

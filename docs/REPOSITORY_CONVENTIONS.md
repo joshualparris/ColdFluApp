@@ -49,6 +49,8 @@ The reader-facing module remains in `content/modules/sore-throat.*`; research ar
 
 External agent submissions use `inputs/agent-returns/<agent>/<module-slug>/<return-date>/` and remain unchanged raw provenance. Canonical integration copies only verified material and leaves the return in place.
 
+The authenticated `/research-preview` tool may read imported provenance through an isolated, read-only adapter. That adapter is not a canonical content pathway: public routes, publication validation and future search indexes must continue to use only `content/` records.
+
 ## Empty directories
 
 `.gitkeep` files retain intentional empty directories until real content exists. Remove the marker once the directory contains tracked files.

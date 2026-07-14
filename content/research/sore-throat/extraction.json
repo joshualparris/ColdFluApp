@@ -47,6 +47,35 @@
       "limitations": [
         "Not specific to all causes of sore throat and not an effectiveness review."
       ]
+    },
+    {
+      "sourceId": "cochrane-corticosteroids-sore-throat-2020",
+      "design": "Cochrane systematic review of nine randomised trials",
+      "population": "1319 participants older than 3 years; 950 adults and 369 children",
+      "keyFindings": [
+        "Corticosteroids increased complete pain resolution at 24 and 48 hours and shortened mean complete resolution by about 11.6 hours.",
+        "Eight of nine trials gave antibiotics to both groups; only one used delayed antibiotics after clinical assessment.",
+        "No clear recurrence, absence or adverse-event difference was reported, but adverse-event reporting was poor."
+      ],
+      "limitations": [
+        "Mostly adjunct-to-antibiotic evidence and not a direct match for uncomplicated home self-care.",
+        "Only two trials included children; rare and recurrent-treatment harms cannot be excluded.",
+        "No canonical reader claim was added because applicability and recommendation boundaries require fuller appraisal and clinical review."
+      ]
+    },
+    {
+      "sourceId": "chenot-ambroxol-lozenges-2014",
+      "design": "Systematic review and meta-analysis of five controlled trials",
+      "population": "1772 adults with acute uncomplicated sore throat",
+      "keyFindings": [
+        "Ambroxol 20 mg lozenges produced a small additional three-hour pain reduction versus mint-flavoured lozenges (mean difference -0.11 on the review's repeated verbal-rating outcome).",
+        "Benefits beyond three hours were unclear."
+      ],
+      "limitations": [
+        "Study reporting quality was low and duplicate publications were identified.",
+        "Trial-level sponsorship/conflicts and Australian product applicability remain unresolved.",
+        "No canonical reader claim was added."
+      ]
     }
   ]
 }

@@ -1,0 +1,3 @@
+export const previewEnabled = (env: NodeJS.ProcessEnv = process.env) => env.ENABLE_PRIVATE_RESEARCH_PREVIEW === "true";
+export function constantTimeEqual(left:string,right:string){const e=new TextEncoder(),a=e.encode(left),b=e.encode(right);let d=a.length^b.length;for(let i=0;i<Math.max(a.length,b.length);i+=1)d|=(a[i]??0)^(b[i]??0);return d===0;}
+export function validBasicAuthorization(header:string|null,env:NodeJS.ProcessEnv=process.env){const u=env.RESEARCH_PREVIEW_USERNAME,p=env.RESEARCH_PREVIEW_PASSWORD;if(!u||!p||!header?.startsWith("Basic "))return false;try{const v=atob(header.slice(6)),i=v.indexOf(":");return i>=0&&constantTimeEqual(v.slice(0,i),u)&&constantTimeEqual(v.slice(i+1),p);}catch{return false;}}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "chenot-ambroxol-lozenges-2014",
+  "type": "meta_analysis",
+  "title": "Efficacy of Ambroxol lozenges for pharyngitis: a meta-analysis",
+  "authorsOrOrganisation": ["Jean-François Chenot", "Peter Weber", "Tim Friede"],
+  "publication": "BMC Family Practice",
+  "publishedAt": "2014-03-13",
+  "updatedAt": null,
+  "doi": "10.1186/1471-2296-15-45",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/24621446/",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "PMID 24621446. Five trials in 1772 adults compared ambroxol lozenges with mint-flavoured lozenges; the reported additional three-hour effect was small and reporting quality low. Product availability and Australian applicability are unresolved."
+}
