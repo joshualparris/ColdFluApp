@@ -1,12 +1,3 @@
-export type PrototypeEvidence = "Strong" | "Moderate" | "Weak-or-mixed" | "Traditional-but-untested";
-export interface ImportedIntervention { name: string; evidence: PrototypeEvidence; finding: string; practical: string; mechanism: string; cautions: string }
-export interface ImportedPrototypeModule {
-  id: number; slug: string; section: string; title: string; summary: string; evidenceSnapshot: string;
-  interventions: ImportedIntervention[]; practicalSteps: string[]; avoidOrCare: string[];
-  myths: { claim: string; reality: string }[]; redFlags: string[]; unsettled: string[];
-  sourceIds: string[]; reviewDate: string; comparisonRows?: Record<string, string>[];
-}
-export interface ImportedSourceCandidate { id: string; title: string; organisation: string; type: string; url: string; year: string; note: string }
 export interface CanonicalSource { id: string; title: string; authorsOrOrganisation: string[]; type: string; url: string; jurisdiction: string; updatedAt: string | null; publishedAt: string | null; notes: string }
 export interface CanonicalModule {
   id: string; slug: string; title: string; description: string; category: string; status: string; audience: string;

@@ -1,3 +1,12 @@
 import Link from "next/link";
 import { getCanonicalModules, publicModules } from "@/lib/content/canonical";
-export default async function Home() { const published = publicModules(await getCanonicalModules()); return <><p className="eyebrow">Australian-first · evidence governance</p><h1>Public knowledge base status</h1><p className="lede">No AI research draft is public medical advice. Modules appear here only after claim-level source verification and independent evidence, clinical and editorial review.</p>{published.length === 0 ? <section className="notice"><h2>No medical modules are published yet</h2><p>The project currently contains research drafts. This honest empty state is an intentional publication safeguard.</p></section> : <section><h2>Published modules</h2><ul>{published.map((m) => <li key={m.slug}><Link href={`/modules/${m.slug}`}>{m.title}</Link></li>)}</ul></section>}<section><h2>What is available?</h2><p>Twenty-eight AI-assisted discovery drafts are available in a gated unpublished preview. They remain outside the public evidence base.</p><Link className="button" href="/preview">Open research preview</Link></section></>; }
+
+export default async function Home() {
+  const published = publicModules(await getCanonicalModules());
+  return <>
+    <p className="eyebrow">Australian-first · evidence governance</p>
+    <h1>Public knowledge base status</h1>
+    <p className="lede">This is a minimal technical scaffold for a pre-publication research project. Product interface development is deferred.</p>
+    {published.length === 0 ? <section className="notice"><h2>No medical modules are published</h2><p>Research drafts are not exposed by this application. Publication requires claim-level source verification and independent evidence, clinical and editorial review.</p></section> : <section><h2>Published modules</h2><ul>{published.map((module) => <li key={module.slug}><Link href={`/modules/${module.slug}`}>{module.title}</Link></li>)}</ul></section>}
+  </>;
+}

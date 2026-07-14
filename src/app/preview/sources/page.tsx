@@ -1,4 +1,0 @@
-import { notFound } from "next/navigation";
-import { DraftBanner } from "@/components/safety/draft-banner";
-import { getImportedModules, getImportedSources, previewsEnabled } from "@/lib/content/imported";
-export default async function SourcesPage() { if (!previewsEnabled()) notFound(); const sources = await getImportedSources(), modules = await getImportedModules(); return <><DraftBanner origin="imported" /><h1>Imported candidate sources</h1><p>These {sources.length} records have valid-looking URLs and resolved prototype references. Their exact metadata, edition, date and applicability remain unverified.</p><div className="card-grid">{sources.map((s) => <article className="card" key={s.id}><h2><a href={s.url} rel="noreferrer">{s.title}</a></h2><p>{s.organisation} · {s.type} · imported year {s.year}</p><p>{s.note}</p><p>Used by {modules.filter((m) => m.sourceIds.includes(s.id)).length} prototype module(s).</p></article>)}</div></>; }
