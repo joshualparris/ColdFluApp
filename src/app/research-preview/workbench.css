@@ -6,3 +6,9 @@
 .stage-list li[aria-current="step"]{border-width:3px}
 .quest-actions{display:flex;gap:.5rem;flex-wrap:wrap}
 .compact .card{padding:.65rem}
+.milestone{border:2px solid var(--green);border-radius:.7rem;padding:1rem;background:var(--pale);animation:milestone-in .4s ease-out;box-shadow:0 0 1rem color-mix(in srgb,var(--green) 20%,transparent)}
+@keyframes milestone-in{from{opacity:0;transform:translateY(.5rem)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.milestone{animation:none}}
+html[data-workspace-motion="reduced"] .milestone{animation:none}
+form fieldset{display:grid;gap:1rem;margin:1rem 0;padding:1rem;border:1px solid var(--line)}form label{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}form select,form button,.quest-actions button{font:inherit;padding:.5rem;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:.3rem}
+.research-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1rem;margin:1rem 0 2rem}.map-node{min-height:9rem;text-align:left;display:flex;flex-direction:column;justify-content:space-between;padding:1rem;border:2px solid var(--line);border-radius:1rem;background:var(--panel);color:var(--ink);font:inherit;cursor:pointer}.map-node:hover,.map-node[aria-pressed="true"]{border-color:var(--green);box-shadow:0 0 0 .2rem var(--pale)}.map-node span{color:var(--muted)}.detective fieldset{display:grid;gap:.5rem;border:1px solid var(--line);padding:1rem}.detective label{display:flex;gap:.5rem;align-items:flex-start}

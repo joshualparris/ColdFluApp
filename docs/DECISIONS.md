@@ -61,3 +61,9 @@ This lightweight log records decisions that constrain future work. Add dated ent
 **Status:** accepted
 **Decision:** The application may provide an authenticated, non-indexed, read-only private research workspace containing unpublished canonical and imported material. This does not change canonical publication requirements. Drafts remain excluded from all public health-content routes.
 **Reason:** Reviewers need a usable inspection tool without presenting unfinished medical content as public guidance.
+
+## D-011 — Ethical private research-workbench support
+
+**Status:** accepted
+**Decision:** The private workspace may use transparent progress, optional celebrations, personalisation and supplementary discoveries to support research organisation. It must not use deceptive progress, punitive streaks, gambling-style rewards or incentives that could encourage unsafe medical-content decisions.
+**Reason:** Orientation and acknowledgement can support a long research programme only when repository truth, human review gates and user autonomy remain explicit.

@@ -1,0 +1,1 @@
+import {WorkspaceSettings} from "@/components/research/workspace-settings";export default function Page(){return <><h1>Private workspace settings</h1><p>These preferences remain in this browser. They are personal workspace state, not canonical research status, and collect no health data.</p><WorkspaceSettings/></>}
