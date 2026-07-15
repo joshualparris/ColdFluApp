@@ -5,12 +5,13 @@ import { filterModulesByQuery } from "@/lib/content/module-search";
 export default async function ModulesIndexPage({
   searchParams,
 }: {
-  searchParams?: Promise<{ q?: string | string[] }>;
+  searchParams?: Promise<{ q?: string | string[]; category?: string | string[] }>;
 }) {
   const params = (await searchParams) ?? {};
   const query = Array.isArray(params.q) ? params.q[0] ?? "" : params.q ?? "";
+  const category = Array.isArray(params.category) ? params.category[0] ?? "" : params.category ?? "";
   const modules = publicModules(await getCanonicalModules());
-  const visibleModules = filterModulesByQuery(modules, query);
+  const visibleModules = filterModulesByQuery(modules, query, category);
 
   return (
     <>
@@ -22,9 +23,15 @@ export default async function ModulesIndexPage({
           Search modules
         </label>
         <input id="module-search" name="q" type="search" placeholder="Search by title, topic, or keyword" defaultValue={query} />
+        <select name="category" defaultValue={category}>
+          <option value="">All categories</option>
+          <option value="symptom">Symptom</option>
+          <option value="prevention">Prevention</option>
+          <option value="safety">Safety</option>
+        </select>
         <button type="submit">Search</button>
       </form>
-      {query ? <p className="lede">Showing results for “{query}”.</p> : null}
+      {query || category ? <p className="lede">Showing results for the current filters.</p> : null}
       <ul className="sources">
         {visibleModules.map((module) => (
           <li key={module.slug}>
