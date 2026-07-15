@@ -23,7 +23,10 @@ export default async function ModulesIndexPage({
           Search modules
         </label>
         <input id="module-search" name="q" type="search" placeholder="Search by title, topic, or keyword" defaultValue={query} />
-        <select name="category" defaultValue={category}>
+        <label htmlFor="module-category" className="sr-only">
+          Filter modules by category
+        </label>
+        <select id="module-category" name="category" defaultValue={category}>
           <option value="">All categories</option>
           <option value="symptom">Symptom</option>
           <option value="prevention">Prevention</option>

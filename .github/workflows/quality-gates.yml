@@ -17,8 +17,16 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: package-lock.json
+      - run: npm install --global npm@10.9.4
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
       - run: npm run test
+      - run: npm run check:media-links
+      - run: npm run check:internal-links
+      - run: npm run check:spelling
       - run: npm run build
+        env:
+          ENABLE_PRIVATE_RESEARCH_PREVIEW: "false"
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e

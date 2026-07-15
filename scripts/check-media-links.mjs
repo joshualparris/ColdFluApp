@@ -9,7 +9,7 @@ let failures=0;
 for(const url of urls){
   try{
     const response=await fetch(url,{redirect:"follow",headers:{"user-agent":"ColdFluResearch link checker/1.0"},signal:AbortSignal.timeout(15000)});
-    const assessment=response.ok?"available":response.status===401||response.status===403||response.status===429?"manual-review-bot-or-access-block":"unavailable";
+    const assessment=response.ok?"available":[401,403,419,429].includes(response.status)?"manual-review-bot-or-access-block":"unavailable";
     console.log(JSON.stringify({url,status:response.status,finalUrl:response.url,assessment}));
     if(assessment==="unavailable")failures++;
   }catch(error){console.log(JSON.stringify({url,assessment:"manual-review-network-error",error:error instanceof Error?error.message:String(error)}));}
