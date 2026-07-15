@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-chest-infection-2025",
+  "type": "guideline",
+  "title": "Chest infection",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2025-05-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/chest-infection",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed May 2025. Retained for worsening, breathing, blood-in-phlegm and higher-risk-condition care-seeking boundaries. It is not used to diagnose a chest infection."
+}

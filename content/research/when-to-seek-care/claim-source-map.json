@@ -1,0 +1,38 @@
+{
+  "moduleId": "when-to-seek-care",
+  "mappedAt": "2026-07-15",
+  "status": "candidate-claims-not-canonical-pre-review",
+  "candidateClaims": [
+    {
+      "candidateId": "emergency-breathing-chest-pain-unconsciousness",
+      "outcome": "emergency_escalation",
+      "sourceIds": ["healthdirect-healthcare-navigation-2024", "healthdirect-influenza-2026", "healthdirect-chest-infection-2025"],
+      "boundary": "Examples are not exhaustive. Australian emergency route only; exact wording requires emergency clinical review."
+    },
+    {
+      "candidateId": "rapid-deterioration-or-sepsis-concern",
+      "outcome": "emergency_escalation",
+      "sourceIds": ["healthdirect-sepsis-2024"],
+      "boundary": "Does not diagnose or exclude sepsis. Reader concern and rapid change remain reasons to seek urgent professional assessment."
+    },
+    {
+      "candidateId": "worsening-hydration-confusion-clinical-review",
+      "outcome": "medical_escalation",
+      "sourceIds": ["healthdirect-influenza-2026", "healthdirect-chest-infection-2025"],
+      "boundary": "Exact route depends on severity, population and local availability; absence of these examples does not establish safety."
+    },
+    {
+      "candidateId": "young-infant-fever-emergency-overlay",
+      "outcome": "emergency_escalation",
+      "sourceIds": ["healthdirect-child-fever-2024"],
+      "boundary": "Australian infant-specific threshold; must not be generalised and requires paediatric clinical verification before use."
+    },
+    {
+      "candidateId": "non-emergency-navigation-options",
+      "outcome": "service_navigation",
+      "sourceIds": ["healthdirect-healthcare-navigation-2024"],
+      "boundary": "Services and hours can change; emergency symptoms must use emergency pathways rather than telephone or online tools."
+    }
+  ],
+  "canonicalClaimsCreated": 0
+}

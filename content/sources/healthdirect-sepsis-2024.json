@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-sepsis-2024",
+  "type": "guideline",
+  "title": "Sepsis",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2024-09-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/sepsis-septicaemia",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed September 2024. Retained for sepsis emergency orientation and rapid-deterioration boundaries. The project must not offer a sepsis diagnostic checklist."
+}

@@ -38,7 +38,7 @@ This is the provider-neutral execution view for the 28-module catalogue. `docs/A
 | Household precautions | `household-precautions` | Imported discovery only | Discovery only |
 | Sleep, activity, stress and general health | `sleep-activity-stress-and-general-health` | Imported discovery only | Discovery only |
 | Influenza vaccination | `influenza-vaccination` | Imported discovery with time-sensitive Australian links | Discovery only |
-| When to seek care | `when-to-seek-care` | Imported discovery only | Discovery only |
+| When to seek care | `when-to-seek-care` | Protocol, national pathway sources, population overlays, extraction and candidate mappings | Verified pre-review research |
 | Cold, influenza, COVID-19, strep throat and allergy comparison | `cold-flu-covid-strep-allergies` | Imported discovery only | Discovery only |
 
 No row in this table is a publication or review approval. The next provider-neutral sequence is pregnancy/breastfeeding, older/immunocompromised people, chronic respiratory conditions, cardiovascular conditions, then safety-critical triage and medicines.
