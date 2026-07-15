@@ -7,6 +7,14 @@ export interface CorrectionReport {
   createdAt: string;
 }
 
+export interface CorrectionFormState {
+  moduleSlug: string;
+  email: string;
+  issue: string;
+  priority: "low" | "medium" | "high";
+  canSubmit: boolean;
+}
+
 export function createCorrectionReport({
   moduleSlug,
   email,
@@ -23,5 +31,25 @@ export function createCorrectionReport({
     issue,
     priority: issue.length > 80 ? "high" : "medium",
     createdAt: new Date().toISOString(),
+  };
+}
+
+export function buildCorrectionFormState({
+  moduleSlug,
+  email,
+  issue,
+}: {
+  moduleSlug: string;
+  email: string;
+  issue: string;
+}): CorrectionFormState {
+  const trimmedIssue = issue.trim();
+  const trimmedEmail = email.trim();
+  return {
+    moduleSlug,
+    email: trimmedEmail,
+    issue: trimmedIssue,
+    priority: trimmedIssue.length > 80 ? "high" : "medium",
+    canSubmit: Boolean(trimmedIssue && trimmedEmail && moduleSlug),
   };
 }
