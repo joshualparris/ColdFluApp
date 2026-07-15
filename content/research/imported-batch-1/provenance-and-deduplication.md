@@ -37,7 +37,8 @@ The seven represented areas—OTC medicines, complementary/traditional remedies,
 
 ## Remaining audit work
 
-- Build an exact URL inventory and record resolved URL, title, author/organisation, date, jurisdiction, update status and applicability.
+- [Completed as resolution triage] Build a deduplicated exact URL inventory with source lines, live status, redirect and page title. See `url-inventory.json` and `url-audit-summary-2026-07-15.md`.
+- Record and independently check author/organisation, publication/update date, jurisdiction, supersession and claim applicability for each source selected for reuse.
 - Replace organisation-level or tertiary references with exact records where a claim is retained.
 - Re-run current Australian searches and discard superseded/time-sensitive statements.
 - Extract claims separately by outcome and formulation; do not inherit the prose-level “Strong/Moderate/Weak” labels.

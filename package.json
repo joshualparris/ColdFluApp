@@ -16,6 +16,7 @@
     "validate:content": "node scripts/validate-content.mjs",
     "report:import": "node scripts/generate-import-report.mjs",
     "check:media-links": "node scripts/check-media-links.mjs",
+    "audit:batch1-links": "node scripts/inventory-import-links.mjs inputs/imported-research/cold-flu-modules-batch1-linked-raw.md content/research/imported-batch-1/url-inventory.json",
     "check:internal-links": "node scripts/check-internal-links.mjs",
     "check:spelling": "cspell --no-progress --show-suggestions",
     "test:e2e": "playwright test"
