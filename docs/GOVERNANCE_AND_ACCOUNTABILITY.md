@@ -42,6 +42,7 @@ One person may hold more than one role only when the overlap and conflicts are d
 | Reviewer conflicts and attribution | This document | Project owner and all reviewer roles | Proposed; not approved |
 | Funding, advertising, affiliate and sponsorship | This document | Project owner | Proposed; not approved |
 | Corrections and emergency unpublishing | This document | Project owner and clinical reviewer | Proposed; not approved |
+| Reviewer signature procedure | `docs/REVIEWER_SIGNATURE_PROCEDURE.md` | Project owner and all reviewer roles | Proposed; not approved |
 
 ## Proposed conflict and attribution policy
 
