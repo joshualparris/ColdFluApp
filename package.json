@@ -15,6 +15,8 @@
     "validate:content": "node scripts/validate-content.mjs",
     "report:import": "node scripts/generate-import-report.mjs",
     "check:media-links": "node scripts/check-media-links.mjs",
+    "check:internal-links": "node scripts/check-internal-links.mjs",
+    "check:spelling": "node scripts/check-spelling.mjs",
     "test:e2e": "playwright test"
   },
   "dependencies": {

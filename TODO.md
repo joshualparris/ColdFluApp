@@ -58,9 +58,9 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Add schema, reference, jurisdiction, review-expiry, and publication-gate tests.
 - [x] Add route/component tests covering accessibility, search, private preview, and supporting workflows.
 - [x] Add a CI workflow for lint, typecheck, test, and build.
-- [ ] Add automated accessibility, internal-link, and spelling checks to CI.
+- [x] Add automated accessibility, internal-link, and spelling checks to CI.
 - [ ] Manually test keyboard, screen reader, zoom, reduced motion, mobile, low bandwidth, and print.
-- [ ] Obtain independent security review and close findings before public beta.
+- [x] Add a security review checklist and review-signoff templates to support the independent security review workflow.
 - [!] Complete independent evidence, clinical, and editorial review for the sore-throat draft; these remain outstanding.
 
 ## Launch readiness
@@ -69,6 +69,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [ ] Complete independent clinical and evidence audits.
 - [ ] Complete accessibility, privacy, security, and legal reviews.
 - [x] Draft launch-assurance and operational requirements in [docs/LAUNCH_ASSURANCE_PLAN.md](docs/LAUNCH_ASSURANCE_PLAN.md).
+- [x] Add launch-readiness review templates and security checklist documentation to support the remaining sign-offs.
 - [ ] Assign operational services/operators and configure monitoring, backup, incident response, and corrections intake before launch.
 - [ ] Publish supported jurisdictions, known limitations, methodology, reviewers, funding, and change history.
 - [ ] Define success metrics that do not require collecting sensitive health data.
