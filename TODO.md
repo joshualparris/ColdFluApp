@@ -1,16 +1,14 @@
 # Working backlog
 
-Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked or requires an accountable decision.
+Status key: `[ ]` not started, `[-]` in progress, `[x]` complete.
 
 This file reflects the repository state as of 2026-07-15. It is intentionally conservative: items are marked complete only when the repository contains corresponding implementation, documentation, or tests.
 
-## Project ownership and governance
+## Project governance
 
-- [!] Appoint the legal/project owner and accountable Australian clinical reviewer; the repository currently records these roles as vacant.
-- [!] Appoint an evidence-methods reviewer and a plain-language/accessibility editor; the repository currently records these roles as vacant.
 - [x] Capture governance prerequisites and review/accountability expectations in [docs/DECISIONS.md](docs/DECISIONS.md) and [docs/GOVERNANCE_AND_ACCOUNTABILITY.md](docs/GOVERNANCE_AND_ACCOUNTABILITY.md).
 - [x] Draft reviewer-conflict, funding, and correction policies; accountable human approval is still pending.
-- [ ] Obtain legal advice before public launch about health-content, consumer, privacy, and accessibility obligations.
+- [x] Separate external appointments, reviews, testing and approvals from this actionable backlog in [docs/EXTERNAL_LAUNCH_PREREQUISITES.md](docs/EXTERNAL_LAUNCH_PREREQUISITES.md).
 
 ## Content foundation
 
@@ -19,7 +17,6 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Create initial source, search-log, research-protocol, and review templates.
 - [x] Draft a content style guide and medical glossary.
 - [x] Select sore-throat supportive care as the first vertical-slice module.
-- [!] Obtain accountable approval for the evidence-certainty and review-interval vocabulary; the repository records this as pending.
 
 ## Existing research cleanup
 
@@ -37,7 +34,6 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Create a master evidence-gap register and prioritise safety-critical gaps.
 - [x] Add sore-throat research artefacts for screening, exclusions, bias, funding/conflict, corrections/retractions, and evidence gaps.
 - [x] Produce a structured sore-throat research handoff package and evidence-review-ready draft.
-- [!] Obtain independent evidence verification and decide whether additional database or full-text retrieval is required.
 - [ ] Expand the evidence programme beyond sore-throat to the wider 28-module catalogue.
 - [ ] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes more explicitly in the sore-throat evidence record.
 - [ ] Plan additional overlays listed in [docs/SCOPE.md](docs/SCOPE.md).
@@ -45,7 +41,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 ## Vertical-slice application
 
 - [x] Implement a disabled-by-default, authenticated private research workspace without changing public publication gates.
-- [!] Configure deployment credentials and deployment protection for the private preview; the implementation exists, but the external deployment configuration remains an accountable deployment task.
+- [ ] Document and verify deployment protection and credential-rotation evidence without recording secret values.
 - [x] Initialise Next.js and TypeScript.
 - [x] Implement content validation and build-failing publication gates.
 - [x] Implement public and private module, source, and research-preview routes.
@@ -59,18 +55,15 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Add route/component tests covering accessibility, search, private preview, and supporting workflows.
 - [x] Add a CI workflow for lint, typecheck, test, and build.
 - [x] Add automated accessibility, internal-link, and spelling checks to CI.
-- [ ] Manually test keyboard, screen reader, zoom, reduced motion, mobile, low bandwidth, and print.
+- [ ] Complete repository-executable keyboard, zoom, reduced-motion, mobile, low-bandwidth, failed-image, JavaScript-disabled and print checks.
 - [x] Add a security review checklist and review-signoff templates to support the independent security review workflow.
-- [!] Complete independent evidence, clinical, and editorial review for the sore-throat draft; these remain outstanding.
 
 ## Launch readiness
 
-- [ ] Conduct reader-comprehension testing, especially evidence labels and triage.
-- [ ] Complete independent clinical and evidence audits.
-- [ ] Complete accessibility, privacy, security, and legal reviews.
 - [x] Draft launch-assurance and operational requirements in [docs/LAUNCH_ASSURANCE_PLAN.md](docs/LAUNCH_ASSURANCE_PLAN.md).
 - [x] Add launch-readiness review templates and security checklist documentation to support the remaining sign-offs.
-- [ ] Assign operational services/operators and configure monitoring, backup, incident response, and corrections intake before launch.
+- [ ] Add monitoring, backup/restore, incident-response and corrections-intake implementation runbooks and configuration templates.
+- [ ] Enable repository security controls that are available for the GitHub plan and record the resulting settings.
 - [ ] Publish supported jurisdictions, known limitations, methodology, reviewers, funding, and change history.
 - [ ] Define success metrics that do not require collecting sensitive health data.
 
