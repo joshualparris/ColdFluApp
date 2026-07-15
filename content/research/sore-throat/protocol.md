@@ -3,7 +3,7 @@
 ## Identification
 
 - Module ID: `sore-throat`
-- Protocol version: 0.1
+- Protocol version: 0.2
 - Protocol date: 2026-07-15
 - Research owner: Codex-assisted draft; accountable human owner unassigned
 - Initial jurisdiction: Australia
@@ -53,4 +53,6 @@ Rate each outcome-specific claim separately. Consider study design, risk of bias
 - Bibliographic database searching and independent dual screening have not been completed.
 - Paywalled Australian Therapeutic Guidelines content was not relied on.
 - No accountable evidence or clinical reviewer has approved the work.
-
+- The 2026-07-15 continuation used a single researcher and machine-readable PubMed/Europe PMC metadata. Searches were structured but were not independently screened and do not constitute a completed systematic review.
+- Broad queries produced substantial irrelevant retrieval. Relevance screening was limited to the first 20 results sorted by PubMed relevance plus named guideline citations and known synthesis records.
+- CENTRAL records embedded in Cochrane reviews were inspectable only through abstracts/evidence summaries; independent CENTRAL searching and several proprietary full texts were not accessible.
