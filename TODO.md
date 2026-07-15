@@ -27,13 +27,13 @@ The repository now records these governance tasks as a prerequisite for public l
 ## Existing research cleanup
 
 - [x] Preserve raw files under a clearly labelled `inputs/` location.
-- [ ] Repair mojibake/encoding in imported files without treating the result as verified content.
-- [ ] Deduplicate the two Batch 1 variants and record provenance.
+- [x] Audit imported-file encoding without modifying raw inputs; record that observed garbling was console decoding rather than damaged UTF-8.
+- [x] Compare the two Batch 1 variants, retain both as materially different provenance records, and document their disposition.
 - [ ] Verify every Batch 1 URL, title, date, author, jurisdiction, and applicability.
 - [ ] Replace organisation-only citations with exact source records.
 - [ ] Reassess every evidence rating at the claim level.
 - [ ] Recheck all doses, ages, duration limits, interactions, and triage thresholds against current Australian guidance.
-- [ ] Mark all seven modules as unpublished discovery drafts.
+- [x] Mark all seven Batch 1 areas as unpublished discovery drafts without promoting their content.
 
 ## Research programme
 
