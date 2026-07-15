@@ -12,6 +12,8 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 - [ ] Define correction severity levels, response targets, and emergency unpublishing authority.
 - [ ] Obtain legal advice before public launch about applicable health-content, consumer, privacy, and accessibility obligations.
 
+The repository now records these governance tasks as a prerequisite for public launch in [docs/DECISIONS.md](docs/DECISIONS.md).
+
 ## Content foundation
 
 - [x] Choose JSON as the initial canonical authoring format and implement schema version 1.

@@ -24,6 +24,7 @@ An evidence-led, modular public knowledge base for cold, influenza, and related 
 The project is in **Phase 0: foundation and evidence governance**.
 
 - The original 28-module scope has been captured.
+- Governance ownership and accountable reviewer roles are now explicitly tracked as a prerequisite to any public launch. The repository currently records the need for a named legal/project owner, an Australian clinical reviewer, an evidence-methods reviewer, and a plain-language/accessibility editor before launch.
 - Seven AI-produced module drafts exist, but have not passed the required evidence, editorial, or clinical review gates.
 - A minimal Next.js project-status scaffold exists, but product interface development is deferred. It reads only canonical content and exposes only modules with `status: published`.
 - One schema-validated sore-throat module is an unpublished vertical-slice draft; no module is approved for publication.

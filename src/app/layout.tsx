@@ -22,6 +22,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <div className="site-header-actions">
             <nav aria-label="Primary">
               <Link href="/">Public status</Link>
+              <Link href="/modules">Modules</Link>
+              <Link href="/about/methodology">Methodology</Link>
+              <Link href="/about/policy">Policy</Link>
+              <Link href="/about/accessibility">Accessibility</Link>
+              <Link href="/about/privacy">Privacy</Link>
+              <Link href="/about/corrections">Corrections</Link>
             </nav>
             <ThemeToggle />
           </div>

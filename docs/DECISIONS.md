@@ -67,3 +67,9 @@ This lightweight log records decisions that constrain future work. Add dated ent
 **Status:** accepted
 **Decision:** The private workspace may use transparent progress, optional celebrations, personalisation and supplementary discoveries to support research organisation. It must not use deceptive progress, punitive streaks, gambling-style rewards or incentives that could encourage unsafe medical-content decisions.
 **Reason:** Orientation and acknowledgement can support a long research programme only when repository truth, human review gates and user autonomy remain explicit.
+
+## D-012 — Governance ownership and accountable review roles
+
+**Status:** proposed
+**Decision:** The product should maintain a named legal/project owner, a named Australian clinical reviewer, an evidence-methods reviewer, and a plain-language/accessibility editor before public launch. These roles must be recorded in repository documentation and must be involved in approval of publication gates, major safety changes, and launch-readiness checks.
+**Reason:** The current repository contains unreviewed draft medical content and must not imply clinical or editorial approval without accountable human review.
