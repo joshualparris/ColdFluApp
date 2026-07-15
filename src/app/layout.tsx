@@ -38,7 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <ThemeToggle />
           </div>
         </header>
-        <main id="main" className="shell">
+        <main id="main" className="shell" tabIndex={-1}>
           {children}
         </main>
         <footer>

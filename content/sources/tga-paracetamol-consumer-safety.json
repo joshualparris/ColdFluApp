@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tga-paracetamol-consumer-safety",
+  "type": "regulator",
+  "title": "Paracetamol: Information for consumers",
+  "authorsOrOrganisation": ["Therapeutic Goods Administration"],
+  "publication": "Therapeutic Goods Administration safety information",
+  "publishedAt": null,
+  "updatedAt": null,
+  "doi": null,
+  "url": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/paracetamol-information-consumers",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Regulator information distinguishes children's liquid strengths, warns against duplicate paracetamol products, requires label checking and directs overdose or medicine errors to the Poisons Information Centre. No dose is copied into this project."
+}

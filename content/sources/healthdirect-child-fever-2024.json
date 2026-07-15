@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-child-fever-2024",
+  "type": "guideline",
+  "title": "Fever and high temperature in children and babies - when to see a doctor",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2024-12-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/fever-and-high-temperature-in-children",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed December 2024. Exact emergency thresholds and medicine advice remain subject to independent Australian paediatric clinical review before reader publication."
+}

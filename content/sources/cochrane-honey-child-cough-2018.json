@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cochrane-honey-child-cough-2018",
+  "type": "systematic_review",
+  "title": "Honey for acute cough in children",
+  "authorsOrOrganisation": ["Cochrane Acute Respiratory Infections Group"],
+  "publication": "Cochrane Database of Systematic Reviews",
+  "publishedAt": "2018-04-10",
+  "updatedAt": null,
+  "doi": "10.1002/14651858.CD007094.pub5",
+  "url": "https://www.cochrane.org/evidence/CD007094_honey-acute-cough-children",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "Trials covered children aged 12 months to 18 years, mostly short use, with low-to-moderate certainty and variable comparisons. The review explicitly advises against honey for infants up to 12 months. No canonical recommendation is created."
+}

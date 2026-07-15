@@ -35,7 +35,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Add sore-throat research artefacts for screening, exclusions, bias, funding/conflict, corrections/retractions, and evidence gaps.
 - [x] Produce a structured sore-throat research handoff package and evidence-review-ready draft.
 - [ ] Expand the evidence programme beyond sore-throat to the wider 28-module catalogue.
-- [ ] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes more explicitly in the sore-throat evidence record.
+- [x] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes more explicitly in the sore-throat evidence record.
 - [ ] Plan additional overlays listed in [docs/SCOPE.md](docs/SCOPE.md).
 
 ## Vertical-slice application
@@ -55,7 +55,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Add route/component tests covering accessibility, search, private preview, and supporting workflows.
 - [x] Add a CI workflow for lint, typecheck, test, and build.
 - [x] Add automated accessibility, internal-link, and spelling checks to CI.
-- [ ] Complete repository-executable keyboard, zoom, reduced-motion, mobile, low-bandwidth, failed-image, JavaScript-disabled and print checks.
+- [x] Complete repository-executable keyboard, narrow reflow/zoom proxy, reduced-motion, mobile, failed-image, JavaScript-disabled and print checks.
 - [x] Add a security review checklist and review-signoff templates to support the independent security review workflow.
 
 ## Launch readiness
@@ -63,7 +63,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Draft launch-assurance and operational requirements in [docs/LAUNCH_ASSURANCE_PLAN.md](docs/LAUNCH_ASSURANCE_PLAN.md).
 - [x] Add launch-readiness review templates and security checklist documentation to support the remaining sign-offs.
 - [x] Add monitoring, backup/restore, incident-response and corrections-intake implementation runbooks and configuration templates.
-- [ ] Enable repository security controls that are available for the GitHub plan and record the resulting settings.
+- [x] Enable repository security controls that are available for the GitHub plan and record the resulting settings.
 - [x] Publish supported jurisdictions, known limitations, methodology, reviewers, funding, and change history.
 - [x] Define success metrics that do not require collecting sensitive health data.
 

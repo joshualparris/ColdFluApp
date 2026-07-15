@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cochrane-otc-acute-cough-2014",
+  "type": "systematic_review",
+  "title": "Over-the-counter (OTC) medications for acute cough in children and adults in community settings",
+  "authorsOrOrganisation": ["Susan M Smith", "Knut Schroeder", "Tom Fahey"],
+  "publication": "Cochrane Database of Systematic Reviews",
+  "publishedAt": "2014-11-24",
+  "updatedAt": null,
+  "doi": "10.1002/14651858.CD001831.pub5",
+  "url": "https://www.cochrane.org/evidence/CD001831_over-counter-otc-medications-acute-cough-children-and-adults-community-settings",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "Review included 10 child trials among 29 trials overall and found no good evidence for or against OTC medicines for acute cough. Heterogeneous products, poor reporting, old search currency and country-specific availability limit applicability; industry-supported studies were more likely to be positive."
+}

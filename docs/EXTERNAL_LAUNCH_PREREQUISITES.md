@@ -26,7 +26,7 @@ AI assistance, automated checks, draft review packets and repository maintainers
 
 ## Policy approvals
 
-The accountable roles identified in `docs/GOVERNANCE_AND_ACCOUNTABILITY.md` must approve the evidence vocabulary, review-expiry intervals, reviewer conflicts and attribution, funding/commercial policy, corrections and emergency unpublishing, and reviewer-signature procedure. Draft text is not approval.
+The accountable roles identified in `docs/GOVERNANCE_AND_ACCOUNTABILITY.md` must approve the evidence vocabulary, review-expiry intervals, reviewer conflicts and attribution, funding/commercial policy, corrections and emergency unpublishing, and `docs/REVIEWER_SIGNATURE_PROCEDURE.md`. Draft text is not approval.
 
 ## Human and environment-dependent assurance
 

@@ -1,5 +1,5 @@
 # Babies and young children — handoff notes
 
-This package begins the assigned Codex module with a protocol and Australian authoritative-source orientation. It is deliberately incomplete and has not entered canonical drafting.
+This package now includes a single-researcher structured extraction from exact Australian hospital, Healthdirect, TGA and Australian Government poison-contact records. It is deliberately incomplete and has not entered canonical drafting.
 
-Next work is a reproducible systematic search, exact source records, claim-level extraction and safety overlays. The module remains `assigned`; the presence of these files is not evidence-review readiness.
+Next work is a reproducible systematic effectiveness search, duplicate screening, correction/funding checks, resolution of remaining age bands and independent evidence, paediatric clinical and editorial review. The presence of these files is not evidence-review readiness.

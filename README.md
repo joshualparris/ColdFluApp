@@ -22,6 +22,8 @@ An evidence-led, modular public knowledge base for cold, influenza, and related 
 - [External launch prerequisites](docs/EXTERNAL_LAUNCH_PREREQUISITES.md)
 - [Operations runbook](docs/OPERATIONS_RUNBOOK.md)
 - [Privacy-preserving success metrics](docs/SUCCESS_METRICS.md)
+- [GitHub security settings](docs/GITHUB_SECURITY_SETTINGS.md)
+- [Reviewer signature procedure](docs/REVIEWER_SIGNATURE_PROCEDURE.md)
 - [Master evidence-gap register](docs/EVIDENCE_GAP_REGISTER.md)
 - [External research runbook](docs/EXTERNAL_RESEARCH_RUNBOOK.md)
 
