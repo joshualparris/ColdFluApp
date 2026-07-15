@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-copd-2025",
+  "type": "guideline",
+  "title": "Chronic obstructive pulmonary disease (COPD)",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2025-07-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/copd",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed July 2025. Retained for respiratory-infection triggers, change-from-baseline observations and care-seeking orientation. Individual action-plan and medicine instructions require clinical review."
+}

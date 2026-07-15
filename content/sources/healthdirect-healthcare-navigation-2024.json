@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-healthcare-navigation-2024",
+  "type": "guideline",
+  "title": "What healthcare do I need?",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2024-06-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/what-care-do-i-need",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian healthcare-navigation guidance last reviewed June 2024. Retained to distinguish emergency, urgent non-life-threatening, routine and telephone-advice routes, including interpreter access."
+}

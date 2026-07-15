@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tga-medicine-labelling-guide-2026",
+  "type": "regulator",
+  "title": "Labelling medicines to comply with TGO 91 and TGO 92",
+  "authorsOrOrganisation": ["Therapeutic Goods Administration"],
+  "publication": "Therapeutic Goods Administration",
+  "publishedAt": "2026-03-01",
+  "updatedAt": null,
+  "doi": null,
+  "url": "https://www.tga.gov.au/sites/default/files/2026-04/labelling-medicines-to-comply-with-tgo-91-tgo-92-march-2026.pdf",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "TGA version 2.6, March 2026. Retained to verify that relevant oral decongestant and combination-product labels direct people with high blood pressure or heart problems to a doctor or pharmacist. Example labels are not treatment recommendations."
+}

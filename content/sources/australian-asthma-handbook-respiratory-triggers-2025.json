@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "australian-asthma-handbook-respiratory-triggers-2025",
+  "type": "guideline",
+  "title": "Trigger avoidance strategies for adults and adolescents",
+  "authorsOrOrganisation": ["National Asthma Council Australia"],
+  "publication": "Australian Asthma Handbook, version 3.0",
+  "publishedAt": "2025-01-01",
+  "updatedAt": null,
+  "doi": null,
+  "url": "https://www.asthmahandbook.org.au/management/adults-and-adolescents/adjunctive-management/managing-environmental-triggers",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian national health-professional guideline, cited as version 3.0 (2025). Retained for viral respiratory infection as an asthma trigger and the explicit uncertainty separating vaccination benefits from prevention of asthma exacerbations."
+}

@@ -1,0 +1,49 @@
+{
+  "moduleId": "pregnancy-and-breastfeeding",
+  "extractedAt": "2026-07-15",
+  "status": "single-researcher-structured-pre-review-extraction",
+  "records": [
+    {
+      "sourceId": "healthdirect-cold-flu-pregnancy-breastfeeding-2025",
+      "population": "Pregnant and breastfeeding people in Australia",
+      "topics": ["cold", "influenza", "care seeking", "breastfeeding", "supportive care", "medicine advice"],
+      "verifiedBoundaries": ["Last reviewed July 2025", "Influenza risk is distinguished from a self-limiting cold", "Medicine questions are directed to a doctor or pharmacist"],
+      "notExtractedForReaderUse": ["Ingredient-level medicine recommendations", "Antiviral prescribing", "Diagnosis from symptoms"]
+    },
+    {
+      "sourceId": "healthdirect-medicines-pregnancy-2024",
+      "population": "People who are pregnant or planning pregnancy",
+      "topics": ["medicine review", "pregnancy stage", "dose and frequency context"],
+      "verifiedBoundaries": ["Last reviewed June 2024", "Medicine decisions depend on individual circumstances", "Professional advice is required before starting, stopping or changing medicines"],
+      "notExtractedForReaderUse": ["Product choice", "Dose", "Safety classification for a specific ingredient"]
+    },
+    {
+      "sourceId": "healthdirect-medicines-breastfeeding-2025",
+      "population": "People who are breastfeeding and their infants",
+      "topics": ["medicine transfer", "infant effects", "milk supply", "professional advice"],
+      "verifiedBoundaries": ["Last reviewed August 2025", "Pregnancy safety does not establish breastfeeding safety", "New medicines should be checked with a health professional"],
+      "notExtractedForReaderUse": ["Ingredient recommendation", "Dose", "Individual infant risk assessment"]
+    },
+    {
+      "sourceId": "tga-pregnancy-medicine-categories-2025",
+      "population": "Health professionals treating pregnant people in Australia",
+      "topics": ["pregnancy categories", "risk-benefit", "dose", "route", "duration"],
+      "verifiedBoundaries": ["Updated 28 March 2025", "Categories are not an alphabetical safety ranking", "The database is not a substitute for professional advice"],
+      "notExtractedForReaderUse": ["Self-selection from a category", "Comparative ingredient safety", "Prescribing advice"]
+    },
+    {
+      "sourceId": "mothersafe-common-cold-pregnancy-breastfeeding-2023",
+      "population": "Pregnant and breastfeeding people with common-cold symptoms",
+      "topics": ["supportive care", "medicine classes", "lactation"],
+      "verifiedBoundaries": ["Dated 12 July 2023", "Current located version supersedes older web-indexed copies", "Specialist factsheet rather than a systematic review"],
+      "notExtractedForReaderUse": ["Medicine class advice", "Dose", "Treatment duration"]
+    },
+    {
+      "sourceId": "australian-immunisation-handbook-influenza-pregnancy-2026",
+      "population": "Pregnant people in Australia",
+      "topics": ["influenza vaccination", "pregnancy", "infant protection", "timing"],
+      "verifiedBoundaries": ["Last reviewed 13 March 2026", "Recommendation applies in each pregnancy", "Inactivated influenza vaccination is the pregnancy-specific scope"],
+      "notExtractedForReaderUse": ["Product selection", "Administration", "Individual contraindication assessment"]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
-# External research runbook
+# Optional external research runbook
 
-This runbook controls the 22 ChatGPT/Claude assignments in `docs/ASSIGNMENTS.md`. External model access is not available merely because Codex can edit this repository. A run counts as returned only when its unchanged artefacts are saved under the specified `inputs/agent-returns/` path.
+This runbook governs optional ChatGPT/Claude returns. Provider-specific runs were removed from the active repository backlog on 2026-07-15 because no connected external sessions or returned packages were available. Under decision D-013, Codex instead performs a provider-neutral primary-source queue. A future external run counts as returned only when its unchanged artefacts are saved under the specified `inputs/agent-returns/` path.
 
 ## One-module-at-a-time rule
 
@@ -12,7 +12,7 @@ This runbook controls the 22 ChatGPT/Claude assignments in `docs/ASSIGNMENTS.md`
 6. Mark `returned` only after all expected files are present.
 7. Codex performs intake audit before the next module is run. Failed packages become `needs-revision`; nothing is copied directly into canonical content.
 
-## External queue
+## Optional external queue — not active work
 
 ### ChatGPT
 
@@ -61,4 +61,4 @@ These five are repository research tasks, not external returns: `babies-and-youn
 - Create new canonical artefacts only from verified extraction.
 - Leave all evidence, clinical and editorial reviews unstarted until accountable people act.
 
-No checklist tick is evidence quality or publication approval.
+No checklist tick is evidence quality or publication approval. Unticked items in this optional queue are not launch blockers and are not active TODO items.

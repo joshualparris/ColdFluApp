@@ -1,0 +1,32 @@
+{
+  "moduleId": "cardiovascular-disease-and-high-blood-pressure",
+  "mappedAt": "2026-07-15",
+  "status": "candidate-claims-not-canonical-pre-review",
+  "candidateClaims": [
+    {
+      "candidateId": "cardiac-disease-influenza-risk-and-prevention",
+      "outcome": "prevention",
+      "sourceIds": ["heart-foundation-respiratory-infections-cardiovascular-2026", "australian-immunisation-handbook-influenza-2026", "australian-health-medical-risk-immunisation-2026"],
+      "boundary": "Programme and prevention orientation only; no vaccine product, effect size or individual eligibility is asserted."
+    },
+    {
+      "candidateId": "follow-existing-fluid-plan",
+      "outcome": "fluid_related_harm_avoidance",
+      "sourceIds": ["heart-foundation-respiratory-infections-cardiovascular-2026"],
+      "boundary": "Applies where a cardiovascular care team has provided a fluid plan. The project supplies no volume target."
+    },
+    {
+      "candidateId": "cold-flu-medicine-cardiovascular-check",
+      "outcome": "medicine_harm_avoidance",
+      "sourceIds": ["heart-foundation-respiratory-infections-cardiovascular-2026", "healthdirect-cold-flu-medicines-2025", "healthdirect-nsaids-2024", "tga-medicine-labelling-guide-2026"],
+      "boundary": "Process claim to check every active ingredient and current medicine with a pharmacist or doctor; not an ingredient recommendation."
+    },
+    {
+      "candidateId": "avoid-duplicate-anti-inflammatory-ingredients",
+      "outcome": "medicine_error_avoidance",
+      "sourceIds": ["healthdirect-nsaids-2024"],
+      "boundary": "Duplicate-ingredient awareness only. Exact products and individual suitability are outside scope."
+    }
+  ],
+  "canonicalClaimsCreated": 0
+}

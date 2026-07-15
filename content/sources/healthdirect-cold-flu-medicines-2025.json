@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-cold-flu-medicines-2025",
+  "type": "guideline",
+  "title": "Medicines for colds, flu and COVID-19",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2025-08-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/medicines-for-colds-flu-and-covid-19",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed August 2025. Retained for medicine-check and cardiovascular contraindication orientation only. Ingredient selection, dose and duration remain excluded pending clinical review."
+}

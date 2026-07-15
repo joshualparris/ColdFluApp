@@ -1,0 +1,32 @@
+{
+  "moduleId": "asthma-copd-and-chronic-respiratory-conditions",
+  "mappedAt": "2026-07-15",
+  "status": "candidate-claims-not-canonical-pre-review",
+  "candidateClaims": [
+    {
+      "candidateId": "viral-infections-can-trigger-respiratory-flare-ups",
+      "outcome": "exacerbation_risk",
+      "sourceIds": ["australian-asthma-handbook-respiratory-triggers-2025", "healthdirect-copd-2025", "healthdirect-asthma-attack-2025"],
+      "boundary": "Asthma and COPD evidence remains condition-specific; this does not establish that every respiratory symptom is an exacerbation."
+    },
+    {
+      "candidateId": "follow-existing-condition-action-plan",
+      "outcome": "self_management_process",
+      "sourceIds": ["healthdirect-asthma-attack-2025", "lung-foundation-copd-action-plan-2026"],
+      "boundary": "Only a plan already prepared with a clinician is in scope. The project does not create or alter an individual's plan."
+    },
+    {
+      "candidateId": "change-from-baseline-needs-clinical-attention",
+      "outcome": "medical_escalation",
+      "sourceIds": ["healthdirect-copd-2025", "lung-foundation-copd-action-plan-2026"],
+      "boundary": "COPD-specific candidate wording; exact urgency and symptom set require respiratory clinical review."
+    },
+    {
+      "candidateId": "rapid-or-severe-breathing-deterioration-emergency",
+      "outcome": "emergency_escalation",
+      "sourceIds": ["healthdirect-copd-2025", "healthdirect-asthma-attack-2025"],
+      "boundary": "Emergency orientation only. Condition-specific first-aid actions and medicine doses are not mapped here."
+    }
+  ],
+  "canonicalClaimsCreated": 0
+}

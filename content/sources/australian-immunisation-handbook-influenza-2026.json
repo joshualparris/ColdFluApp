@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "australian-immunisation-handbook-influenza-2026",
+  "type": "guideline",
+  "title": "Influenza (flu)",
+  "authorsOrOrganisation": ["Australian Technical Advisory Group on Immunisation", "Australian Government Department of Health, Disability and Ageing"],
+  "publication": "Australian Immunisation Handbook",
+  "publishedAt": null,
+  "updatedAt": "2026-06-22",
+  "doi": null,
+  "url": "https://immunisationhandbook.health.gov.au/influenza-flu",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Official Australian chapter last reviewed and updated 22 June 2026. Retained for age- and medical-risk vaccination scope. Product selection, dosing and immunocompromise-specific scheduling remain clinician responsibilities."
+}

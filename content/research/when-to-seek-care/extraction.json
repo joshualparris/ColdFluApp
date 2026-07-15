@@ -1,0 +1,42 @@
+{
+  "moduleId": "when-to-seek-care",
+  "extractedAt": "2026-07-15",
+  "status": "single-researcher-structured-pre-review-extraction",
+  "records": [
+    {
+      "sourceId": "healthdirect-healthcare-navigation-2024",
+      "population": "People navigating healthcare in Australia",
+      "topics": ["triple zero", "emergency department", "urgent care", "GP", "pharmacist", "healthdirect", "interpreter"],
+      "verifiedBoundaries": ["Last reviewed June 2024", "Emergency and urgent non-life-threatening pathways are distinct", "Healthdirect telephone advice is for non-emergency navigation"],
+      "notExtractedForReaderUse": ["Individual triage decision", "Local service availability guarantee", "Diagnosis"]
+    },
+    {
+      "sourceId": "healthdirect-influenza-2026",
+      "population": "People in Australia with possible influenza",
+      "topics": ["worsening", "breathing", "hydration", "vomiting", "confusion", "higher-risk groups"],
+      "verifiedBoundaries": ["Last reviewed February 2026", "Trouble breathing is an emergency route", "Worsening and higher-risk contexts can require clinician review"],
+      "notExtractedForReaderUse": ["Influenza diagnosis", "Exhaustive safety checklist", "Antiviral prescribing"]
+    },
+    {
+      "sourceId": "healthdirect-chest-infection-2025",
+      "population": "Adults and children in Australia with respiratory symptoms",
+      "topics": ["shortness of breath", "pain with breathing", "blood in phlegm", "worsening", "heart or lung disease"],
+      "verifiedBoundaries": ["Last reviewed May 2025", "Existing heart or lung disease modifies the care-seeking threshold", "Severe breathing difficulty is an emergency"],
+      "notExtractedForReaderUse": ["Chest-infection diagnosis", "Antibiotic decision", "Universal fever threshold"]
+    },
+    {
+      "sourceId": "healthdirect-sepsis-2024",
+      "population": "Adults and children in Australia with an infection",
+      "topics": ["rapid deterioration", "confusion", "drowsiness", "breathing", "urine", "skin change", "emergency"],
+      "verifiedBoundaries": ["Last reviewed September 2024", "Sepsis is an emergency", "Early symptoms can resemble other illnesses and can progress quickly"],
+      "notExtractedForReaderUse": ["Sepsis diagnosis", "Rule-out checklist", "Treatment instructions"]
+    },
+    {
+      "sourceId": "healthdirect-child-fever-2024",
+      "population": "Children and babies with fever",
+      "topics": ["young infant", "temperature", "emergency department"],
+      "verifiedBoundaries": ["Last reviewed December 2024", "The age/temperature threshold is population-specific", "Threshold requires immediate paediatric clinical verification before publication"],
+      "notExtractedForReaderUse": ["General adult threshold", "Medicine dosing", "Reassurance"]
+    }
+  ]
+}

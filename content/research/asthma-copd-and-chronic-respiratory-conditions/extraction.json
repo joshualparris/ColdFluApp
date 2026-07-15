@@ -1,0 +1,35 @@
+{
+  "moduleId": "asthma-copd-and-chronic-respiratory-conditions",
+  "extractedAt": "2026-07-15",
+  "status": "single-researcher-structured-pre-review-extraction",
+  "records": [
+    {
+      "sourceId": "australian-asthma-handbook-respiratory-triggers-2025",
+      "population": "Adults and adolescents with asthma",
+      "topics": ["viral respiratory triggers", "exacerbations", "vaccination", "uncertainty"],
+      "verifiedBoundaries": ["Australian Asthma Handbook version 3.0", "Viral upper-respiratory infection is treated as a common asthma trigger", "Direct evidence that influenza vaccination prevents asthma exacerbations is explicitly uncertain"],
+      "notExtractedForReaderUse": ["Vaccine selection", "Asthma treatment change", "Exacerbation risk magnitude"]
+    },
+    {
+      "sourceId": "healthdirect-copd-2025",
+      "population": "People in Australia with diagnosed COPD",
+      "topics": ["respiratory infection", "change from baseline", "flare-up", "urgent care"],
+      "verifiedBoundaries": ["Last reviewed July 2025", "Respiratory infections can trigger COPD exacerbations", "Worsening is assessed against the person's usual symptoms"],
+      "notExtractedForReaderUse": ["Diagnosis", "Antibiotic or corticosteroid use", "Oxygen instructions"]
+    },
+    {
+      "sourceId": "healthdirect-asthma-attack-2025",
+      "population": "People in Australia with asthma",
+      "topics": ["respiratory virus trigger", "action plan", "rapid worsening", "emergency care"],
+      "verifiedBoundaries": ["Last reviewed October 2025", "Respiratory viruses are one possible trigger", "A written plan is developed and reviewed with a doctor"],
+      "notExtractedForReaderUse": ["Reliever dosing", "Diagnosis", "Individual action-plan instructions"]
+    },
+    {
+      "sourceId": "lung-foundation-copd-action-plan-2026",
+      "population": "People with COPD using a plan prepared with a healthcare professional",
+      "topics": ["personal baseline", "flare-up recognition", "prepared plan", "emergency signs"],
+      "verifiedBoundaries": ["Published April 2026", "The template is personalised with a healthcare professional", "Blank rescue medicine fields are conditional rather than universal instructions"],
+      "notExtractedForReaderUse": ["Rescue medicine initiation", "Dose", "Universal symptom threshold"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "lung-foundation-copd-action-plan-2026",
+  "type": "guideline",
+  "title": "My COPD Action Plan",
+  "authorsOrOrganisation": ["Lung Foundation Australia"],
+  "publication": "Lung Foundation Australia",
+  "publishedAt": "2026-04-01",
+  "updatedAt": null,
+  "doi": null,
+  "url": "https://lungfoundation.com.au/wp-content/uploads/2025/06/My-COPD-Action-Plan_Final.pdf",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Patient action-plan template marked published April 2026. Retained for the personalised baseline/action-plan model and emergency orientation. Blank medicine fields are not general treatment recommendations."
+}
