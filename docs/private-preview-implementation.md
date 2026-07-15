@@ -19,3 +19,9 @@ Canonical workflow state is read from tracked repository records and cannot be c
 ## Ethics, accessibility and security
 
 The design rejects gambling-style reinforcement, artificial scarcity, punitive streaks, guilt, anxiety prompts, loss aversion, fabricated cohorts and incentives to strengthen medical claims. It uses semantic headings, keyboard-native controls, visible focus, textual status, labelled progress bars, responsive layouts and reduced-motion support. Middleware applies `private, no-store` and `noindex, nofollow, noarchive` to every private route; public components contain no workbench data. Tests cover progress, artefacts, quests, human-review boundaries, badges, celebrations, ethical exclusions, local reset/pins, media and real Basic Authentication responses.
+
+## Expedition experience
+
+The research map groups tracked modules into regions and exposes recorded dependencies without implying medical causation. Source Detective offers a browser-local worksheet; its checks do not verify canonical records. Mysteries come from tracked evidence-gap headings and assignment notes. The timeline renders only recorded dates, while claim constellations show citation relationships without implying verification.
+
+The journal remains browser-local and is excluded from canonical research. Printable mission briefings report assignment, review and artefact state. Category ceremonies occur only when their repository condition is true. “What changed?” is a current-state snapshot because reliable per-event timestamps do not exist. Investigator, Archivist and Cartographer personas affect flavour only. Field Desk, Evidence Archive and Night Library affect presentation only. None can update module, review or publication state.
