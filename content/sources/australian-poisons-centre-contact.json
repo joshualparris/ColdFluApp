@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "australian-poisons-centre-contact",
+  "type": "other",
+  "title": "Poisons Information Centre",
+  "authorsOrOrganisation": ["Australian Government Department of Health, Disability and Ageing"],
+  "publication": "Australian Government contacts directory",
+  "publishedAt": null,
+  "updatedAt": null,
+  "doi": null,
+  "url": "https://www.health.gov.au/contacts/poisons-information-centre",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Official contact record directs people to call 13 11 26, 24 hours a day from anywhere in Australia, for suspected poisoning, overdose or medicine error. This is contact information, not treatment guidance."
+}

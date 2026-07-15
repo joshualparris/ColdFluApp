@@ -1,6 +1,6 @@
 # GitHub security settings
 
-Verified against `joshualparris/ColdFluApp` on 2026-07-15.
+Verified against the production GitHub repository on 2026-07-15.
 
 ## Enabled
 

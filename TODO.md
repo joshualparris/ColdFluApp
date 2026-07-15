@@ -35,7 +35,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Add sore-throat research artefacts for screening, exclusions, bias, funding/conflict, corrections/retractions, and evidence gaps.
 - [x] Produce a structured sore-throat research handoff package and evidence-review-ready draft.
 - [ ] Expand the evidence programme beyond sore-throat to the wider 28-module catalogue.
-- [ ] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes more explicitly in the sore-throat evidence record.
+- [x] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes more explicitly in the sore-throat evidence record.
 - [ ] Plan additional overlays listed in [docs/SCOPE.md](docs/SCOPE.md).
 
 ## Vertical-slice application

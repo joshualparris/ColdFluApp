@@ -1,28 +1,70 @@
 {
   "moduleId": "babies-and-young-children",
   "extractedAt": "2026-07-15",
-  "status": "candidate-source-orientation-not-claim-extraction",
+  "status": "single-researcher-structured-pre-review-extraction",
   "records": [
     {
-      "candidateUrl": "https://www.rch.org.au/kidsinfo/fact_sheets/Bronchiolitis/",
-      "organisation": "The Royal Children's Hospital Melbourne",
-      "scope": "Australian parent information about bronchiolitis in babies up to 12 months",
-      "candidateTopics": ["breathing", "feeding", "hydration", "expected course", "risk groups", "escalation"],
-      "limitations": ["Thresholds and medicine wording require Australian clinical review", "Bronchiolitis-specific content must not be generalized to every respiratory illness"]
+      "sourceId": "rch-bronchiolitis-2025",
+      "population": "Babies with bronchiolitis, generally under 12 months",
+      "topics": ["breathing", "feeding", "risk groups", "expected course", "escalation"],
+      "verifiedBoundaries": ["Reviewed July 2025", "Bronchiolitis-specific and not generalisable to every respiratory illness", "Home observation depends on comfortable breathing and adequate feeding"],
+      "notExtractedForReaderUse": ["Medicine instructions", "Hospital oxygen thresholds", "Diagnosis from symptoms"]
     },
     {
-      "candidateUrl": "https://www.rch.org.au/kidsinfo/fact_sheets/Dehydration/",
-      "organisation": "The Royal Children's Hospital Melbourne",
-      "scope": "Australian parent information about dehydration in babies and children",
-      "candidateTopics": ["feeding", "wet nappies", "dehydration", "age boundaries", "escalation"],
-      "limitations": ["Exact fluid volumes are not extracted into reader guidance", "Respiratory applicability is indirect for some sections"]
+      "sourceId": "rch-child-dehydration-2025",
+      "population": "Babies and children",
+      "topics": ["hydration", "urination", "behaviour", "age boundaries", "escalation"],
+      "verifiedBoundaries": ["Reviewed September 2025", "Young children and babies are at increased dehydration risk", "Severe dehydration requires urgent medical help"],
+      "notExtractedForReaderUse": ["Exact fluid volumes", "Medicine instructions", "Individual treatment plan"]
     },
     {
-      "candidateUrl": "https://www.nhmrc.gov.au/about-us/publications/staying-healthy-guidelines/fact-sheets/Bronchiolitis",
-      "organisation": "National Health and Medical Research Council",
-      "scope": "Australian infection-spread and childcare context",
-      "candidateTopics": ["transmission", "hygiene", "exclusion from education and care"],
-      "limitations": ["Not a complete home-care or triage guideline"]
+      "sourceId": "healthdirect-child-fever-2024",
+      "population": "Children and babies with fever",
+      "topics": ["young-infant fever", "breathing", "responsiveness", "hydration", "urgent care"],
+      "verifiedBoundaries": ["Last reviewed December 2024", "Australian pathway", "A baby under 3 months with temperature above 38 degrees Celsius requires immediate emergency-department assessment"],
+      "notExtractedForReaderUse": ["Medicine dosing", "Diagnosis", "Risk prediction"]
+    },
+    {
+      "sourceId": "tga-sedating-antihistamines-children-2022",
+      "population": "Children exposed to first-generation oral sedating antihistamines",
+      "topics": ["medicine harm", "age restriction", "cough and cold products"],
+      "verifiedBoundaries": ["Published 13 July 2022", "Do not use for cough, cold and flu symptoms under 6", "Do not give under 2 for any indication"],
+      "notExtractedForReaderUse": ["Product selection", "Dose", "Off-label recommendation"]
+    },
+    {
+      "sourceId": "tga-paracetamol-consumer-safety",
+      "population": "Australian consumers, including carers of infants and children",
+      "topics": ["different liquid strengths", "duplicate ingredients", "label checking", "overdose response"],
+      "verifiedBoundaries": ["Different child products can have different strengths", "Do not combine multiple paracetamol-containing products", "Suspected overdose or medicine error requires Poisons Information Centre advice"],
+      "notExtractedForReaderUse": ["Dose", "Treatment duration recommendation", "Product choice"]
+    },
+    {
+      "sourceId": "australian-poisons-centre-contact",
+      "population": "People in Australia with suspected poisoning, overdose or medicine error",
+      "topics": ["poisoning contact", "medicine error", "24-hour access"],
+      "verifiedBoundaries": ["13 11 26", "Available 24 hours a day throughout Australia", "Contact route only, not treatment guidance"],
+      "notExtractedForReaderUse": ["First aid", "Risk assessment", "Treatment"]
+    },
+    {
+      "sourceId": "cochrane-otc-acute-cough-2014",
+      "population": "Children and adults with acute cough; 10 child trials",
+      "topics": ["cough symptom relief", "adverse effects", "commercial funding"],
+      "verifiedBoundaries": ["No good evidence for or against OTC acute-cough medicines", "Products and results were heterogeneous", "Evidence search ended in March 2014"],
+      "notExtractedForReaderUse": ["Class-wide no-effect claim", "Dose", "Australian product recommendation"]
+    },
+    {
+      "sourceId": "cochrane-honey-child-cough-2018",
+      "population": "Children aged 12 months to 18 years with acute cough",
+      "topics": ["short-term cough symptoms", "sleep", "adverse events", "age restriction"],
+      "verifiedBoundaries": ["Mostly one-night exposure", "Low-to-moderate certainty", "Not for infants up to 12 months"],
+      "notExtractedForReaderUse": ["Infant use", "Dose", "Longer-term benefit"]
+    },
+    {
+      "sourceId": "cochrane-nasal-saline-urti-2015",
+      "population": "Adults and children with acute upper-respiratory infection; largest child study aged 6 to 10 years",
+      "topics": ["nasal symptoms", "nasal obstruction", "additional medicine use"],
+      "verifiedBoundaries": ["Limited evidence", "Largest positive child study is older than the core module population", "Infant directness unresolved"],
+      "notExtractedForReaderUse": ["Infant recommendation", "Preparation instructions", "Suction technique"]
     }
   ]
 }

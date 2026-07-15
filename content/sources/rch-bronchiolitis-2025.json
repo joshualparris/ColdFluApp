@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "rch-bronchiolitis-2025",
+  "type": "guideline",
+  "title": "Kids Health Info: Bronchiolitis",
+  "authorsOrOrganisation": ["The Royal Children's Hospital Melbourne"],
+  "publication": "Kids Health Info",
+  "publishedAt": null,
+  "updatedAt": "2025-07-01",
+  "doi": null,
+  "url": "https://www.rch.org.au/kidsinfo/fact_sheets/Bronchiolitis/",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Consumer information reviewed and updated July 2025. Covers infants with bronchiolitis, breathing and feeding observations, risk groups, expected course and escalation. Bronchiolitis-specific statements must not be generalised to every respiratory illness."
+}

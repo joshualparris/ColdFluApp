@@ -1,5 +1,32 @@
 {
   "moduleId": "babies-and-young-children",
-  "status": "no-canonical-claims-yet",
-  "claims": []
+  "mappedAt": "2026-07-15",
+  "status": "candidate-claims-not-canonical-pre-review",
+  "candidateClaims": [
+    {
+      "candidateId": "child-breathing-feeding-escalation",
+      "outcome": "medical_escalation",
+      "sourceIds": ["rch-bronchiolitis-2025", "rch-child-dehydration-2025"],
+      "boundary": "Breathing effort and reduced feeding are safety observations, not a diagnostic tool. Exact wording awaits paediatric clinical review."
+    },
+    {
+      "candidateId": "young-infant-fever-escalation",
+      "outcome": "emergency_escalation",
+      "sourceIds": ["healthdirect-child-fever-2024"],
+      "boundary": "Australian age and temperature threshold; must be independently clinically verified immediately before canonical use."
+    },
+    {
+      "candidateId": "sedating-antihistamine-age-restriction",
+      "outcome": "medicine_harm_avoidance",
+      "sourceIds": ["tga-sedating-antihistamines-children-2022"],
+      "boundary": "Active-ingredient class and indication specific; not a general statement about every antihistamine."
+    },
+    {
+      "candidateId": "medicine-error-poisons-contact",
+      "outcome": "medicine_harm_response",
+      "sourceIds": ["tga-paracetamol-consumer-safety", "australian-poisons-centre-contact"],
+      "boundary": "Contact advice only. The project does not provide poisoning treatment instructions."
+    }
+  ],
+  "canonicalClaimsCreated": 0
 }

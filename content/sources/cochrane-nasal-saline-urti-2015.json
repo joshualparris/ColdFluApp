@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cochrane-nasal-saline-urti-2015",
+  "type": "systematic_review",
+  "title": "Nasal saline irrigation for acute upper airway infection symptoms",
+  "authorsOrOrganisation": ["Cochrane Acute Respiratory Infections Group"],
+  "publication": "Cochrane Database of Systematic Reviews",
+  "publishedAt": "2015-04-20",
+  "updatedAt": null,
+  "doi": "10.1002/14651858.CD006821.pub3",
+  "url": "https://www.cochrane.org/evidence/CD006821_nasal-saline-irrigation-acute-upper-airway-infection-symptoms",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "Evidence was limited; the largest positive child study involved ages 6 to 10, outside the babies-and-under-five core population. Product sterility, preparation safety, suction technique and infant applicability require separate sources and review."
+}
