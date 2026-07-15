@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-medicines-pregnancy-2024",
+  "type": "guideline",
+  "title": "Medicines during pregnancy",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2024-06-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/medicines-during-pregnancy",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed June 2024. Retained for the general requirement to discuss medicine use with a health professional; not a product-selection or dosing source."
+}

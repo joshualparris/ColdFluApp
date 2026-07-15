@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tga-pregnancy-medicine-categories-2025",
+  "type": "regulator",
+  "title": "Australian categorisation system for prescribing medicines in pregnancy",
+  "authorsOrOrganisation": ["Therapeutic Goods Administration"],
+  "publication": "Therapeutic Goods Administration",
+  "publishedAt": null,
+  "updatedAt": "2025-03-28",
+  "doi": null,
+  "url": "https://www.tga.gov.au/resources/health-professional-information-and-resources/australian-categorisation-system-prescribing-medicines-pregnancy",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Regulatory explanation for health professionals. Categories are not an alphabetical safety ranking and the database is not a substitute for professional advice. Retained to prevent oversimplified category claims."
+}

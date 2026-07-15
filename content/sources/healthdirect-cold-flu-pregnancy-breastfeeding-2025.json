@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-cold-flu-pregnancy-breastfeeding-2025",
+  "type": "guideline",
+  "title": "Colds and flu during pregnancy and breastfeeding",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2025-07-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/cold-and-flu-during-pregnancy",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed July 2025. Retained for population-specific care-seeking, breastfeeding and medicine-advice boundaries. Individual medicine statements require independent Australian clinical verification before canonical use."
+}

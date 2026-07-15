@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "australian-immunisation-handbook-influenza-pregnancy-2026",
+  "type": "guideline",
+  "title": "Women who are pregnant are recommended to receive influenza vaccine in each pregnancy",
+  "authorsOrOrganisation": ["Australian Technical Advisory Group on Immunisation", "Australian Government Department of Health, Disability and Ageing"],
+  "publication": "Australian Immunisation Handbook",
+  "publishedAt": null,
+  "updatedAt": "2026-03-13",
+  "doi": null,
+  "url": "https://immunisationhandbook.health.gov.au/recommendations/women-who-are-pregnant-are-recommended-to-receive-influenza-vaccine-in-each-pregnancy",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Official Australian recommendation last reviewed and updated 13 March 2026. Retained for the pregnancy-specific vaccination recommendation and scope; product selection and administration remain clinician responsibilities."
+}
