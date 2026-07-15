@@ -16,7 +16,7 @@
     "report:import": "node scripts/generate-import-report.mjs",
     "check:media-links": "node scripts/check-media-links.mjs",
     "check:internal-links": "node scripts/check-internal-links.mjs",
-    "check:spelling": "node scripts/check-spelling.mjs",
+    "check:spelling": "cspell --no-progress --show-suggestions",
     "test:e2e": "playwright test"
   },
   "dependencies": {
@@ -33,6 +33,7 @@
     "@types/react-dom": "^19.1.9",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
+    "cspell": "^8.19.4",
     "eslint": "^9.35.0",
     "eslint-config-next": "^15.5.9",
     "tsx": "^4.20.5",
