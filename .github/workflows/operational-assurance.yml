@@ -28,7 +28,7 @@ jobs:
   recoverable-snapshot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - name: Create repository-controlled content snapshot
         shell: bash
         run: tar -czf cold-flu-content-snapshot.tgz content docs templates README.md TODO.md
