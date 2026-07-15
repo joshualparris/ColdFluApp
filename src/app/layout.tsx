@@ -12,6 +12,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en-AU">
       <body>
+        <noscript>
+          <div className="noscript-banner" role="status">
+            JavaScript is disabled, but the core information pages remain available.
+          </div>
+        </noscript>
         <a className="skip-link" href="#main">
           Skip to content
         </a>
