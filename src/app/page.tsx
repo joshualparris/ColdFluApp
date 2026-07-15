@@ -8,6 +8,12 @@ export default async function Home() {
     <p className="eyebrow">Australian-first · evidence governance</p>
     <h1>Public knowledge base status</h1>
     <p className="lede">This is a minimal technical scaffold for a pre-publication research project. Product interface development is deferred.</p>
+    <nav className="card-grid" style={{ marginTop: "1.5rem" }} aria-label="Primary links">
+      <article className="card">
+        <h2><Link href="/research-preview/media">Media library</Link></h2>
+        <p>Explore curated videos and podcasts for research orientation and reviewer context.</p>
+      </article>
+    </nav>
     <section className="card-grid" style={{ marginTop: "1.5rem" }}>
       {published.map((module) => {
         const visual = getModuleVisual(module.slug);
