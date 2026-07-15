@@ -1,0 +1,35 @@
+{
+  "moduleId": "older-and-immunocompromised-people",
+  "extractedAt": "2026-07-15",
+  "status": "single-researcher-structured-pre-review-extraction",
+  "records": [
+    {
+      "sourceId": "healthdirect-influenza-2026",
+      "population": "People in Australia with influenza symptoms, including older and immunocompromised people",
+      "topics": ["high-risk groups", "worsening symptoms", "breathing", "hydration", "clinical discussion", "antivirals"],
+      "verifiedBoundaries": ["Last reviewed February 2026", "Age 65 years and older and weakened immunity are identified as higher-risk contexts", "Antiviral treatment is a clinician decision rather than universal self-care"],
+      "notExtractedForReaderUse": ["Antiviral eligibility", "Treatment timing", "Diagnosis", "Individual escalation plan"]
+    },
+    {
+      "sourceId": "australian-immunisation-handbook-influenza-2026",
+      "population": "People aged 6 months and older in Australia, including adults 65 years and older and people with specified medical risks",
+      "topics": ["annual vaccination", "older adults", "medical risk", "severe outcomes", "contraindications"],
+      "verifiedBoundaries": ["Last reviewed 22 June 2026", "Older age and specified medical conditions have distinct recommendation pathways", "Product choice varies by age and clinical context"],
+      "notExtractedForReaderUse": ["Product selection", "Dose schedule", "Contraindication assessment", "Vaccine administration"]
+    },
+    {
+      "sourceId": "australian-health-medical-risk-immunisation-2026",
+      "population": "People in Australia with specified medical risk conditions",
+      "topics": ["programme eligibility", "immunocompromising conditions", "clinical confirmation"],
+      "verifiedBoundaries": ["Updated 3 July 2026", "Eligibility is condition-specific", "A health professional should confirm eligibility and risk"],
+      "notExtractedForReaderUse": ["Self-classification of immunocompromise", "Product choice", "Dose schedule"]
+    },
+    {
+      "sourceId": "australian-immunisation-handbook-immunocompromised-contacts-2026",
+      "population": "Close contacts of people who are immunocompromised",
+      "topics": ["indirect protection", "routine vaccination", "household context"],
+      "verifiedBoundaries": ["Last reviewed 13 March 2026", "Close contacts are a distinct population", "Routine vaccination of contacts can provide indirect protection"],
+      "notExtractedForReaderUse": ["Live-vaccine choice", "Individual contact precautions", "Specialist immunisation plan"]
+    }
+  ]
+}

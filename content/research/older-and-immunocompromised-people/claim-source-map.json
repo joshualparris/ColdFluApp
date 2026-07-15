@@ -1,0 +1,32 @@
+{
+  "moduleId": "older-and-immunocompromised-people",
+  "mappedAt": "2026-07-15",
+  "status": "candidate-claims-not-canonical-pre-review",
+  "candidateClaims": [
+    {
+      "candidateId": "older-immunocompromised-higher-influenza-risk",
+      "outcome": "severe_illness_risk",
+      "sourceIds": ["healthdirect-influenza-2026", "australian-immunisation-handbook-influenza-2026"],
+      "boundary": "Older age and immunocompromise are separate risk contexts; this mapping does not quantify individual risk or imply uniform risk within either group."
+    },
+    {
+      "candidateId": "higher-risk-early-clinical-plan",
+      "outcome": "medical_escalation",
+      "sourceIds": ["healthdirect-influenza-2026"],
+      "boundary": "Candidate process wording only. Exact timing and treatment language require current evidence and Australian clinical review."
+    },
+    {
+      "candidateId": "risk-specific-influenza-vaccination",
+      "outcome": "prevention",
+      "sourceIds": ["australian-immunisation-handbook-influenza-2026", "australian-health-medical-risk-immunisation-2026"],
+      "boundary": "General recommendation and programme orientation only; individual product and schedule decisions are excluded."
+    },
+    {
+      "candidateId": "close-contact-routine-vaccination",
+      "outcome": "indirect_prevention",
+      "sourceIds": ["australian-immunisation-handbook-immunocompromised-contacts-2026"],
+      "boundary": "Applies to routine vaccination of close contacts; live-vaccine and severe-immunocompromise details require specialist review."
+    }
+  ],
+  "canonicalClaimsCreated": 0
+}

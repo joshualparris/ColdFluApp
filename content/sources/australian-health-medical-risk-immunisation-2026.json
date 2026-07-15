@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "australian-health-medical-risk-immunisation-2026",
+  "type": "guideline",
+  "title": "Immunisation for people with medical risk conditions",
+  "authorsOrOrganisation": ["Australian Government Department of Health, Disability and Ageing"],
+  "publication": "Australian Government Department of Health, Disability and Ageing",
+  "publishedAt": null,
+  "updatedAt": "2026-07-03",
+  "doi": null,
+  "url": "https://www.health.gov.au/topics/immunisation/when-to-get-vaccinated/immunisation-for-people-with-medical-risk-conditions",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Current Australian programme guidance updated 3 July 2026. Retained for medical-risk eligibility orientation only; individual eligibility and vaccine decisions must be confirmed by a health professional."
+}
