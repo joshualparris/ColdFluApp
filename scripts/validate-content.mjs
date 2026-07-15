@@ -63,6 +63,19 @@ export async function validateRepository(root = process.cwd(), today = new Date(
         try { await access(artefact); if (name.endsWith(".json")) await readJson(artefact); }
         catch (error) { fail(file, error?.name === "SyntaxError" ? `research package has malformed ${name}` : `research package missing ${name}`); }
       }
+      try {
+        const claimMap = await readJson(path.join(researchDir, "claim-source-map.json"));
+        const claimIds = new Set((data.claims ?? []).map(claim => claim.id));
+        if (claimMap.moduleId !== data.id) fail(file, "claim-source map moduleId does not match module");
+        for (const mapping of claimMap.claims ?? []) {
+          if (!claimIds.has(mapping.claimId)) fail(file, `claim-source map references missing claim ${mapping.claimId}`);
+          for (const sourceId of mapping.sourceIds ?? []) if (!sources.has(sourceId)) fail(file, `claim-source map references missing source ${sourceId}`);
+        }
+      } catch (error) { if (error?.name !== "SyntaxError") fail(file, `cannot validate claim-source map: ${error.message}`); }
+      try {
+        const extraction = await readJson(path.join(researchDir, "extraction.json"));
+        for (const record of extraction.records ?? []) if (!sources.has(record.sourceId)) fail(file, `extraction references missing source ${record.sourceId}`);
+      } catch (error) { if (error?.name !== "SyntaxError") fail(file, `cannot validate extraction: ${error.message}`); }
     } catch { if (data.status !== "proposed" && data.status !== "researching") fail(file, "missing research package"); }
   }
   return { errors, moduleCount: moduleFiles.length, sourceCount: sourceFiles.length };
