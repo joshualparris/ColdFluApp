@@ -4,12 +4,12 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 
 ## Project ownership and governance
 
-- [ ] Name the product and identify its legal/project owner.
+- [-] Use “Cold & Flu Research Base” as the working product name; identify and record its legal/project owner.
 - [!] Appoint a qualified Australian clinical reviewer and define the scope of their sign-off.
 - [ ] Appoint an evidence-methods reviewer and plain-language/accessibility editor.
-- [ ] Define reviewer conflict-of-interest and attribution policies.
-- [ ] Define funding, advertising, affiliate, and sponsorship policy.
-- [ ] Define correction severity levels, response targets, and emergency unpublishing authority.
+- [-] Obtain accountable approval for the drafted reviewer conflict-of-interest and attribution policy.
+- [-] Obtain accountable approval for the drafted funding, advertising, affiliate, and sponsorship policy.
+- [-] Obtain accountable approval for the drafted correction severity levels, response targets, and emergency-unpublishing policy.
 - [ ] Obtain legal advice before public launch about applicable health-content, consumer, privacy, and accessibility obligations.
 
 The repository now records these governance tasks as a prerequisite for public launch in [docs/DECISIONS.md](docs/DECISIONS.md).
@@ -50,20 +50,20 @@ The repository now records these governance tasks as a prerequisite for public l
 - [x] Add a disabled-by-default, authenticated private research workspace without changing public publication gates.
 - [!] Configure and rotate private preview credentials in the deployment environment; add platform deployment protection where available.
 
-- [ ] Initialise Next.js and TypeScript only after schema review.
-- [ ] Add content validation and build-failing publication gates.
-- [ ] Build module, evidence, safety, source, review-date, and jurisdiction components.
-- [ ] Add static indexes and simple search.
-- [ ] Add methodology, editorial policy, evidence labels, privacy, accessibility, and corrections pages.
-- [ ] Add protected, watermarked previews for non-published content.
-- [ ] Add print styling and no-JavaScript safety behaviour.
+- [x] Initialise Next.js and TypeScript after schema review.
+- [x] Add content validation and build-failing publication gates.
+- [x] Build module, evidence, safety, source, review-date, and jurisdiction components.
+- [x] Add static indexes and simple search.
+- [x] Add methodology, editorial policy, evidence labels, privacy, accessibility, and corrections pages.
+- [x] Add authenticated, visibly labelled previews for non-published content.
+- [x] Add print styling and no-JavaScript safety behaviour.
 
 ## Quality engineering
 
 - [x] Unit-test schema boundaries, identifiers, references, and review-expiry logic with fixtures.
 - [x] Test missing references, unsupported jurisdictions, and blocked publication states.
 - [!] Complete evidence, clinical, and editorial review; all remain outstanding for sore throat.
-- [ ] Add automated accessibility, link, spelling, type, lint, and production-build checks.
+- [-] Type, lint, tests and production build run in CI; add automated accessibility, internal-link and spelling checks.
 - [ ] Add end-to-end tests for emergency guidance, jurisdiction changes, search, sources, and correction reporting.
 - [ ] Manually test keyboard, screen reader, zoom, reduced motion, mobile, low bandwidth, and print.
 - [ ] Threat-model the site and dependency/deployment pipeline before public beta.

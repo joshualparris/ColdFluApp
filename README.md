@@ -18,6 +18,7 @@ An evidence-led, modular public knowledge base for cold, influenza, and related 
 - [Research assignments](docs/ASSIGNMENTS.md)
 - [External researcher hand-off](docs/AGENT_RESEARCH_HANDOFF.md)
 - [Project decisions](docs/DECISIONS.md)
+- [Governance and accountability register](docs/GOVERNANCE_AND_ACCOUNTABILITY.md)
 
 ## Current status
 
