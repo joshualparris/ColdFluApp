@@ -22,3 +22,7 @@ jobs:
       - run: npm run typecheck
       - run: npm run test
       - run: npm run build
+        env:
+          ENABLE_PRIVATE_RESEARCH_PREVIEW: "false"
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e

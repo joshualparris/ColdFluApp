@@ -14,7 +14,8 @@
     "test:http": "node --import tsx --test tests/http-auth.test.ts",
     "validate:content": "node scripts/validate-content.mjs",
     "report:import": "node scripts/generate-import-report.mjs",
-    "check:media-links": "node scripts/check-media-links.mjs"
+    "check:media-links": "node scripts/check-media-links.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "next": "^15.5.9",
@@ -22,7 +23,9 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
     "@eslint/eslintrc": "^3.3.1",
+    "@playwright/test": "^1.61.1",
     "@types/node": "^22.18.0",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
