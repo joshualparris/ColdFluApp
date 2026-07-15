@@ -34,7 +34,7 @@ This is the provider-neutral execution view for the 28-module catalogue. `docs/A
 | Pregnancy and breastfeeding | `pregnancy-and-breastfeeding` | Protocol, six exact Australian sources, extraction and candidate mappings | Verified pre-review research |
 | Older and immunocompromised people | `older-and-immunocompromised-people` | Protocol, four exact Australian sources, extraction and candidate mappings | Verified pre-review research |
 | Asthma, COPD and chronic respiratory conditions | `asthma-copd-and-chronic-respiratory-conditions` | Protocol, four exact Australian sources, extraction and candidate mappings | Verified pre-review research |
-| Cardiovascular disease and high blood pressure | `cardiovascular-disease-and-high-blood-pressure` | Imported discovery only | Discovery only |
+| Cardiovascular disease and high blood pressure | `cardiovascular-disease-and-high-blood-pressure` | Protocol, six exact Australian sources, extraction and candidate mappings | Verified pre-review research |
 | Household precautions | `household-precautions` | Imported discovery only | Discovery only |
 | Sleep, activity, stress and general health | `sleep-activity-stress-and-general-health` | Imported discovery only | Discovery only |
 | Influenza vaccination | `influenza-vaccination` | Imported discovery with time-sensitive Australian links | Discovery only |

@@ -1,0 +1,42 @@
+{
+  "moduleId": "cardiovascular-disease-and-high-blood-pressure",
+  "extractedAt": "2026-07-15",
+  "status": "single-researcher-structured-pre-review-extraction",
+  "records": [
+    {
+      "sourceId": "heart-foundation-respiratory-infections-cardiovascular-2026",
+      "population": "People in Australia with cardiovascular disease",
+      "topics": ["respiratory infection", "vaccination", "fluid plan", "medicine interactions"],
+      "verifiedBoundaries": ["Updated 14 April 2026", "Existing heart-failure fluid advice can modify generic hydration advice", "Cold and flu medicines should be checked against existing medicines"],
+      "notExtractedForReaderUse": ["Numerical risk estimate", "Fluid quantity", "Medicine selection"]
+    },
+    {
+      "sourceId": "healthdirect-cold-flu-medicines-2025",
+      "population": "Australian consumers considering cold, influenza or COVID-19 medicines",
+      "topics": ["decongestants", "NSAIDs", "heart disease", "high blood pressure", "professional advice"],
+      "verifiedBoundaries": ["Last reviewed August 2025", "Medical history affects medicine choice", "Severe heart disease and inadequately controlled high blood pressure are relevant decongestant safety contexts"],
+      "notExtractedForReaderUse": ["Ingredient recommendation", "Dose", "Duration", "Individual contraindication decision"]
+    },
+    {
+      "sourceId": "healthdirect-nsaids-2024",
+      "population": "Australian consumers considering NSAIDs",
+      "topics": ["cardiovascular medicine interactions", "blood thinners", "duplicate ingredients", "cold and flu products"],
+      "verifiedBoundaries": ["Last reviewed June 2024", "NSAIDs may interact with cardiovascular medicines", "Cold and flu combinations can create accidental duplication"],
+      "notExtractedForReaderUse": ["NSAID recommendation", "Dose", "Individual risk estimate"]
+    },
+    {
+      "sourceId": "tga-medicine-labelling-guide-2026",
+      "population": "Australian medicine sponsors and consumers reading compliant labels",
+      "topics": ["label warnings", "oral decongestants", "combination products", "high blood pressure", "heart problems"],
+      "verifiedBoundaries": ["Version 2.6 dated March 2026", "Relevant examples require a doctor or pharmacist check for high blood pressure or heart problems", "The document governs labels rather than clinical treatment"],
+      "notExtractedForReaderUse": ["Product recommendation", "Dose", "Class-wide absolute contraindication"]
+    },
+    {
+      "sourceId": "australian-immunisation-handbook-influenza-2026",
+      "population": "People in Australia with cardiac disease or other specified medical risk conditions",
+      "topics": ["influenza vaccination", "cardiac disease", "severe outcomes"],
+      "verifiedBoundaries": ["Last reviewed 22 June 2026", "Cardiac disease is a specified medical-risk category", "Individual product selection remains with the provider"],
+      "notExtractedForReaderUse": ["Product selection", "Dose schedule", "Individual eligibility determination"]
+    }
+  ]
+}
