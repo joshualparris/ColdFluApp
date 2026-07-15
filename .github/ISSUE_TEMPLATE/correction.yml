@@ -1,0 +1,35 @@
+name: Content correction or safety concern
+description: Report a possible factual, source, safety, accessibility or clarity problem. Do not include personal health information.
+title: "Correction: "
+labels: [correction-intake]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This public form is not monitored as an emergency service. In Australia, call triple zero (000) for a life-threatening emergency. Do not include symptoms, diagnoses, contact details or other personal health information.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page or module
+      description: Paste the public URL or module name.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What may need correction?
+      description: Identify the exact wording, source, accessibility issue or safety concern without sharing personal health information.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source
+      description: Optional exact URL, DOI, guideline or regulator notice.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I have not included personal health information or information identifying another person.
+          required: true

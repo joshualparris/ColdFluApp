@@ -1,0 +1,40 @@
+name: operational-assurance
+
+on:
+  schedule:
+    - cron: "17 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check public status and privacy boundaries
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://cold-flu-app.vercel.app"
+          curl --fail --silent --show-error --location --max-time 20 "$base/" > home.html
+          curl --fail --silent --show-error --location --max-time 20 "$base/robots.txt" > robots.txt
+          curl --fail --silent --show-error --location --max-time 20 "$base/sitemap.xml" > sitemap.xml
+          ! grep -q '/research-preview' sitemap.xml
+          grep -qi 'research-preview' robots.txt
+          grep -qi 'No medical modules are published' home.html
+
+  recoverable-snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Create repository-controlled content snapshot
+        shell: bash
+        run: tar -czf cold-flu-content-snapshot.tgz content docs templates README.md TODO.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: content-snapshot-${{ github.run_id }}
+          path: cold-flu-content-snapshot.tgz
+          retention-days: 30
+          if-no-files-found: error
