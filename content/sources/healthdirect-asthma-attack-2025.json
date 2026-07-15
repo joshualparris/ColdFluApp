@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "healthdirect-asthma-attack-2025",
+  "type": "guideline",
+  "title": "Asthma attack management",
+  "authorsOrOrganisation": ["Healthdirect Australia"],
+  "publication": "Healthdirect",
+  "publishedAt": null,
+  "updatedAt": "2025-10-01",
+  "doi": null,
+  "url": "https://www.healthdirect.gov.au/asthma-attack-management",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "AU",
+  "language": "en-AU",
+  "peerReviewed": false,
+  "retractedOrCorrected": false,
+  "notes": "Australian consumer guidance last reviewed October 2025. Retained for respiratory-virus trigger, written action-plan and urgent-care boundaries. The project does not reproduce medicine or first-aid dosing without dedicated review."
+}
