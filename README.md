@@ -19,6 +19,8 @@ An evidence-led, modular public knowledge base for cold, influenza, and related 
 - [External researcher hand-off](docs/AGENT_RESEARCH_HANDOFF.md)
 - [Project decisions](docs/DECISIONS.md)
 - [Governance and accountability register](docs/GOVERNANCE_AND_ACCOUNTABILITY.md)
+- [Master evidence-gap register](docs/EVIDENCE_GAP_REGISTER.md)
+- [External research runbook](docs/EXTERNAL_RESEARCH_RUNBOOK.md)
 
 ## Current status
 

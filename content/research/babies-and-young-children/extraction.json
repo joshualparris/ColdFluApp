@@ -1,0 +1,28 @@
+{
+  "moduleId": "babies-and-young-children",
+  "extractedAt": "2026-07-15",
+  "status": "candidate-source-orientation-not-claim-extraction",
+  "records": [
+    {
+      "candidateUrl": "https://www.rch.org.au/kidsinfo/fact_sheets/Bronchiolitis/",
+      "organisation": "The Royal Children's Hospital Melbourne",
+      "scope": "Australian parent information about bronchiolitis in babies up to 12 months",
+      "candidateTopics": ["breathing", "feeding", "hydration", "expected course", "risk groups", "escalation"],
+      "limitations": ["Thresholds and medicine wording require Australian clinical review", "Bronchiolitis-specific content must not be generalized to every respiratory illness"]
+    },
+    {
+      "candidateUrl": "https://www.rch.org.au/kidsinfo/fact_sheets/Dehydration/",
+      "organisation": "The Royal Children's Hospital Melbourne",
+      "scope": "Australian parent information about dehydration in babies and children",
+      "candidateTopics": ["feeding", "wet nappies", "dehydration", "age boundaries", "escalation"],
+      "limitations": ["Exact fluid volumes are not extracted into reader guidance", "Respiratory applicability is indirect for some sections"]
+    },
+    {
+      "candidateUrl": "https://www.nhmrc.gov.au/about-us/publications/staying-healthy-guidelines/fact-sheets/Bronchiolitis",
+      "organisation": "National Health and Medical Research Council",
+      "scope": "Australian infection-spread and childcare context",
+      "candidateTopics": ["transmission", "hygiene", "exclusion from education and care"],
+      "limitations": ["Not a complete home-care or triage guideline"]
+    }
+  ]
+}
