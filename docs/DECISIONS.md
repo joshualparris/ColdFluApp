@@ -73,3 +73,10 @@ This lightweight log records decisions that constrain future work. Add dated ent
 **Status:** proposed
 **Decision:** The product should maintain a named legal/project owner, a named Australian clinical reviewer, an evidence-methods reviewer, and a plain-language/accessibility editor before public launch. These roles must be recorded in repository documentation and must be involved in approval of publication gates, major safety changes, and launch-readiness checks.
 **Reason:** The current repository contains unreviewed draft medical content and must not imply clinical or editorial approval without accountable human review.
+
+## D-013 — Provider-neutral research execution
+
+**Status:** accepted
+
+**Decision:** Provider-specific ChatGPT or Claude sessions are optional discovery inputs, not required research gates. When no external session or unchanged return is available, Codex may research the assigned module directly from exact primary and authoritative sources using the same intake, provenance and review controls. No assignment may be marked returned merely because a prompt exists.
+**Reason:** The repository cannot launch or stall based on access to a named model provider. Evidence quality depends on verified sources, reproducible methods and accountable review rather than which drafting model produced an initial package.

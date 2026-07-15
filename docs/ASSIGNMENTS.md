@@ -1,6 +1,6 @@
 # Research assignments
 
-This is the coordination source of truth for the 28-module catalogue. Incoming AI work remains unverified until Codex completes intake audit and explicitly promotes verified records. Only one primary researcher may own a module unless `Notes` labels independent replication, adversarial review, or source verification.
+This is the coordination source of truth for the 28-module catalogue. Incoming AI work remains unverified until Codex completes intake audit and explicitly promotes verified records. Under decision D-013, named-provider assignments without returns are optional discovery requests; the active primary-source queue is owned by Codex. Only one primary researcher may own a module unless `Notes` labels independent replication, adversarial review, or source verification.
 
 Controlled assignment statuses: `unassigned`, `assigned`, `researching`, `returned`, `intake-audit`, `needs-revision`, `canonical-draft`, `evidence-review`, `clinical-review`, `editorial-review`, `approved`, `published`, `blocked`.
 

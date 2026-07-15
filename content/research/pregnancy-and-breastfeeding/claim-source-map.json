@@ -1,0 +1,32 @@
+{
+  "moduleId": "pregnancy-and-breastfeeding",
+  "mappedAt": "2026-07-15",
+  "status": "candidate-claims-not-canonical-pre-review",
+  "candidateClaims": [
+    {
+      "candidateId": "pregnancy-influenza-escalation",
+      "outcome": "medical_escalation",
+      "sourceIds": ["healthdirect-cold-flu-pregnancy-breastfeeding-2025"],
+      "boundary": "Applies to suspected influenza during pregnancy, not every mild upper-respiratory symptom. Final wording requires Australian clinical review."
+    },
+    {
+      "candidateId": "pregnancy-medicine-professional-check",
+      "outcome": "medicine_harm_avoidance",
+      "sourceIds": ["healthdirect-medicines-pregnancy-2024", "tga-pregnancy-medicine-categories-2025"],
+      "boundary": "General safety process only; no ingredient, product, dose or category is presented as a recommendation."
+    },
+    {
+      "candidateId": "breastfeeding-medicine-professional-check",
+      "outcome": "medicine_harm_avoidance",
+      "sourceIds": ["healthdirect-medicines-breastfeeding-2025"],
+      "boundary": "Breastfeeding requires a distinct assessment that includes infant and milk-supply effects."
+    },
+    {
+      "candidateId": "influenza-vaccination-each-pregnancy",
+      "outcome": "prevention",
+      "sourceIds": ["australian-immunisation-handbook-influenza-pregnancy-2026"],
+      "boundary": "Current Australian recommendation; administration and individual contraindications remain with the vaccination provider."
+    }
+  ],
+  "canonicalClaimsCreated": 0
+}
