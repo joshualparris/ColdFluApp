@@ -63,7 +63,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Draft launch-assurance and operational requirements in [docs/LAUNCH_ASSURANCE_PLAN.md](docs/LAUNCH_ASSURANCE_PLAN.md).
 - [x] Add launch-readiness review templates and security checklist documentation to support the remaining sign-offs.
 - [x] Add monitoring, backup/restore, incident-response and corrections-intake implementation runbooks and configuration templates.
-- [ ] Enable repository security controls that are available for the GitHub plan and record the resulting settings.
+- [x] Enable repository security controls that are available for the GitHub plan and record the resulting settings.
 - [x] Publish supported jurisdictions, known limitations, methodology, reviewers, funding, and change history.
 - [x] Define success metrics that do not require collecting sensitive health data.
 
