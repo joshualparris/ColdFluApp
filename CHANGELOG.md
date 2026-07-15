@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-15 — Sore-throat evidence-review hand-off
+
+- Completed reproducible question-specific PubMed E-utilities searches and verified retained synthesis metadata with NCBI, Europe PMC and Crossref routes.
+- Added exact antibiotic, corticosteroid and formulation-specific lozenge synthesis records for research inspection.
+- Removed combined oral-analgesia and medicated-lozenge reader claims where directness, formulation and harms extraction was inadequate.
+- Narrowed the claim map to natural history and salt-water-gargle uncertainty; all review fields remain empty and the module remains `draft`.
+- Marked the package ready for independent evidence review, subject to reviewer acceptance and documented access limitations.
+
 ## 2026-07-15 — Private research workspace
 
 - Added a disabled-by-default, HTTP Basic-authenticated `/research-preview` workspace for imported discovery drafts, canonical drafts, sources, assignments and evidence gaps.

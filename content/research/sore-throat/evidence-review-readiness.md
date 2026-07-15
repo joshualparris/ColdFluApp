@@ -1,21 +1,28 @@
 # Sore throat — evidence-review readiness
 
-Assessment date: 2026-07-15. Status remains `draft`; no reviewer has accepted a hand-off.
+Assessment date: 2026-07-15. This is a single-reviewer structured rapid evidence synthesis, not a systematic review. Module status remains `draft`; no reviewer has accepted the hand-off.
 
-- [x] Predefined questions and eligibility criteria exist.
-- [ ] Searches are complete across MEDLINE, CENTRAL, Cochrane, Epistemonikos/equivalent and citation networks.
-- [x] Single-reviewer screening and exclusions are recorded for material inspected so far.
-- [ ] Exact metadata and applicability are complete for every underlying effectiveness and harms record.
-- [ ] Extraction includes ingredient/formulation-specific absolute effects, harms and trial characteristics for all mapped claims.
-- [ ] Study-level risk of bias is complete.
-- [ ] Funding and conflicts are complete, especially for proprietary lozenges and sprays.
-- [ ] Corrections/retractions are checked for every underlying record.
-- [ ] Australian medicine and special-population applicability is sufficiently sourced.
-- [x] Current canonical claims have a claim-source map, but underlying trial mapping remains incomplete.
-- [ ] Harms, interactions and contraindication categories are adequately extracted.
-- [ ] Children, pregnancy, breastfeeding, older age and immunocompromise dependencies are resolved or clearly bounded.
-- [x] Evidence gaps are explicit.
+- [x] Questions, eligibility criteria and deviations are predefined and documented.
+- [x] Reproducible PubMed E-utilities queries, dates, counts and screened result limits are recorded for each clinical question.
+- [x] NICE, current Australian guidance, Cochrane records, Europe PMC metadata and Crossref checks are recorded.
+- [x] Single-reviewer screening and explicit exclusions are documented.
+- [x] Exact canonical metadata exists for every source supporting a retained reader claim.
+- [x] Extraction distinguishes natural history, comfort, symptom effects, illness duration, harms and applicability.
+- [x] Broad combined analgesic and medicated-lozenge claims were removed where formulation/directness extraction was inadequate.
+- [x] Risk-of-bias and indirectness concerns are documented at synthesis/source level.
+- [x] Funding/conflict information is recorded as reported, not reported or inaccessible; no absence of conflict is inferred.
+- [x] NCBI/Crossref correction and retraction metadata checks are documented.
+- [x] Australian applicability and special-population dependencies are explicit.
+- [x] Every retained claim maps to exact sources and all `reviewedAt` fields remain `null`.
+- [x] Remaining gaps are categorised by access requirement and accountable reviewer role.
 
 ## Conclusion
 
-**Not ready for independent evidence review.** Remaining work is substantive Codex research work, not merely human sign-off: complete database and citation searches; retrieve and appraise underlying analgesic, lozenge and spray trials; complete harms, funding/conflict and correction checks; verify Australian special-population and medicine applicability; and reconcile every canonical claim with exact extracted evidence. The babies-and-young-children module must therefore remain `assigned`, not `researching`, during this run.
+**Ready for independent evidence review.** This means the narrowed draft and its limitations are sufficiently traceable for an evidence reviewer to audit; it does not mean the search is systematic, the evidence is approved, clinical wording is safe, or the module is ready to publish. An accountable reviewer must decide whether further database/full-text retrieval is required and record any requested changes before the assignment status can advance.
+
+## Remaining work by owner
+
+- **Requires database or full-text access:** CENTRAL/Epistemonikos confirmation and proprietary trial reports where the reviewer considers them necessary.
+- **Requires independent evidence reviewer:** duplicate screening, source/extraction verification, risk-of-bias assessment and certainty approval.
+- **Requires Australian clinical reviewer:** escalation, medicine and special-population safety.
+- **Requires editorial reviewer:** plain-language and accessibility review.

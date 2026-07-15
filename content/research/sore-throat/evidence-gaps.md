@@ -1,14 +1,30 @@
-# Sore throat — evidence gaps
+# Sore throat — evidence gaps after structured search
 
-- Untreated course by cause, age and outcome definition.
-- Direct paediatric evidence for paracetamol and ibuprofen in acute sore throat.
-- Ingredient- and formulation-specific medicated lozenge and spray effects and harms.
-- Non-medicated lozenges, salt-water gargles, warm/cold fluids, ice/frozen foods, hydration and honey as separate comfort/effectiveness questions.
-- Australian pregnancy, breastfeeding, immunocompromise and medicine-suitability evidence.
-- Antibiotic diagnostic boundaries and corticosteroid benefits/harms without creating prescribing advice.
-- Exact Australian escalation thresholds and local-source support for each warning.
-- Complete database screening, underlying-trial extraction, funding/conflict and correction/retraction checks.
+## Requires database or full-text access
 
-These gaps are intentionally not filled with plausible prose.
+- Independent CENTRAL and Epistemonikos searching; only Cochrane/NICE records and embedded evidence were accessible.
+- Full reports for several analgesic and proprietary lozenge/spray trials, including absolute effects, adverse-event tables, sponsorship and conflicts.
+- Trial-level correction/retraction checks beyond NCBI/Crossref metadata.
 
-PubMed discovery identified PMID 32356360, 39318911 and 24621446. Exact-record verification and applicability appraisal remain outstanding because full record retrieval was blocked during this pass.
+## Requires independent evidence reviewer
+
+- Verify single-reviewer screening, exclusions, extraction and certainty decisions.
+- Decide whether the rapid relevance-sorted PubMed searches give adequate coverage for the deliberately narrow two-claim module.
+- Appraise underlying trial risk of bias where full reports can be obtained.
+- Confirm that removing rather than splitting medicine/lozenge claims is the appropriate conservative disposition.
+
+## Requires Australian clinical reviewer
+
+- Validate all escalation wording and the limits of Healthdirect consumer guidance.
+- Validate medicine, pregnancy/breastfeeding, kidney/liver disease, gastrointestinal, allergy, interaction and choking-risk boundaries.
+- Decide whether any paracetamol, ibuprofen, lozenge, spray, corticosteroid or antibiotic wording is safe for later reader inclusion.
+
+## Requires editorial reviewer
+
+- Check that natural history, absence of evidence and comfort-only wording are understandable without implying diagnosis, cure or no effect.
+
+## Deliberately deferred dependencies
+
+- Direct paediatric evidence and medicine restrictions belong partly in `babies-and-young-children`.
+- Pregnancy, breastfeeding, older age, immunocompromise and chronic-condition detail belongs in the assigned population modules.
+- No dose, weight-based table, diagnostic rule or prescribing guide is proposed.
