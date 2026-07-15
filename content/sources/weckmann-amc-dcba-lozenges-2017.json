@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "weckmann-amc-dcba-lozenges-2017",
+  "type": "meta_analysis",
+  "title": "Efficacy of AMC/DCBA lozenges for sore throat: A systematic review and meta-analysis",
+  "authorsOrOrganisation": ["Grit Weckmann", "Antje Hauptmann-Voß", "Sebastian E Baumeister", "Carolin Klötzer", "Jean-François Chenot"],
+  "publication": "International Journal of Clinical Practice",
+  "publishedAt": "2017-09-04",
+  "updatedAt": null,
+  "doi": "10.1111/ijcp.13002",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/28869700/",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "PMID 28869700. Formulation-specific review of amylmetacresol/2,4-dichlorobenzyl alcohol lozenges for acute uncomplicated sore throat. Full text and trial-level sponsorship/conflicts were not accessible in this pass; Australian formulation availability remains unverified. Not mapped to a broad medicated-lozenge claim."
+}

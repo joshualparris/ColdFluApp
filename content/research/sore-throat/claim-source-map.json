@@ -1,26 +1,29 @@
 {
   "moduleId": "sore-throat",
   "mappedAt": "2026-07-15",
+  "status": "single-reviewer-pre-review-map",
   "claims": [
     {
       "claimId": "sore-throat-usual-course",
       "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
-      "verification": "Both sources support a self-limiting course; wording preserves the 7-to-10-day range."
-    },
-    {
-      "claimId": "sore-throat-oral-analgesia",
-      "sourceIds": ["nice-acute-sore-throat-ng84", "healthdirect-sore-throat-2025"],
-      "verification": "NICE provides evidence assessment; Healthdirect supports Australian consumer use without supplying a dose."
-    },
-    {
-      "claimId": "sore-throat-medicated-lozenges",
-      "sourceIds": ["nice-acute-sore-throat-ng84"],
-      "verification": "Limited to adults and small pain benefit to avoid overgeneralisation."
+      "verification": "Both exact guidance records describe a self-limiting course around one week, with Healthdirect allowing up to about 10 days. Direction is no_clear_effect because this is natural history rather than treatment benefit.",
+      "limitations": ["Guideline-level natural-history statement; cause- and population-specific trajectories remain heterogeneous."]
     },
     {
       "claimId": "sore-throat-salt-water-gargle",
       "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
-      "verification": "Separates Australian guidance endorsement from lack of qualifying trial evidence in NICE's mouthwash review."
+      "verification": "Healthdirect presents gargling as self-care custom; NICE found no qualifying mouthwash trials. The claim explicitly reports uncertain comfort rather than proven symptom or duration effect.",
+      "limitations": ["No qualifying direct trial was included; absence of identified evidence is not evidence of no effect."]
+    }
+  ],
+  "removedClaims": [
+    {
+      "claimId": "sore-throat-oral-analgesia",
+      "reason": "Combined paracetamol and ibuprofen despite different directness; underlying trial, harms and special-population extraction was insufficient for review-ready mapping."
+    },
+    {
+      "claimId": "sore-throat-medicated-lozenges",
+      "reason": "Combined local anaesthetic, NSAID and antiseptic formulations. Formulation-specific reviews were retained in research, but sponsorship, Australian applicability and absolute-effect extraction remain incomplete."
     }
   ]
 }

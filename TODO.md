@@ -38,7 +38,8 @@ Status key: `[ ]` not started, `[-]` in progress, `[x]` complete, `[!]` blocked 
 - [-] Create a reproducible protocol and query set for each of the 28 modules; sore throat has an initial rapid protocol and log.
 - [ ] Create a master evidence-gap register and prioritise safety-critical gaps.
 - [x] Add sore-throat screening, exclusions, bias, funding/conflict, correction/retraction, and gap artefacts.
-- [!] Complete outstanding sore-throat database searches and independent verification.
+- [x] Complete Codex's structured sore-throat search and prepare an evidence-review-ready narrowed draft.
+- [!] Obtain independent evidence verification and decide whether additional CENTRAL/Epistemonikos/full-text retrieval is required.
 - [ ] Separate effectiveness, harms, prevention, disease duration, and comfort outcomes.
 - [ ] Plan additional overlays listed in `docs/SCOPE.md`.
 

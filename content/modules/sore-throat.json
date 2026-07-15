@@ -19,7 +19,7 @@
         "sourceIds": ["healthdirect-sore-throat-2025"]
       },
       {
-        "text": "A sore throat lasting more than a few days, worsening, occurring with a temperature over 38°C, large tender neck lumps or new serious symptoms should be assessed by a doctor.",
+        "text": "A sore throat that persists, worsens, or occurs with fever, large tender neck lumps or new serious symptoms should be assessed by a doctor.",
         "action": "medical_advice",
         "sourceIds": ["healthdirect-sore-throat-2025"]
       }
@@ -29,67 +29,26 @@
         "text": "People with a weakened immune system or another serious health condition should seek prompt medical advice when they develop a sore throat.",
         "action": "urgent_assessment",
         "sourceIds": ["healthdirect-sore-throat-2025"]
-      },
-      {
-        "text": "Ask a pharmacist or doctor before selecting medicines for a child, during pregnancy or breastfeeding, or when medicines or health conditions could make paracetamol, ibuprofen or medicated lozenges unsuitable.",
-        "action": "pharmacist_advice",
-        "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"]
       }
     ]
   },
   "claims": [
     {
       "id": "sore-throat-usual-course",
-      "statement": "An uncomplicated acute sore throat is often self-limiting and most people improve within about one week, although Australian consumer guidance notes symptoms may take up to about 10 days to settle.",
+      "statement": "An uncomplicated acute sore throat is often self-limiting; many people improve within about one week, although symptoms may take up to about 10 days to settle.",
       "outcome": "illness_duration",
       "population": "Adults and children with an uncomplicated acute sore throat",
       "intervention": { "name": "watchful waiting and supportive care", "formulation": null, "regimenStudied": null },
       "comparison": null,
       "evidence": {
         "certainty": "moderate",
-        "direction": "benefit",
+        "direction": "no_clear_effect",
         "effectSummary": "Most improve without antibiotics over approximately 7 to 10 days.",
         "rationale": "Consistent current guideline conclusions, but the exact course varies by cause, population and definition of recovery."
       },
       "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"],
       "caveats": ["This course does not apply when symptoms are rapidly worsening, severe or associated with red flags."],
       "jurisdictions": ["AU", "GB"],
-      "reviewedAt": null
-    },
-    {
-      "id": "sore-throat-oral-analgesia",
-      "statement": "Paracetamol can reduce sore-throat pain or fever; ibuprofen is an alternative when it is suitable for the person.",
-      "outcome": "pain",
-      "population": "People with acute sore throat for whom the medicine is suitable",
-      "intervention": { "name": "paracetamol or ibuprofen", "formulation": "oral", "regimenStudied": "Varied across trials and guideline evidence" },
-      "comparison": "Placebo or usual care",
-      "evidence": {
-        "certainty": "moderate",
-        "direction": "benefit",
-        "effectSummary": "Oral analgesia reduces pain; the module does not provide an individual dose.",
-        "rationale": "NICE found low-to-moderate-quality adult trial evidence for paracetamol and supports paracetamol or suitable ibuprofen using broader safety and effectiveness evidence. Direct sore-throat trial evidence in children was not identified by NICE."
-      },
-      "sourceIds": ["nice-acute-sore-throat-ng84", "healthdirect-sore-throat-2025"],
-      "caveats": ["Follow the product label and avoid duplicate active ingredients.", "Suitability differs with age, pregnancy, allergies, kidney or liver disease, gastrointestinal risk, other conditions and medicines; seek pharmacist or medical advice when unsure."],
-      "jurisdictions": ["AU", "GB"],
-      "reviewedAt": null
-    },
-    {
-      "id": "sore-throat-medicated-lozenges",
-      "statement": "Some medicated lozenges may reduce acute sore-throat pain in adults, but the average benefit is small.",
-      "outcome": "pain",
-      "population": "Adults with acute sore throat",
-      "intervention": { "name": "medicated lozenges containing a local anaesthetic, NSAID or antiseptic", "formulation": "lozenge", "regimenStudied": "Products and regimens varied" },
-      "comparison": "Placebo lozenge",
-      "evidence": {
-        "certainty": "low",
-        "direction": "benefit",
-        "effectSummary": "Small absolute reduction in pain scores.",
-        "rationale": "NICE identified six randomised trials with low-to-moderate-quality evidence, small absolute improvements and product-specific adverse effects. Applicability depends on the active ingredient and formulation."
-      },
-      "sourceIds": ["nice-acute-sore-throat-ng84"],
-      "caveats": ["Not all lozenges contain the studied ingredients.", "Age restrictions, choking risk, allergies, NSAID contraindications and local adverse effects vary by product."],
-      "jurisdictions": ["GB", "AU"],
       "reviewedAt": null
     },
     {
@@ -101,7 +60,7 @@
       "comparison": null,
       "evidence": {
         "certainty": "insufficient",
-        "direction": "mixed",
+        "direction": "no_clear_effect",
         "effectSummary": "May feel soothing; magnitude and reliability of benefit are uncertain.",
         "rationale": "Healthdirect recommends the practice for self-care, while NICE reported no qualifying evidence for mouthwashes in its acute sore-throat review. Guidance endorsement is not treated as proof of efficacy."
       },
@@ -121,7 +80,7 @@
     },
     {
       "title": "Pain medicines",
-      "text": "If choosing paracetamol or ibuprofen, follow the Australian product label and check combination cold-and-flu products for duplicate active ingredients. Ask a pharmacist or doctor when suitability is uncertain.",
+      "text": "Ask an Australian pharmacist or doctor whether a pain medicine is suitable for the person's age, health conditions, pregnancy or breastfeeding status, and other medicines. This draft does not provide dosing instructions.",
       "kind": "medicine",
       "professionalAdviceRequired": false,
       "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"]
@@ -131,7 +90,7 @@
       "text": "Do not use leftover or someone else’s antibiotics. Antibiotics do not treat viral respiratory infections; a clinician may recommend them for particular bacterial infections after assessment.",
       "kind": "avoid",
       "professionalAdviceRequired": true,
-      "sourceIds": ["australian-health-antibiotics-viral-2025", "healthdirect-sore-throat-2025"]
+      "sourceIds": ["australian-health-antibiotics-viral-2025", "healthdirect-sore-throat-2025", "cochrane-antibiotics-sore-throat-2021"]
     }
   ],
   "myths": [
@@ -139,11 +98,6 @@
       "myth": "Every sore throat needs antibiotics.",
       "correction": "Most acute sore throats are viral or otherwise self-limiting. Antibiotics do not treat viruses and should be used only when a clinician determines they are appropriate.",
       "sourceIds": ["australian-health-antibiotics-viral-2025", "healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84"]
-    },
-    {
-      "myth": "A numbing lozenge cures the infection.",
-      "correction": "A suitable medicated lozenge may provide a small amount of temporary pain relief in adults; it does not establish or remove the underlying cause.",
-      "sourceIds": ["nice-acute-sore-throat-ng84"]
     }
   ],
   "jurisdictionNotes": [
@@ -155,7 +109,7 @@
     }
   ],
   "relatedModules": ["fever", "cough", "cold-flu-covid-strep-allergies", "when-to-seek-care"],
-  "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84", "australian-health-antibiotics-viral-2025"],
+  "sourceIds": ["healthdirect-sore-throat-2025", "nice-acute-sore-throat-ng84", "australian-health-antibiotics-viral-2025", "cochrane-antibiotics-sore-throat-2021"],
   "review": {
     "researchOwner": "Codex-assisted draft; accountable human owner not yet assigned",
     "evidenceReviewer": null,
@@ -164,6 +118,6 @@
     "lastEvidenceSearch": "2026-07-15",
     "lastClinicallyReviewed": null,
     "nextReviewDue": null,
-    "changeSummary": "Corrected claim review dates to null because no accountable evidence review has occurred; structured evidence search remains incomplete and the module is not ready for evidence review or publication."
+    "changeSummary": "Removed combined oral-analgesia and medicated-lozenge claims because directness, formulation and harms extraction were not adequate for claim-level review; corrected natural-history direction; retained the module as an unreviewed draft."
   }
 }

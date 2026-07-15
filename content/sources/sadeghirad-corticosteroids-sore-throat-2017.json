@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "sadeghirad-corticosteroids-sore-throat-2017",
+  "type": "meta_analysis",
+  "title": "Corticosteroids for treatment of sore throat: systematic review and meta-analysis of randomised trials",
+  "authorsOrOrganisation": ["Behnam Sadeghirad", "Reed AC Siemieniuk", "Romina Brignardello-Petersen", "Davide Papola", "Lyubov Lytvyn", "Per O Vandvik", "Arnaud Merglen", "Gordon H Guyatt", "Thomas Agoritsas"],
+  "publication": "BMJ",
+  "publishedAt": "2017-09-20",
+  "updatedAt": null,
+  "doi": "10.1136/bmj.j3887",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/28931508/",
+  "accessedAt": "2026-07-15",
+  "jurisdiction": "GLOBAL",
+  "language": "en",
+  "peerReviewed": true,
+  "retractedOrCorrected": false,
+  "notes": "PMID 28931508; PMCID PMC5605780. Adjunct corticosteroid evidence in people aged 5 or older, commonly in emergency/clinical settings. Not mapped to a self-care recommendation; treatment requires clinical assessment. PubMed XML contained no correction/retraction or conflict statement."
+}

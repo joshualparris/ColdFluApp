@@ -1,7 +1,7 @@
 {
   "moduleId": "sore-throat",
   "extractedAt": "2026-07-15",
-  "status": "rapid-initial-extraction",
+  "status": "structured-single-reviewer-pre-review-extraction",
   "records": [
     {
       "sourceId": "healthdirect-sore-throat-2025",
@@ -75,6 +75,47 @@
         "Study reporting quality was low and duplicate publications were identified.",
         "Trial-level sponsorship/conflicts and Australian product applicability remain unresolved.",
         "No canonical reader claim was added."
+      ]
+    },
+    {
+      "sourceId": "cochrane-antibiotics-sore-throat-2021",
+      "design": "Cochrane systematic review update of randomised and quasi-randomised trials",
+      "population": "Children and adults with sore throat; trials span different eras, diagnostic methods and baseline complication risks",
+      "keyFindings": [
+        "Antibiotics reduce persistence of some sore-throat symptoms, but most participants in control groups improve and average symptom benefit is modest.",
+        "Some complications were reduced in older trials; absolute contemporary benefit depends strongly on baseline risk and setting.",
+        "Adverse effects and antimicrobial resistance must be weighed against benefit."
+      ],
+      "limitations": [
+        "Many studies predate current diagnostic practice and contemporary complication rates.",
+        "The review does not justify self-diagnosis or self-prescribing; Australian prescribing remains a clinician decision.",
+        "Full trial-level funding/conflict extraction was not accessible in this pass."
+      ]
+    },
+    {
+      "sourceId": "sadeghirad-corticosteroids-sore-throat-2017",
+      "design": "Systematic review and meta-analysis of randomised trials",
+      "population": "People aged 5 years or older in emergency and primary-care settings",
+      "keyFindings": [
+        "A single low dose of corticosteroid increased the chance of pain resolution by 24 to 48 hours and shortened time to relief in the pooled clinical-setting evidence."
+      ],
+      "limitations": [
+        "Adjunct clinical treatment is not equivalent to unsupervised home self-care.",
+        "Rare or recurrent-treatment harms are not resolved by these trials.",
+        "No canonical recommendation was added; NICE does not recommend routine corticosteroids for acute sore throat."
+      ]
+    },
+    {
+      "sourceId": "weckmann-amc-dcba-lozenges-2017",
+      "design": "Formulation-specific systematic review and meta-analysis",
+      "population": "People with acute uncomplicated sore throat in trials of amylmetacresol/2,4-dichlorobenzyl alcohol lozenges",
+      "keyFindings": [
+        "The review reports short-term pain-relief effects for the specific combination formulation."
+      ],
+      "limitations": [
+        "Full text, absolute effect extraction and trial-level sponsorship/conflicts were not accessible in this pass.",
+        "Findings cannot be transferred to local-anaesthetic, NSAID, ambroxol or non-medicated lozenges.",
+        "Australian product equivalence and age restrictions remain unverified; no canonical claim was added."
       ]
     }
   ]
