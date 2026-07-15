@@ -20,6 +20,16 @@ Canonical workflow state is read from tracked repository records and cannot be c
 
 The design rejects gambling-style reinforcement, artificial scarcity, punitive streaks, guilt, anxiety prompts, loss aversion, fabricated cohorts and incentives to strengthen medical claims. It uses semantic headings, keyboard-native controls, visible focus, textual status, labelled progress bars, responsive layouts and reduced-motion support. Middleware applies `private, no-store` and `noindex, nofollow, noarchive` to every private route; public components contain no workbench data. Tests cover progress, artefacts, quests, human-review boundaries, badges, celebrations, ethical exclusions, local reset/pins, media and real Basic Authentication responses.
 
+## Full-project media strategy
+
+The private library balances 14 videos and 14 podcast episodes across the 28 research modules. Each module receives one primary assignment so weak coverage remains visible; related-module tags add discovery routes but never create evidence relationships. Australian organisations provide at least eight records, at least eight publisher families are represented, and no publisher family may contribute more than three records. Vaccination cannot dominate the collection.
+
+Media is supplementary orientation material, not a source record, claim verification, review, or publication approval. Selection favours public-interest, professional, university, hospital and evidence-synthesis publishers. Advertising, search-result URLs, unverifiable items, duplicates and poorly matched material are excluded. Where a strong dedicated item has not been found, the candidate is labelled as a coverage gap instead of being presented as curated coverage.
+
+Every record stores an exact individual URL, jurisdiction, primary module, relevance, caveats, transcript/caption state and last link-check date. Automatic captions are not described as publisher transcripts. Unknown details remain `not verified` or `not available`. `npm run check:media-links` follows redirects, reports final URLs and status codes, rejects search URLs, and sends authentication, bot and rate-limit responses to manual review rather than declaring public media dead.
+
+The authenticated coverage page reports every module assignment and gap. Reviewers should periodically run the checker, reassess topic fit and Australian applicability, and mark an item `needs-recheck`, `outdated`, or `broken` before replacement. Replacements must preserve collection balance, the Australian minimum, publisher cap and exact-link rules. This replaces the earlier WHO-heavy set; WHO items remain only where their exact scope is useful and the family cap permits it.
+
 ## Expedition experience
 
 The research map groups tracked modules into regions and exposes recorded dependencies without implying medical causation. Source Detective offers a browser-local worksheet; its checks do not verify canonical records. Mysteries come from tracked evidence-gap headings and assignment notes. The timeline renders only recorded dates, while claim constellations show citation relationships without implying verification.
