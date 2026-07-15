@@ -55,7 +55,7 @@ This file reflects the repository state as of 2026-07-15. It is intentionally co
 - [x] Add route/component tests covering accessibility, search, private preview, and supporting workflows.
 - [x] Add a CI workflow for lint, typecheck, test, and build.
 - [x] Add automated accessibility, internal-link, and spelling checks to CI.
-- [ ] Complete repository-executable keyboard, zoom, reduced-motion, mobile, low-bandwidth, failed-image, JavaScript-disabled and print checks.
+- [x] Complete repository-executable keyboard, narrow reflow/zoom proxy, reduced-motion, mobile, failed-image, JavaScript-disabled and print checks.
 - [x] Add a security review checklist and review-signoff templates to support the independent security review workflow.
 
 ## Launch readiness
